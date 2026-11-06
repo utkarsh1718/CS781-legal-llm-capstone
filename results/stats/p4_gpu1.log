@@ -1,0 +1,162 @@
+08:34:35 data: train 31677 | clean dev 1988 | test 1517
+08:34:38 === m1_lora_middle512: m1 | lora | middle-512 | epochs 1 lr 0.0005
+08:34:42 trainable 0.247M | 31677 cases | 3960 steps | view middle-512
+/kaggle/working/src/p4_cjpe.py:206: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  scaler.step(opt); scaler.update(); sched.step(); step += 1; run_loss += loss.item()
+08:36:34    step 500/3960 | loss 0.7385 | 112s
+08:38:29    step 1000/3960 | loss 0.7285 | 227s
+08:40:24    step 1500/3960 | loss 0.7095 | 342s
+08:42:35    EVAL step 1980: dev macro-F1 0.5000 @0.5 (pos rate 0.76) | 0.5757 @t=0.60 | 473s
+08:42:40    step 2000/3960 | loss 0.6957 | 478s
+08:44:34    step 2500/3960 | loss 0.6881 | 593s
+08:46:29    step 3000/3960 | loss 0.6783 | 707s
+08:48:24    step 3500/3960 | loss 0.6820 | 822s
+08:50:29    EVAL step 3960: dev macro-F1 0.5721 @0.5 (pos rate 0.32) | 0.5862 @t=0.47 | 947s
+08:51:04 DONE m1_lora_middle512: dev macro-F1 0.5721 @0.5 | 0.5862 @t=0.47 | test pos-rate 0.42 | 16.5 min
+08:51:07 === m1_lora_headtail512: m1 | lora | headtail-512 | epochs 1 lr 0.0005
+08:51:07 trainable 0.247M | 31677 cases | 3960 steps | view headtail-512
+08:53:02    step 500/3960 | loss 0.7343 | 114s
+08:54:56    step 1000/3960 | loss 0.6399 | 229s
+08:56:51    step 1500/3960 | loss 0.6167 | 344s
+08:59:01    EVAL step 1980: dev macro-F1 0.6366 @0.5 (pos rate 0.62) | 0.6533 @t=0.64 | 474s
+08:59:06    step 2000/3960 | loss 0.5928 | 478s
+09:01:00    step 2500/3960 | loss 0.5940 | 593s
+09:02:55    step 3000/3960 | loss 0.5744 | 707s
+09:04:49    step 3500/3960 | loss 0.5612 | 822s
+09:06:54    EVAL step 3960: dev macro-F1 0.6678 @0.5 (pos rate 0.36) | 0.6718 @t=0.48 | 947s
+09:07:30 DONE m1_lora_headtail512: dev macro-F1 0.6678 @0.5 | 0.6718 @t=0.48 | test pos-rate 0.41 | 16.4 min
+09:07:30 PLAN DONE
+13:06:45 data: train 31677 | clean dev 1988 | test 1517
+13:06:47 === m1_partial4_last512: m1 | partial | last-512 | epochs 1 lr 0.0001
+13:06:51 trainable 25.174M | 31677 cases | 3960 steps | view last-512
+/kaggle/working/src/p4_cjpe.py:206: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  scaler.step(opt); scaler.update(); sched.step(); step += 1; run_loss += loss.item()
+13:08:04    step 500/3960 | loss 0.7309 | 73s
+13:09:23    step 1000/3960 | loss 0.6430 | 152s
+13:10:41    step 1500/3960 | loss 0.5974 | 230s
+13:12:18    EVAL step 1980: dev macro-F1 0.6183 @0.5 (pos rate 0.74) | 0.7076 @t=0.71 | 327s
+13:12:22    step 2000/3960 | loss 0.5714 | 331s
+13:13:40    step 2500/3960 | loss 0.5502 | 409s
+13:14:58    step 3000/3960 | loss 0.5272 | 487s
+13:16:16    step 3500/3960 | loss 0.5206 | 565s
+13:17:48    EVAL step 3960: dev macro-F1 0.7164 @0.5 (pos rate 0.37) | 0.7276 @t=0.48 | 657s
+13:18:26 DONE m1_partial4_last512: dev macro-F1 0.7164 @0.5 | 0.7276 @t=0.48 | test pos-rate 0.40 | 11.7 min
+13:18:28 === m1_unfreeze_last512: m1 | full | last-512 | epochs 1 lr 5e-05
+13:18:28 trainable 0.002M | 31677 cases | 3960 steps | view last-512 | gradual unfreezing
+13:19:23    step 500/3960 | loss 0.7520 | 55s
+13:20:30    step 1000/3960 | loss 0.6901 | 122s
+13:21:51    step 1500/3960 | loss 0.6312 | 203s
+13:23:41    EVAL step 1980: dev macro-F1 0.6265 @0.5 (pos rate 0.70) | 0.6831 @t=0.64 | 313s
+13:23:46    step 2000/3960 | loss 0.5966 | 318s
+13:25:34    step 2500/3960 | loss 0.5721 | 426s
+13:27:34    step 3000/3960 | loss 0.5403 | 546s
+13:29:48    step 3500/3960 | loss 0.5283 | 680s
+13:32:23    EVAL step 3960: dev macro-F1 0.7074 @0.5 (pos rate 0.32) | 0.7300 @t=0.45 | 835s
+13:33:01 DONE m1_unfreeze_last512: dev macro-F1 0.7074 @0.5 | 0.7300 @t=0.45 | test pos-rate 0.39 | 14.6 min
+13:33:03 === m1_adapter_last512: m1 | adapter | last-512 | epochs 1 lr 0.0005
+13:33:04 trainable 1.191M | 31677 cases | 3960 steps | view last-512
+13:34:56    step 500/3960 | loss 0.7292 | 112s
+13:36:47    step 1000/3960 | loss 0.6661 | 224s
+13:38:39    step 1500/3960 | loss 0.6344 | 336s
+13:40:49    EVAL step 1980: dev macro-F1 0.6107 @0.5 (pos rate 0.74) | 0.6719 @t=0.66 | 465s
+13:40:53    step 2000/3960 | loss 0.6084 | 469s
+13:42:45    step 2500/3960 | loss 0.5944 | 581s
+13:44:37    step 3000/3960 | loss 0.5777 | 694s
+13:46:29    step 3500/3960 | loss 0.5664 | 805s
+13:48:34    EVAL step 3960: dev macro-F1 0.6813 @0.5 (pos rate 0.33) | 0.6981 @t=0.37 | 930s
+13:49:12 DONE m1_adapter_last512: dev macro-F1 0.6813 @0.5 | 0.6981 @t=0.37 | test pos-rate 0.53 | 16.2 min
+13:49:16 === m2_lorma_plus_last512: m2 | lorma_plus | last-512 | epochs 1 lr 0.0005
+13:49:16 trainable 0.296M | 31677 cases | 3960 steps | view last-512
+13:51:59    step 500/3960 | loss 0.7129 | 163s
+13:54:42    step 1000/3960 | loss 0.6477 | 326s
+13:57:24    step 1500/3960 | loss 0.6163 | 488s
+14:00:51    EVAL step 1980: dev macro-F1 0.6068 @0.5 (pos rate 0.74) | 0.6598 @t=0.72 | 694s
+14:00:57    step 2000/3960 | loss 0.5994 | 701s
+14:03:39    step 2500/3960 | loss 0.5908 | 863s
+14:06:22    step 3000/3960 | loss 0.5651 | 1025s
+14:09:04    step 3500/3960 | loss 0.5674 | 1188s
+14:12:24    EVAL step 3960: dev macro-F1 0.6726 @0.5 (pos rate 0.40) | 0.6845 @t=0.46 | 1388s
+14:13:53 DONE m2_lorma_plus_last512: dev macro-F1 0.6717 @0.5 | 0.6845 @t=0.46 | test pos-rate 0.47 | 24.7 min
+14:13:56 === m4_adapter_last512: m4 | adapter | last-512 | epochs 1 lr 0.0005
+14:13:56 trainable 1.191M | 31677 cases | 3960 steps | view last-512
+/kaggle/working/src/p4_cjpe.py:206: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  scaler.step(opt); scaler.update(); sched.step(); step += 1; run_loss += loss.item()
+14:15:48    step 500/3960 | loss 0.7250 | 112s
+14:17:40    step 1000/3960 | loss 0.6685 | 224s
+14:19:31    step 1500/3960 | loss 0.6332 | 335s
+14:21:41    EVAL step 1980: dev macro-F1 0.5832 @0.5 (pos rate 0.76) | 0.6740 @t=0.71 | 465s
+14:21:45    step 2000/3960 | loss 0.6063 | 469s
+14:23:37    step 2500/3960 | loss 0.5951 | 581s
+14:25:29    step 3000/3960 | loss 0.5688 | 693s
+14:27:21    step 3500/3960 | loss 0.5600 | 805s
+14:29:25    EVAL step 3960: dev macro-F1 0.6931 @0.5 (pos rate 0.37) | 0.7020 @t=0.48 | 929s
+14:30:04 DONE m4_adapter_last512: dev macro-F1 0.6931 @0.5 | 0.7020 @t=0.48 | test pos-rate 0.40 | 16.2 min
+14:30:04 PLAN DONE
+22:54:13 data: train 31677 | clean dev 1988 | test 1517
+22:57:08    encoded dev: 18378 chunks in 171s
+22:59:24    encoded test: 14333 chunks in 136s
+23:37:24    encoded train: 240817 chunks in 2279s
+23:37:25 === m1_full512_hier: hierarchical BiGRU+attention over chunks of m1_full_last512 | 1.58M params
+23:37:35    epoch 1: loss 0.4368 | dev macro-F1 0.7917 @0.5 | 0.7952 @t=0.45
+23:37:43    epoch 2: loss 0.4148 | dev macro-F1 0.7716 @0.5 | 0.7852 @t=0.24
+23:37:52    epoch 3: loss 0.3999 | dev macro-F1 0.7846 @0.5 | 0.7951 @t=0.31
+23:38:01    epoch 4: loss 0.3746 | dev macro-F1 0.7814 @0.5 | 0.8086 @t=0.23
+23:38:09    epoch 5: loss 0.3397 | dev macro-F1 0.7778 @0.5 | 0.7947 @t=0.29
+23:38:18    epoch 6: loss 0.2919 | dev macro-F1 0.7795 @0.5 | 0.7925 @t=0.34
+23:38:27    epoch 7: loss 0.2456 | dev macro-F1 0.7739 @0.5 | 0.7897 @t=0.18
+13:57:02 data: train 31677 | clean dev 1988 | test 1517
+13:57:02    loaded chunk embeddings of m1_full_last512
+13:57:06 === m1_full512_hier: hierarchical BiGRU+attention over chunks of m1_full_last512 | 1.58M params
+13:57:16    epoch 1: loss 0.4373 | dev macro-F1 0.7852 @0.5 | 0.7906 @t=0.54
+13:57:25    epoch 2: loss 0.4150 | dev macro-F1 0.7660 @0.5 | 0.7867 @t=0.21
+13:57:34    epoch 3: loss 0.3987 | dev macro-F1 0.7818 @0.5 | 0.7871 @t=0.30
+13:57:43    epoch 4: loss 0.3757 | dev macro-F1 0.7774 @0.5 | 0.7928 @t=0.38
+13:57:51    epoch 5: loss 0.3428 | dev macro-F1 0.7736 @0.5 | 0.7885 @t=0.21
+13:57:59    epoch 6: loss 0.2954 | dev macro-F1 0.7837 @0.5 | 0.7885 @t=0.33
+13:58:08    epoch 7: loss 0.2478 | dev macro-F1 0.7764 @0.5 | 0.7892 @t=0.36
+13:58:16    epoch 8: loss 0.2262 | dev macro-F1 0.7779 @0.5 | 0.7893 @t=0.31
+13:58:17 DONE m1_full512_hier: dev macro-F1 0.7852 @0.5 | 0.7906 @t=0.54 | attention by decile [0.0562, 0.0201, 0.0399, 0.0408, 0.036, 0.0728, 0.1269, 0.1373, 0.2998, 0.1702] | 1.3 min
+13:58:17 PLAN DONE
+14:59:28 data: train 31677 | clean dev 1988 | test 1517
+15:04:46    m1_full_last512: train probs in 315s
+15:05:09 PROB m1_full_last512: dev re-check 0.7266 (should equal its @0.5 score)
+15:05:12 === kd_student_m1x6_last512: m1 | full | last-512 | epochs 1 lr 5e-05 | student layers [0, 2, 4, 6, 8, 10] | teachers ['m1_full_last512']
+15:05:13 trainable 62.337M | 31677 cases | 3960 steps | view last-512 | KD
+15:06:38    step 500/3960 | loss 0.4843 | 85s
+15:08:03    step 1000/3960 | loss 0.3837 | 170s
+15:09:28    step 1500/3960 | loss 0.3400 | 255s
+15:11:01    EVAL step 1980: dev macro-F1 0.7180 @0.5 (pos rate 0.47) | 0.7227 @t=0.51 | 349s
+15:11:05    step 2000/3960 | loss 0.3263 | 352s
+15:12:30    step 2500/3960 | loss 0.2998 | 438s
+15:13:56    step 3000/3960 | loss 0.2878 | 523s
+15:15:21    step 3500/3960 | loss 0.2786 | 608s
+15:16:51    EVAL step 3960: dev macro-F1 0.7085 @0.5 (pos rate 0.33) | 0.7454 @t=0.36 | 698s
+15:17:12 DONE kd_student_m1x6_last512: dev macro-F1 0.7180 @0.5 | 0.7227 @t=0.51 | test pos-rate 0.47 | 12.0 min
+15:17:14 === nokd_student_m1x6_last512: m1 | full | last-512 | epochs 1 lr 5e-05 | student layers [0, 2, 4, 6, 8, 10] | teachers None
+15:17:14 trainable 62.337M | 31677 cases | 3960 steps | view last-512
+15:18:39    step 500/3960 | loss 0.7325 | 85s
+15:20:04    step 1000/3960 | loss 0.6559 | 170s
+15:21:28    step 1500/3960 | loss 0.6183 | 254s
+15:23:02    EVAL step 1980: dev macro-F1 0.6916 @0.5 (pos rate 0.61) | 0.7087 @t=0.59 | 348s
+15:23:05    step 2000/3960 | loss 0.5889 | 351s
+15:24:30    step 2500/3960 | loss 0.5666 | 435s
+15:25:54    step 3000/3960 | loss 0.5494 | 520s
+15:27:19    step 3500/3960 | loss 0.5412 | 605s
+15:28:49    EVAL step 3960: dev macro-F1 0.6964 @0.5 (pos rate 0.30) | 0.7334 @t=0.35 | 695s
+15:29:10 DONE nokd_student_m1x6_last512: dev macro-F1 0.6964 @0.5 | 0.7334 @t=0.35 | test pos-rate 0.50 | 12.0 min
+15:29:10 PLAN DONE
+15:30:22 data: train 31677 | clean dev 1988 | test 1517
+15:33:51    encoded dev: 18378 chunks in 205s
+15:36:32    encoded test: 14333 chunks in 161s
+16:21:34    encoded train: 240817 chunks in 2702s
+16:21:36 === m1_partial512_hier: hierarchical BiGRU+attention over chunks of m1_partial4_last512 | 1.58M params
+16:21:46    epoch 1: loss 0.4991 | dev macro-F1 0.7665 @0.5 | 0.7686 @t=0.52
+16:21:56    epoch 2: loss 0.4765 | dev macro-F1 0.7529 @0.5 | 0.7752 @t=0.36
+16:22:05    epoch 3: loss 0.4621 | dev macro-F1 0.7724 @0.5 | 0.7786 @t=0.45
+16:22:14    epoch 4: loss 0.4397 | dev macro-F1 0.7555 @0.5 | 0.7796 @t=0.35
+16:22:23    epoch 5: loss 0.4012 | dev macro-F1 0.7618 @0.5 | 0.7802 @t=0.35
+16:22:32    epoch 6: loss 0.3470 | dev macro-F1 0.7538 @0.5 | 0.7751 @t=0.33
+16:22:43    epoch 7: loss 0.2916 | dev macro-F1 0.7465 @0.5 | 0.7736 @t=0.27
+16:22:52    epoch 8: loss 0.2681 | dev macro-F1 0.7462 @0.5 | 0.7730 @t=0.19
+16:22:53 DONE m1_partial512_hier: dev macro-F1 0.7724 @0.5 | 0.7786 @t=0.45 | attention by decile [0.0449, 0.0167, 0.0327, 0.0374, 0.0327, 0.0658, 0.1277, 0.1395, 0.3202, 0.1824] | 52.5 min
+16:22:53 PLAN DONE

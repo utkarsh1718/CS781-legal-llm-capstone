@@ -1,0 +1,37 @@
+[
+ {
+  "name": "m1_full",
+  "ckpt": "m1",
+  "method": "full",
+  "lr": 0.0001
+ },
+ {
+  "name": "kd_m1x6",
+  "ckpt": "m1",
+  "method": "full",
+  "lr": 0.0002,
+  "teacher": "m1_full",
+  "student_layers": [
+   0,
+   2,
+   4,
+   6,
+   8,
+   10
+  ]
+ },
+ {
+  "name": "m1_qlora",
+  "ckpt": "m1",
+  "method": "qlora",
+  "lr": 0.0005
+ },
+ {
+  "name": "m3_trunc",
+  "ckpt": "m3",
+  "method": "full",
+  "lr": 0.0001,
+  "mode": "trunc",
+  "epochs": 2
+ }
+]

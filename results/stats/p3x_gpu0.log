@@ -1,0 +1,47 @@
+08:12:16 data ready: train 80 | dev 10 | test 10 docs | device cuda:0
+08:12:49    embeddings m1_rslora / train: 16845 sentences in 30s
+08:12:52    embeddings m1_rslora / dev: 2142 sentences in 4s
+08:12:56    embeddings m1_rslora / test: 2197 sentences in 4s
+08:12:56 === h_rslora: document BiGRU over sentence embeddings of ['m1_rslora'] (768-d)
+08:13:39 DONE h_rslora: dev macro λ0 0.5415 | λ0.5 0.6019 (best epoch 19) | 1.4 min
+08:14:14    embeddings m1_full / train: 16845 sentences in 32s
+08:14:18    embeddings m1_full / dev: 2142 sentences in 4s
+08:14:22    embeddings m1_full / test: 2197 sentences in 4s
+08:14:57    embeddings m1_lorma_plus / train: 16845 sentences in 32s
+08:15:01    embeddings m1_lorma_plus / dev: 2142 sentences in 4s
+08:15:05    embeddings m1_lorma_plus / test: 2197 sentences in 4s
+08:15:05 === h_cat3: document BiGRU over sentence embeddings of ['m1_rslora', 'm1_full', 'm1_lorma_plus'] (2304-d)
+08:15:56 DONE h_cat3: dev macro λ0 0.5544 | λ0.5 0.5314 (best epoch 16) | 2.3 min
+08:15:58 === m1_rslora_td: m1_rslora's config on train+dev (90 docs) for 3 epochs, lr 0.0002 ('dev macro-F1' in this log = epoch counter, not a score)
+08:15:58 trainable 0.509M | 3526 windows | 1323 steps
+/kaggle/working/src/p3_rr.py:383: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  scaler.step(opt); scaler.update(); sched.step(); tot += loss.item()
+08:17:38 epoch 1: loss 1.3970 | dev macro-F1 all 1.0000 (CL 1.0000 IT 1.0000) acc 0.000 | 100s
+08:19:18 epoch 2: loss 0.7585 | dev macro-F1 all 2.0000 (CL 2.0000 IT 2.0000) acc 0.000 | 100s
+08:20:59 epoch 3: loss 0.5420 | dev macro-F1 all 3.0000 (CL 3.0000 IT 3.0000) acc 0.000 | 100s
+08:21:03 DONE m1_rslora_td: 3 epochs on train+dev | 5.1 min
+08:21:05 === m1_full_td: m1_full's config on train+dev (90 docs) for 2 epochs, lr 5e-05 ('dev macro-F1' in this log = epoch counter, not a score)
+08:21:05 trainable 100.112M | 3526 windows | 882 steps
+08:23:16 epoch 1: loss 1.0978 | dev macro-F1 all 1.0000 (CL 1.0000 IT 1.0000) acc 0.000 | 130s
+08:25:26 epoch 2: loss 0.2125 | dev macro-F1 all 2.0000 (CL 2.0000 IT 2.0000) acc 0.000 | 130s
+08:25:31 DONE m1_full_td: 2 epochs on train+dev | 4.5 min
+08:25:33 === m1_lorma_plus_td: m1_lorma_plus's config on train+dev (90 docs) for 3 epochs, lr 0.0005 ('dev macro-F1' in this log = epoch counter, not a score)
+08:25:33 trainable 0.214M | 3526 windows | 1323 steps
+08:27:11 epoch 1: loss 1.3714 | dev macro-F1 all 1.0000 (CL 1.0000 IT 1.0000) acc 0.000 | 97s
+08:28:48 epoch 2: loss 0.7790 | dev macro-F1 all 2.0000 (CL 2.0000 IT 2.0000) acc 0.000 | 97s
+08:30:25 epoch 3: loss 0.5927 | dev macro-F1 all 3.0000 (CL 3.0000 IT 3.0000) acc 0.000 | 97s
+08:30:29 DONE m1_lorma_plus_td: 3 epochs on train+dev | 5.0 min
+08:31:05    embeddings m1_rslora_td / train: 16845 sentences in 33s
+08:31:09    embeddings m1_rslora_td / dev: 2142 sentences in 4s
+08:31:13    embeddings m1_rslora_td / test: 2197 sentences in 4s
+08:31:47    embeddings m1_full_td / train: 16845 sentences in 31s
+08:31:51    embeddings m1_full_td / dev: 2142 sentences in 4s
+08:31:55    embeddings m1_full_td / test: 2197 sentences in 4s
+08:32:30    embeddings m1_lorma_plus_td / train: 16845 sentences in 32s
+08:32:34    embeddings m1_lorma_plus_td / dev: 2142 sentences in 4s
+08:32:39    embeddings m1_lorma_plus_td / test: 2197 sentences in 4s
+08:32:39 === h_cat3_td: h_cat3's BiGRU on train+dev bases ['m1_rslora_td', 'm1_full_td', 'm1_lorma_plus_td'] for 16 epochs
+08:33:07 DONE h_cat3_td | 2.6 min
+08:33:07 === h_rslora_td: h_rslora's BiGRU on train+dev bases ['m1_rslora_td'] for 19 epochs
+08:33:33 DONE h_rslora_td | 0.4 min
+08:33:33 PLAN DONE

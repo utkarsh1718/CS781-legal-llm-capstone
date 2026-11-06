@@ -1,0 +1,17 @@
+{
+ "cfg": {
+  "ckpt": "m4",
+  "method": "lora",
+  "ctx": "doc",
+  "W": 512,
+  "use_pos": true,
+  "bidir": true,
+  "epochs": 6,
+  "lr": 0.0005,
+  "seed": 0
+ },
+ "base": "m4_lora",
+ "td": true,
+ "epochs_trained": 2,
+ "min": 3.5
+}

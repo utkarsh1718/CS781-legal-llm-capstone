@@ -1,0 +1,23 @@
+{
+ "cfg": {
+  "ckpt": "m1",
+  "method": "partial",
+  "mode": "first",
+  "k": 1024,
+  "epochs": 2,
+  "lr": 0.0001,
+  "head_lr": 0.001,
+  "bs": 8,
+  "seed": 0,
+  "layerwise_unfreeze": false,
+  "partial_k": 4,
+  "teachers": null,
+  "student_layers": null,
+  "kd_T": 2.0,
+  "kd_lam": 0.5
+ },
+ "base": "m1_partial4_first1024",
+ "td": true,
+ "min": 71.1,
+ "test_labels_per_case@0.5": 6.007988324756126
+}

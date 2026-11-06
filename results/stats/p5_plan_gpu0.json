@@ -1,0 +1,29 @@
+[
+ {
+  "ckpt": "m1",
+  "method": "lora",
+  "epochs": 1,
+  "lr": 0.0005,
+  "k": 512,
+  "name": "m1_lora_first512",
+  "mode": "first"
+ },
+ {
+  "ckpt": "m1",
+  "method": "lora",
+  "epochs": 1,
+  "lr": 0.0005,
+  "k": 512,
+  "name": "m1_lora_headtail512",
+  "mode": "headtail"
+ },
+ {
+  "ckpt": "m1",
+  "method": "lora",
+  "epochs": 1,
+  "lr": 0.0005,
+  "k": 512,
+  "name": "m1_lora_middle512",
+  "mode": "middle"
+ }
+]

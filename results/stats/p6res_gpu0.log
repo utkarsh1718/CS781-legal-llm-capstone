@@ -1,0 +1,3534 @@
+12:58:48 === m2_full: m2 | full | chunk | lr 0.0001
+12:58:52 trainable 270.396M of 270.4M | 6107 steps
+13:05:56 === m2_full__cal: eos_bias sweep [-0.75, -1.0, -1.25, -1.5] on 20 val documents
+13:08:40    eos_bias -0.8: R1 0.5147 RL 0.2960 | length x0.79
+13:11:31    eos_bias -1.0: R1 0.5360 RL 0.2983 | length x0.90
+13:14:33    eos_bias -1.2: R1 0.5686 RL 0.2987 | length x1.20
+13:17:39    eos_bias -1.5: R1 0.5595 RL 0.2981 | length x1.52
+13:17:39    -> eos_bias -1.2
+13:51:59 DONE m2_full__cal: val R1 0.5627 R2 0.3225 RL 0.2984 | length x1.49 | 167.7 tok/s | 46.1 min
+13:51:59 PLAN DONE
+No files have been modified since last commit. Skipping to prevent empty commit.
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  21%|██▏       | 39.9MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  28%|██▊       | 32.0MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  21%|██▏       | 39.9MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  28%|██▊       | 32.0MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (6 / 8)      :  38%|███▊      |  142MB /  372MB,   ???B/s  
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  90%|████████▉ |  168MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (7 / 8)      :  95%|█████████▍|  353MB /  372MB, 1.06GB/s  
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  579MB/s  
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  231MB/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...p6_kd_m1x6/p6_kd_m1x6.zip: 100%|██████████| 45.5kB / 45.5kB            [A[A
+
+
+  ..._m1_lorma/p6_m1_lorma.zip: 100%|██████████| 30.6kB / 30.6kB            [A[A[A
+
+
+
+  ..._b100/p6_kd_m1x6__cal.zip: 100%|██████████|  153kB /  153kB            [A[A[A[A
+
+
+
+
+  ...p6_m1_full/p6_m1_full.zip: 100%|██████████| 70.9kB / 70.9kB            [A[A[A[A[A
+
+
+
+
+
+  ...__cal/p6_m1_full__cal.zip: 100%|██████████|  179kB /  179kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...eiffer/p6_m3_pfeiffer.zip: 100%|██████████| 7.97kB / 7.97kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...p6_kd_m1x6/p6_kd_m1x6.zip: 100%|██████████| 45.5kB / 45.5kB            [A[A
+
+
+  ..._m1_lorma/p6_m1_lorma.zip: 100%|██████████| 30.6kB / 30.6kB            [A[A[A
+
+
+
+  ..._b100/p6_kd_m1x6__cal.zip: 100%|██████████|  153kB /  153kB            [A[A[A[A
+
+
+
+
+  ...p6_m1_full/p6_m1_full.zip: 100%|██████████| 70.9kB / 70.9kB            [A[A[A[A[A
+
+
+
+
+
+  ...__cal/p6_m1_full__cal.zip: 100%|██████████|  179kB /  179kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...eiffer/p6_m3_pfeiffer.zip: 100%|██████████| 7.97kB / 7.97kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 12 files]                : 100%|██████████| 1.49MB / 1.49MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (22 / 22)    :  91%|█████████ | 2.36MB / 2.58MB,   ???B/s  
+
+  ..._cal/p6_m3_trunc__cal.zip: 100%|██████████| 39.1kB / 39.1kB            [A[A
+
+
+  ...p6_m3_full/p6_m3_full.zip: 100%|██████████| 49.0kB / 49.0kB            [A[A[A
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A
+
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A[A
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ..._m1_qlora/p6_m1_qlora.zip: 100%|██████████| 34.5kB / 34.5kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...houlsby/p6_m2_houlsby.zip: 100%|██████████| 38.5kB / 38.5kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ..._cal/p6_m3_trunc__cal.zip: 100%|██████████| 39.1kB / 39.1kB            [A[A
+
+
+  ...p6_m3_full/p6_m3_full.zip: 100%|██████████| 49.0kB / 49.0kB            [A[A[A
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A
+
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A[A
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ..._m1_qlora/p6_m1_qlora.zip: 100%|██████████| 34.5kB / 34.5kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...houlsby/p6_m2_houlsby.zip: 100%|██████████| 38.5kB / 38.5kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ..._cal/p6_m3_trunc__cal.zip: 100%|██████████| 39.1kB / 39.1kB            [A[A
+
+
+  ...p6_m3_full/p6_m3_full.zip: 100%|██████████| 49.0kB / 49.0kB            [A[A[A
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A
+
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A[A
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ..._m1_qlora/p6_m1_qlora.zip: 100%|██████████| 34.5kB / 34.5kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...houlsby/p6_m2_houlsby.zip: 100%|██████████| 38.5kB / 38.5kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 : 100%|██████████|  421kB /  421kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (23 / 23)    : 100%|██████████| 2.58MB / 2.58MB,  377kB/s  
+New Data Upload               : 100%|██████████|  227kB /  227kB,  377kB/s  [A
+
+  ...p6_m3_full/p6_m3_full.zip: 100%|██████████| 49.0kB / 49.0kB            [A[A
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ..._m1_qlora/p6_m1_qlora.zip: 100%|██████████| 34.5kB / 34.5kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...houlsby/p6_m2_houlsby.zip: 100%|██████████| 38.5kB / 38.5kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m2_full__cal.zip: 100%|██████████|  227kB /  227kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...p6_m3_full/p6_m3_full.zip: 100%|██████████| 49.0kB / 49.0kB            [A[A
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ..._m1_qlora/p6_m1_qlora.zip: 100%|██████████| 34.5kB / 34.5kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...houlsby/p6_m2_houlsby.zip: 100%|██████████| 38.5kB / 38.5kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m2_full__cal.zip: 100%|██████████|  227kB /  227kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...p6_m3_full/p6_m3_full.zip: 100%|██████████| 49.0kB / 49.0kB            [A[A
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ..._m1_qlora/p6_m1_qlora.zip: 100%|██████████| 34.5kB / 34.5kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...houlsby/p6_m2_houlsby.zip: 100%|██████████| 38.5kB / 38.5kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m2_full__cal.zip: 100%|██████████|  227kB /  227kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (23 / 23)    : 100%|██████████| 2.58MB / 2.58MB,  227kB/s  
+New Data Upload               : 100%|██████████|  227kB /  227kB,  227kB/s  
+  ...p6_m3_full/p6_m3_full.zip: 100%|██████████| 49.0kB / 49.0kB            
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            
+  ..._m1_qlora/p6_m1_qlora.zip: 100%|██████████| 34.5kB / 34.5kB            
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            
+  ...houlsby/p6_m2_houlsby.zip: 100%|██████████| 38.5kB / 38.5kB            
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            
+  ...__cal/p6_m2_full__cal.zip: 100%|██████████|  227kB /  227kB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...orking/p6_ckpt/m2_full.pt:   0%|          | 1.05MB /  541MB            [A[A
+
+  ...orking/p6_ckpt/m2_full.pt:   0%|          | 1.05MB /  541MB            [A[AProcessing Files (0 / 1)      :   0%|          | 1.05MB /  541MB, 1.75MB/s  
+New Data Upload               :   1%|          | 1.05MB /  134MB, 1.75MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:   1%|          | 5.77MB /  541MB            [A[AProcessing Files (0 / 1)      :   1%|          | 5.77MB /  541MB, 7.21MB/s  
+New Data Upload               :   4%|▍         | 5.77MB /  134MB, 7.21MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:   2%|▏         | 13.1MB /  541MB            [A[AProcessing Files (0 / 1)      :   2%|▏         | 13.1MB /  541MB, 13.1MB/s  
+New Data Upload               :  10%|▉         | 13.1MB /  134MB, 13.1MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:   5%|▍         | 25.2MB /  541MB            [A[AProcessing Files (0 / 1)      :   5%|▍         | 25.2MB /  541MB, 21.0MB/s  
+New Data Upload               :  19%|█▉        | 25.2MB /  134MB, 21.0MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:   7%|▋         | 37.2MB /  541MB            [A[AProcessing Files (0 / 1)      :   7%|▋         | 37.2MB /  541MB, 26.6MB/s  
+New Data Upload               :  28%|██▊       | 37.2MB /  134MB, 26.6MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:   9%|▉         | 49.8MB /  541MB            [A[AProcessing Files (0 / 1)      :   9%|▉         | 49.8MB /  541MB, 31.1MB/s  
+New Data Upload               :  37%|███▋      | 49.8MB /  134MB, 31.1MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  12%|█▏        | 64.0MB /  541MB            [A[AProcessing Files (0 / 1)      :  12%|█▏        | 64.0MB /  541MB, 35.5MB/s  
+New Data Upload               :  48%|████▊     | 64.0MB /  134MB, 35.5MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  12%|█▏        | 66.6MB /  541MB            [A[AProcessing Files (0 / 1)      :  12%|█▏        | 66.6MB /  541MB, 33.3MB/s  
+New Data Upload               :  50%|████▉     | 66.6MB /  134MB, 33.3MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  12%|█▏        | 66.6MB /  541MB            [A[A
+
+  ...orking/p6_ckpt/m2_full.pt:  12%|█▏        | 66.6MB /  541MB            [A[A
+
+  ...orking/p6_ckpt/m2_full.pt:  12%|█▏        | 66.6MB /  541MB            [A[A
+
+  ...orking/p6_ckpt/m2_full.pt:  12%|█▏        | 67.6MB /  541MB            [A[AProcessing Files (0 / 1)      :  12%|█▏        | 67.6MB /  541MB, 24.1MB/s  
+New Data Upload               :  50%|█████     | 67.6MB /  134MB, 24.1MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  13%|█▎        | 68.1MB /  541MB            [A[AProcessing Files (0 / 1)      :  13%|█▎        | 68.1MB /  541MB, 22.7MB/s  
+New Data Upload               :  34%|███▍      | 68.1MB /  201MB, 22.7MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  15%|█▍        | 79.6MB /  541MB            [A[AProcessing Files (0 / 1)      :  15%|█▍        | 79.6MB /  541MB, 24.9MB/s  
+New Data Upload               :  30%|██▉       | 79.6MB /  268MB, 24.9MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  18%|█▊        | 99.5MB /  541MB            [A[AProcessing Files (0 / 1)      :  18%|█▊        | 99.5MB /  541MB, 29.3MB/s  
+New Data Upload               :  30%|██▉       | 99.5MB /  335MB, 29.3MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  23%|██▎       |  122MB /  541MB            [A[AProcessing Files (0 / 1)      :  23%|██▎       |  122MB /  541MB, 33.9MB/s  
+New Data Upload               :  36%|███▋      |  122MB /  335MB, 33.9MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  26%|██▌       |  141MB /  541MB            [A[AProcessing Files (0 / 1)      :  26%|██▌       |  141MB /  541MB, 37.1MB/s  
+New Data Upload               :  42%|████▏     |  141MB /  335MB, 37.1MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  31%|███▏      |  170MB /  541MB            [A[AProcessing Files (0 / 1)      :  31%|███▏      |  170MB /  541MB, 42.6MB/s  
+New Data Upload               :  51%|█████     |  170MB /  335MB, 42.6MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  37%|███▋      |  202MB /  541MB            [A[AProcessing Files (0 / 1)      :  37%|███▋      |  202MB /  541MB, 48.0MB/s  
+New Data Upload               :  50%|█████     |  202MB /  402MB, 48.0MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  41%|████▏     |  223MB /  541MB            [A[AProcessing Files (0 / 1)      :  41%|████▏     |  223MB /  541MB, 50.7MB/s  
+New Data Upload               :  55%|█████▌    |  223MB /  402MB, 50.7MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  44%|████▍     |  239MB /  541MB            [A[AProcessing Files (0 / 1)      :  44%|████▍     |  239MB /  541MB, 52.0MB/s  
+New Data Upload               :  51%|█████     |  239MB /  469MB, 52.0MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  49%|████▉     |  264MB /  541MB            [A[AProcessing Files (0 / 1)      :  49%|████▉     |  264MB /  541MB, 55.0MB/s  
+New Data Upload               :  56%|█████▋    |  264MB /  469MB, 55.0MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  55%|█████▌    |  299MB /  541MB            [A[AProcessing Files (0 / 1)      :  55%|█████▌    |  299MB /  541MB, 59.7MB/s  
+New Data Upload               :  56%|█████▌    |  299MB /  537MB, 59.7MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  63%|██████▎   |  342MB /  541MB            [A[AProcessing Files (0 / 1)      :  63%|██████▎   |  342MB /  541MB, 65.8MB/s  
+New Data Upload               :  63%|██████▎   |  342MB /  541MB, 65.8MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  69%|██████▉   |  374MB /  541MB            [A[AProcessing Files (0 / 1)      :  69%|██████▉   |  374MB /  541MB, 69.2MB/s  
+New Data Upload               :  69%|██████▉   |  374MB /  541MB, 69.2MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  76%|███████▌  |  409MB /  541MB            [A[AProcessing Files (0 / 1)      :  76%|███████▌  |  409MB /  541MB, 73.0MB/s  
+New Data Upload               :  76%|███████▌  |  409MB /  541MB, 73.0MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  82%|████████▏ |  442MB /  541MB            [A[AProcessing Files (0 / 1)      :  82%|████████▏ |  442MB /  541MB, 76.3MB/s  
+New Data Upload               :  82%|████████▏ |  442MB /  541MB, 76.3MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  88%|████████▊ |  475MB /  541MB            [A[AProcessing Files (0 / 1)      :  88%|████████▊ |  475MB /  541MB, 79.1MB/s  
+New Data Upload               :  88%|████████▊ |  475MB /  541MB, 79.1MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  93%|█████████▎|  502MB /  541MB            [A[AProcessing Files (0 / 1)      :  93%|█████████▎|  502MB /  541MB, 80.9MB/s  
+New Data Upload               :  93%|█████████▎|  502MB /  541MB, 80.9MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  95%|█████████▌|  515MB /  541MB            [A[AProcessing Files (0 / 1)      :  95%|█████████▌|  515MB /  541MB, 80.4MB/s  
+New Data Upload               :  95%|█████████▌|  515MB /  541MB, 80.4MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt:  98%|█████████▊|  528MB /  541MB            [A[AProcessing Files (0 / 1)      :  98%|█████████▊|  528MB /  541MB, 80.0MB/s  
+New Data Upload               :  98%|█████████▊|  528MB /  541MB, 80.0MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt: 100%|█████████▉|  539MB /  541MB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉|  539MB /  541MB, 79.3MB/s  
+New Data Upload               : 100%|█████████▉|  539MB /  541MB, 79.3MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt: 100%|█████████▉|  540MB /  541MB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉|  540MB /  541MB, 77.2MB/s  
+New Data Upload               : 100%|█████████▉|  540MB /  541MB, 77.2MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt: 100%|█████████▉|  540MB /  541MB            [A[A
+
+  ...orking/p6_ckpt/m2_full.pt: 100%|█████████▉|  540MB /  541MB            [A[A
+
+  ...orking/p6_ckpt/m2_full.pt: 100%|██████████|  541MB /  541MB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  541MB /  541MB, 71.2MB/s  
+New Data Upload               : 100%|██████████|  541MB /  541MB, 71.2MB/s  [A
+
+  ...orking/p6_ckpt/m2_full.pt: 100%|██████████|  541MB /  541MB            [A[A
+
+  ...orking/p6_ckpt/m2_full.pt: 100%|██████████|  541MB /  541MB            [A[A
+
+  ...orking/p6_ckpt/m2_full.pt: 100%|██████████|  541MB /  541MB            [A[A
+
+  ...orking/p6_ckpt/m2_full.pt: 100%|██████████|  541MB /  541MB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  541MB /  541MB, 66.0MB/s  
+New Data Upload               : 100%|██████████|  541MB /  541MB, 66.0MB/s  
+  ...orking/p6_ckpt/m2_full.pt: 100%|██████████|  541MB /  541MB            
+backup ok ['m2_full']
+13:52:29 !!! m1_ia3 FAILED
+Traceback (most recent call last):
+  File "/kaggle/working/src/p6_run.py", line 195, in <module>
+    run(name, **job)
+  File "/kaggle/working/src/p6_run.py", line 117, in run
+    m = build(ckpt, method, student_layers, r, alpha)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/src/p6_run.py", line 72, in build
+    return S.apply_method(m, method, r=r, alpha=alpha)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/src/p6_sum.py", line 245, in apply_method
+    raise ValueError(method)
+ValueError: ia3
+13:52:29 PLAN DONE
+No files have been modified since last commit. Skipping to prevent empty commit.
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A
+
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A[A
+
+
+
+
+  ...ample_supreme_court.jsonl:  49%|████▊     | 56.0MB /  115MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  30%|██▉       | 55.9MB /  188MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A
+
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A[A
+
+
+
+
+  ...ample_supreme_court.jsonl:  49%|████▊     | 56.0MB /  115MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  30%|██▉       | 55.9MB /  188MB            [A[A[A[A[A[A[A[A[AProcessing Files (6 / 8)      :  49%|████▊     |  182MB /  372MB,   ???B/s  
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A
+
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A[A
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  956MB/s  
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A
+
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A[A
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A
+
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A[A
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A
+
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A[A
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A
+
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A[A
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A
+
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A[A
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  191MB/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...p6_m3_full/p6_m3_full.zip: 100%|██████████| 49.0kB / 49.0kB            [A[A
+
+
+  ...__cal/p6_m1_full__cal.zip: 100%|██████████|  179kB /  179kB            [A[A[A
+
+
+
+  ..._m1_lorma/p6_m1_lorma.zip: 100%|██████████| 30.6kB / 30.6kB            [A[A[A[A
+
+
+
+
+  ...p6_kd_m1x6/p6_kd_m1x6.zip: 100%|██████████| 45.5kB / 45.5kB            [A[A[A[A[A
+
+
+
+
+
+  ..._b100/p6_kd_m1x6__cal.zip: 100%|██████████|  153kB /  153kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p6_m1_full/p6_m1_full.zip: 100%|██████████| 70.9kB / 70.9kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._m1_qlora/p6_m1_qlora.zip: 100%|██████████| 34.5kB / 34.5kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m2_full__cal.zip: 100%|██████████|  227kB /  227kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...p6_m3_full/p6_m3_full.zip: 100%|██████████| 49.0kB / 49.0kB            [A[A
+
+
+  ...__cal/p6_m1_full__cal.zip: 100%|██████████|  179kB /  179kB            [A[A[A
+
+
+
+  ..._m1_lorma/p6_m1_lorma.zip: 100%|██████████| 30.6kB / 30.6kB            [A[A[A[A
+
+
+
+
+  ...p6_kd_m1x6/p6_kd_m1x6.zip: 100%|██████████| 45.5kB / 45.5kB            [A[A[A[A[A
+
+
+
+
+
+  ..._b100/p6_kd_m1x6__cal.zip: 100%|██████████|  153kB /  153kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p6_m1_full/p6_m1_full.zip: 100%|██████████| 70.9kB / 70.9kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._m1_qlora/p6_m1_qlora.zip: 100%|██████████| 34.5kB / 34.5kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 13 files]                : 100%|██████████| 1.64MB / 1.64MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (23 / 23)    : 100%|██████████| 2.58MB / 2.58MB,   ???B/s  
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A
+
+
+  ..._cal/p6_m3_trunc__cal.zip: 100%|██████████| 39.1kB / 39.1kB            [A[A[A
+
+
+
+  ...houlsby/p6_m2_houlsby.zip: 100%|██████████| 38.5kB / 38.5kB            [A[A[A[A
+
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A[A
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A
+
+
+  ..._cal/p6_m3_trunc__cal.zip: 100%|██████████| 39.1kB / 39.1kB            [A[A[A
+
+
+
+  ...houlsby/p6_m2_houlsby.zip: 100%|██████████| 38.5kB / 38.5kB            [A[A[A[A
+
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A[A
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...__cal/p6_m3_full__cal.zip: 100%|██████████|  187kB /  187kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...__cal/p6_m3_full__cal.zip: 100%|██████████|  187kB /  187kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A
+
+
+  ..._cal/p6_m3_trunc__cal.zip: 100%|██████████| 39.1kB / 39.1kB            [A[A[A
+
+
+
+  ...houlsby/p6_m2_houlsby.zip: 100%|██████████| 38.5kB / 38.5kB            [A[A[A[A
+
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A[A
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...__cal/p6_m3_full__cal.zip: 100%|██████████|  187kB /  187kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (23 / 23)    : 100%|██████████| 2.58MB / 2.58MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            
+  ..._cal/p6_m3_trunc__cal.zip: 100%|██████████| 39.1kB / 39.1kB            
+  ...houlsby/p6_m2_houlsby.zip: 100%|██████████| 38.5kB / 38.5kB            
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            
+  ...__cal/p6_m3_full__cal.zip: 100%|██████████|  187kB /  187kB            
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+backup ok ['m1_ia3']
+15:21:09 === m1_ia3: m1 | ia3 | chunk | lr 0.003
+15:21:11 trainable 0.031M of 100.1M | 6107 steps
+15:22:33    step 250/6107 | loss 2.1355 | 82s
+15:23:58    step 500/6107 | loss 1.7124 | 167s
+15:25:23    step 750/6107 | loss 1.6885 | 252s
+15:26:50    step 1000/6107 | loss 1.6301 | 339s
+15:28:19    step 1250/6107 | loss 1.6243 | 428s
+15:29:50    step 1500/6107 | loss 1.6313 | 520s
+15:31:20    step 1750/6107 | loss 1.6084 | 609s
+15:32:48    step 2000/6107 | loss 1.6142 | 697s
+15:34:14    step 2250/6107 | loss 1.5747 | 783s
+15:35:44    step 2500/6107 | loss 1.5989 | 873s
+15:37:14    step 2750/6107 | loss 1.5509 | 963s
+15:38:43    step 3000/6107 | loss 1.5828 | 1053s
+15:40:12    step 3250/6107 | loss 1.5624 | 1142s
+15:41:44    step 3500/6107 | loss 1.5842 | 1233s
+15:43:15    step 3750/6107 | loss 1.5701 | 1324s
+15:44:43    step 4000/6107 | loss 1.5723 | 1412s
+15:46:14    step 4250/6107 | loss 1.6023 | 1503s
+15:47:43    step 4500/6107 | loss 1.5571 | 1593s
+15:49:14    step 4750/6107 | loss 1.5387 | 1683s
+15:50:42    step 5000/6107 | loss 1.5720 | 1771s
+15:52:10    step 5250/6107 | loss 1.5807 | 1859s
+15:53:39    step 5500/6107 | loss 1.5811 | 1948s
+15:55:08    step 5750/6107 | loss 1.6168 | 2037s
+15:56:37    step 6000/6107 | loss 1.5800 | 2127s
+15:57:36    val target NLL 1.4859 | training 36.5 min
+16:00:45 DONE m1_ia3: val R1 0.0580 R2 0.0265 RL 0.0346 | length x0.06 | 57.1 tok/s | 39.6 min
+16:00:45 PLAN DONE
+No files have been modified since last commit. Skipping to prevent empty commit.
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  43%|████▎     | 80.0MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  56%|█████▌    | 64.0MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  43%|████▎     | 80.0MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  56%|█████▌    | 64.0MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[AProcessing Files (6 / 8)      :  57%|█████▋    |  214MB /  372MB,   ???B/s  
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  795MB/s  
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  159MB/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...p6_kd_m1x6/p6_kd_m1x6.zip: 100%|██████████| 45.5kB / 45.5kB            [A[A
+
+
+  ..._m1_qlora/p6_m1_qlora.zip: 100%|██████████| 34.5kB / 34.5kB            [A[A[A
+
+
+
+  ...p6_m1_lora/p6_m1_lora.zip: 100%|██████████| 33.0kB / 33.0kB            [A[A[A[A
+
+
+
+
+  ..._m1_lorma/p6_m1_lorma.zip: 100%|██████████| 30.6kB / 30.6kB            [A[A[A[A[A
+
+
+
+
+
+  ...al/p6_m1_houlsby__cal.zip: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ..._b100/p6_kd_m1x6__cal.zip: 100%|██████████|  153kB /  153kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...__cal/p6_m1_full__cal.zip: 100%|██████████|  179kB /  179kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m3_full__cal.zip: 100%|██████████|  187kB /  187kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m2_full__cal.zip: 100%|██████████|  227kB /  227kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...p6_kd_m1x6/p6_kd_m1x6.zip: 100%|██████████| 45.5kB / 45.5kB            [A[A
+
+
+  ..._m1_qlora/p6_m1_qlora.zip: 100%|██████████| 34.5kB / 34.5kB            [A[A[A
+
+
+
+  ...p6_m1_lora/p6_m1_lora.zip: 100%|██████████| 33.0kB / 33.0kB            [A[A[A[A
+
+
+
+
+  ..._m1_lorma/p6_m1_lorma.zip: 100%|██████████| 30.6kB / 30.6kB            [A[A[A[A[A
+
+
+
+
+
+  ...al/p6_m1_houlsby__cal.zip: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ..._b100/p6_kd_m1x6__cal.zip: 100%|██████████|  153kB /  153kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...__cal/p6_m1_full__cal.zip: 100%|██████████|  179kB /  179kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m3_full__cal.zip: 100%|██████████|  187kB /  187kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 17 files]                : 100%|██████████| 1.94MB / 1.94MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (27 / 27)    : 100%|█████████▉| 2.95MB / 2.96MB,   ???B/s  
+
+  ..._cal/p6_m3_trunc__cal.zip: 100%|██████████| 39.1kB / 39.1kB            [A[A
+
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A[A
+
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A[A
+
+
+
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A[A[A[A
+
+
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...houlsby/p6_m1_houlsby.zip: 100%|██████████| 30.2kB / 30.2kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 : 100%|██████████|  153kB /  153kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (28 / 28)    : 100%|██████████| 2.96MB / 2.96MB, 40.0kB/s  
+New Data Upload               : 100%|██████████| 7.98kB / 7.98kB, 40.0kB/s  [A
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A
+
+
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A[A[A
+
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A[A
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...houlsby/p6_m1_houlsby.zip: 100%|██████████| 30.2kB / 30.2kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...6/p6_m1_ia3/p6_m1_ia3.zip: 100%|██████████| 7.98kB / 7.98kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A
+
+
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A[A[A
+
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A[A
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...houlsby/p6_m1_houlsby.zip: 100%|██████████| 30.2kB / 30.2kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...6/p6_m1_ia3/p6_m1_ia3.zip: 100%|██████████| 7.98kB / 7.98kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A
+
+
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A[A[A
+
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A[A
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...houlsby/p6_m1_houlsby.zip: 100%|██████████| 30.2kB / 30.2kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...6/p6_m1_ia3/p6_m1_ia3.zip: 100%|██████████| 7.98kB / 7.98kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A
+
+
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A[A[A
+
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A[A
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...houlsby/p6_m1_houlsby.zip: 100%|██████████| 30.2kB / 30.2kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...6/p6_m1_ia3/p6_m1_ia3.zip: 100%|██████████| 7.98kB / 7.98kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (28 / 28)    : 100%|██████████| 2.96MB / 2.96MB, 9.97kB/s  
+New Data Upload               : 100%|██████████| 7.98kB / 7.98kB, 9.97kB/s  
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            
+  ...houlsby/p6_m1_houlsby.zip: 100%|██████████| 30.2kB / 30.2kB            
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            
+  ...6/p6_m1_ia3/p6_m1_ia3.zip: 100%|██████████| 7.98kB / 7.98kB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...working/p6_ckpt/m1_ia3.pt: 100%|██████████| 70.1kB / 70.1kB            [A[A
+
+  ...working/p6_ckpt/m1_ia3.pt: 100%|██████████| 70.1kB / 70.1kB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 70.1kB / 70.1kB,  351kB/s  
+New Data Upload               : 100%|██████████| 70.1kB / 70.1kB,  351kB/s  [A
+
+  ...working/p6_ckpt/m1_ia3.pt: 100%|██████████| 70.1kB / 70.1kB            [A[A
+
+  ...working/p6_ckpt/m1_ia3.pt: 100%|██████████| 70.1kB / 70.1kB            [A[A
+
+  ...working/p6_ckpt/m1_ia3.pt: 100%|██████████| 70.1kB / 70.1kB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 70.1kB / 70.1kB,  117kB/s  
+New Data Upload               : 100%|██████████| 70.1kB / 70.1kB,  117kB/s  
+  ...working/p6_ckpt/m1_ia3.pt: 100%|██████████| 70.1kB / 70.1kB            
+backup ok ['m1_ia3']
+16:01:03 === m1_ia3__cal: eos_bias sweep [-0.75, -1.0, -1.25, -1.5] on 20 val documents
+16:01:52    eos_bias -0.8: R1 0.2508 RL 0.1489 | length x0.30
+16:02:50    eos_bias -1.0: R1 0.3205 RL 0.1793 | length x0.42
+16:04:02    eos_bias -1.2: R1 0.3601 RL 0.1964 | length x0.50
+16:05:39    eos_bias -1.5: R1 0.4393 RL 0.2348 | length x0.82
+16:05:39    -> eos_bias -1.5
+16:22:43 DONE m1_ia3__cal: val R1 0.4151 R2 0.1824 RL 0.2119 | length x0.92 | 190.9 tok/s | 21.7 min
+16:22:43 PLAN DONE
+No files have been modified since last commit. Skipping to prevent empty commit.
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  47%|████▋     | 88.0MB /  188MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  83%|████████▎ | 96.0MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  47%|████▋     | 88.0MB /  188MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  83%|████████▎ | 96.0MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (6 / 8)      :  68%|██████▊   |  254MB /  372MB,   ???B/s  
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  516MB/s  
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  119MB/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...p6_kd_m1x6/p6_kd_m1x6.zip: 100%|██████████| 45.5kB / 45.5kB            [A[A
+
+
+  ...houlsby/p6_m1_houlsby.zip: 100%|██████████| 30.2kB / 30.2kB            [A[A[A
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A
+
+
+
+
+  ...6/p6_m1_ia3/p6_m1_ia3.zip: 100%|██████████| 7.98kB / 7.98kB            [A[A[A[A[A
+
+
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...__cal/p6_m1_full__cal.zip: 100%|██████████|  179kB /  179kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...al/p6_m1_houlsby__cal.zip: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p6_m1_lora/p6_m1_lora.zip: 100%|██████████| 33.0kB / 33.0kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._m1_lorma/p6_m1_lorma.zip: 100%|██████████| 30.6kB / 30.6kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m1_lora__cal.zip: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...p6_kd_m1x6/p6_kd_m1x6.zip: 100%|██████████| 45.5kB / 45.5kB            [A[A
+
+
+  ...houlsby/p6_m1_houlsby.zip: 100%|██████████| 30.2kB / 30.2kB            [A[A[A
+
+
+
+  ..._cal/p6_m1_lorma__cal.zip: 100%|██████████|  145kB /  145kB            [A[A[A[A
+
+
+
+
+  ...6/p6_m1_ia3/p6_m1_ia3.zip: 100%|██████████| 7.98kB / 7.98kB            [A[A[A[A[A
+
+
+
+
+
+  ...p6_m4_full/p6_m4_full.zip: 100%|██████████|  104kB /  104kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...__cal/p6_m1_full__cal.zip: 100%|██████████|  179kB /  179kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...al/p6_m1_houlsby__cal.zip: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p6_m1_lora/p6_m1_lora.zip: 100%|██████████| 33.0kB / 33.0kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._m1_lorma/p6_m1_lorma.zip: 100%|██████████| 30.6kB / 30.6kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 18 files]                : 100%|██████████| 2.22MB / 2.22MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (28 / 28)    :  96%|█████████▋| 2.96MB / 3.07MB,   ???B/s  
+
+  ..._cal/p6_m3_trunc__cal.zip: 100%|██████████| 39.1kB / 39.1kB            [A[A
+
+
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            [A[A[A
+
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A[A
+
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A[A
+
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ..._cal/p6_m3_trunc__cal.zip: 100%|██████████| 39.1kB / 39.1kB            [A[A
+
+
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            [A[A[A
+
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A[A
+
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A[A
+
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 : 100%|██████████|  301kB /  301kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (29 / 29)    : 100%|██████████| 3.07MB / 3.07MB,  280kB/s  
+New Data Upload               : 100%|██████████|  112kB /  112kB,  280kB/s  [A
+
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            [A[A
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...3__cal/p6_m1_ia3__cal.zip: 100%|██████████|  112kB /  112kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            [A[A
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...3__cal/p6_m1_ia3__cal.zip: 100%|██████████|  112kB /  112kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            [A[A
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...3__cal/p6_m1_ia3__cal.zip: 100%|██████████|  112kB /  112kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            [A[A
+
+
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            [A[A[A
+
+
+
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            [A[A[A[A
+
+
+
+
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            [A[A[A[A[A
+
+
+
+
+
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...3__cal/p6_m1_ia3__cal.zip: 100%|██████████|  112kB /  112kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (29 / 29)    : 100%|██████████| 3.07MB / 3.07MB,  112kB/s  
+New Data Upload               : 100%|██████████|  112kB /  112kB,  112kB/s  
+  ...00/p6_m2_houlsby__cal.zip: 100%|██████████|  152kB /  152kB            
+  ..._m3_trunc/p6_m3_trunc.zip: 100%|██████████| 34.3kB / 34.3kB            
+  ..._cal/p6_m1_qlora__cal.zip: 100%|██████████|  148kB /  148kB            
+  ...al/p6_m2_houlsby__cal.zip: 100%|██████████|  194kB /  194kB            
+  ...p6_m4_lora/p6_m4_lora.zip: 100%|██████████| 60.1kB / 60.1kB            
+  ...__cal/p6_m4_full__cal.zip: 100%|██████████|  201kB /  201kB            
+  ...l/p6_m3_pfeiffer__cal.zip: 100%|██████████|  102kB /  102kB            
+  ...__cal/p6_kd_m1x6__cal.zip: 100%|██████████|  192kB /  192kB            
+  ...__cal/p6_m4_lora__cal.zip: 100%|██████████|  189kB /  189kB            
+  ...3__cal/p6_m1_ia3__cal.zip: 100%|██████████|  112kB /  112kB            
+backup ok []

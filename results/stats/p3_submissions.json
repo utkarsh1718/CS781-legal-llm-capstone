@@ -1,0 +1,137 @@
+{
+ "ens_top7": {
+  "members": [
+   "m1_rslora",
+   "m1_lorma_plus",
+   "m1_full",
+   "m1_lora_doc_pos",
+   "kd_student_m1x6",
+   "m2_lorma_plus",
+   "m4_lora"
+  ],
+  "lambda": 0.0,
+  "dev_macro": 0.5833,
+  "dev_CL": 0.5059,
+  "dev_IT": 0.6098
+ },
+ "ens_top4": {
+  "members": [
+   "m1_rslora",
+   "m1_lorma_plus",
+   "m1_full",
+   "m1_lora_doc_pos"
+  ],
+  "lambda": 0.0,
+  "dev_macro": 0.5691,
+  "dev_CL": 0.5067,
+  "dev_IT": 0.5952
+ },
+ "m1_rslora": {
+  "members": [
+   "m1_rslora"
+  ],
+  "lambda": 0.0,
+  "dev_macro": 0.555,
+  "dev_CL": 0.5192,
+  "dev_IT": 0.5578
+ },
+ "m1_lorma_plus": {
+  "members": [
+   "m1_lorma_plus"
+  ],
+  "lambda": 0.0,
+  "dev_macro": 0.5503,
+  "dev_CL": 0.4934,
+  "dev_IT": 0.5571
+ },
+ "m2_lorma_plus": {
+  "members": [
+   "m2_lorma_plus"
+  ],
+  "lambda": 0.5,
+  "dev_macro": 0.5298,
+  "dev_CL": 0.4104,
+  "dev_IT": 0.5359
+ },
+ "m4_lora": {
+  "members": [
+   "m4_lora"
+  ],
+  "lambda": 0.5,
+  "dev_macro": 0.5503,
+  "dev_CL": 0.4835,
+  "dev_IT": 0.5603
+ },
+ "m3_lora": {
+  "members": [
+   "m3_lora"
+  ],
+  "lambda": 0.0,
+  "dev_macro": 0.3797,
+  "dev_CL": 0.3644,
+  "dev_IT": 0.4365
+ },
+ "kd_student_m1x6": {
+  "members": [
+   "kd_student_m1x6"
+  ],
+  "lambda": 0.0,
+  "dev_macro": 0.5456,
+  "dev_CL": 0.4552,
+  "dev_IT": 0.5885
+ },
+ "m1_full": {
+  "members": [
+   "m1_full"
+  ],
+  "lambda": 0.0,
+  "dev_macro": 0.5468,
+  "dev_CL": 0.4622,
+  "dev_IT": 0.578
+ },
+ "m1_ia3": {
+  "members": [
+   "m1_ia3"
+  ],
+  "lambda": 0.0,
+  "dev_macro": 0.4996,
+  "dev_CL": 0.4364,
+  "dev_IT": 0.5471
+ },
+ "m1_prompt": {
+  "members": [
+   "m1_prompt"
+  ],
+  "lambda": 0.5,
+  "dev_macro": 0.4446,
+  "dev_CL": 0.3846,
+  "dev_IT": 0.4601
+ },
+ "nokd_student_m1x6": {
+  "members": [
+   "nokd_student_m1x6"
+  ],
+  "lambda": 0.5,
+  "dev_macro": 0.4919,
+  "dev_CL": 0.422,
+  "dev_IT": 0.5046
+ },
+ "m1_lora_doc_pos": {
+  "members": [
+   "m1_lora_doc_pos"
+  ],
+  "lambda": 0.5,
+  "dev_macro": 0.552,
+  "dev_CL": 0.4438,
+  "dev_IT": 0.5715
+ },
+ "m1_lora_sent": {
+  "members": [
+   "m1_lora_sent"
+  ],
+  "lambda": 0.5,
+  "dev_macro": 0.4388,
+  "dev_CL": 0.3116,
+  "dev_IT": 0.4912
+ }
+}

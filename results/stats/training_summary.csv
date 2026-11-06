@@ -1,0 +1,3 @@
+run,total params (M),active params (M),tokens (M),train hours,median tok/s,supre bpw,acts bpw,tribu bpw,high_ bpw
+m1_dense_100m,100.1,100.1,700,4.92,39058,4.154,3.914,4.28,3.497
+m2_mla_moe,270.4,101.7,700,6.2,31459,4.066,3.806,4.135,3.368

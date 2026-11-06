@@ -1,0 +1,5 @@
+10:13:08 === m2_houlsby__cal: eos_bias sweep [-1.0] on 20 val documents
+10:16:19    eos_bias -1.0: R1 0.5230 RL 0.2800 | length x0.89
+10:16:19    -> eos_bias -1.0
+10:53:42 DONE m2_houlsby__cal: val R1 0.5067 R2 0.2676 RL 0.2615 | length x0.99 | 98.3 tok/s | 40.6 min
+10:53:42 PLAN DONE

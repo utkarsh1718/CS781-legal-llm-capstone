@@ -1,0 +1,1 @@
+[{"type": "hier", "name": "m1_full1024_hier", "base": "m1_full_last1024", "chunk": 1024, "max_chunks": 32, "epochs": 8}]

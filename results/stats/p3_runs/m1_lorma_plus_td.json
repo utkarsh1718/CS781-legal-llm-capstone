@@ -1,0 +1,17 @@
+{
+ "cfg": {
+  "ckpt": "m1",
+  "method": "lorma_plus",
+  "ctx": "doc",
+  "W": 512,
+  "use_pos": true,
+  "bidir": true,
+  "epochs": 6,
+  "lr": 0.0005,
+  "seed": 0
+ },
+ "base": "m1_lorma_plus",
+ "td": true,
+ "epochs_trained": 3,
+ "min": 5.0
+}

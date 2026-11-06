@@ -1,0 +1,5 @@
+10:13:06 === kd_m1x6__cal: eos_bias sweep [-1.0] on 20 val documents
+10:14:06    eos_bias -1.0: R1 0.5389 RL 0.2738 | length x0.95
+10:14:06    -> eos_bias -1.0
+10:24:34 DONE kd_m1x6__cal: val R1 0.5421 R2 0.2923 RL 0.2843 | length x1.10 | 417.8 tok/s | 11.5 min
+10:24:34 PLAN DONE

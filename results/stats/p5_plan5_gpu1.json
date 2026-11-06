@@ -1,0 +1,21 @@
+[
+ {
+  "name": "m1_partial4_first1024",
+  "ckpt": "m1",
+  "method": "partial",
+  "lr": 0.0001,
+  "partial_k": 4,
+  "mode": "first",
+  "k": 1024,
+  "epochs": 2,
+  "bs": 8
+ },
+ {
+  "type": "hier",
+  "name": "m1_partial1024_hier",
+  "base": "m1_partial4_first1024",
+  "chunk": 1024,
+  "max_chunks": 24,
+  "epochs": 10
+ }
+]

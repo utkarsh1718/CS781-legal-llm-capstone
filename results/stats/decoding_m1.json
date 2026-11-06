@@ -1,0 +1,80 @@
+{
+ "results": {
+  "greedy": {
+   "n": 350,
+   "bertscore_f1": 0.8205597996711731,
+   "rougeL_f1": 0.24244266683030938,
+   "bleu4": 10.458404199861441,
+   "bertscore_f1[SC]": 0.8164190649986267,
+   "bertscore_f1[other]": 0.826080858707428,
+   "rep3": 0.5849788439966149,
+   "gen_sec": 207.4
+  },
+  "greedy_norep3": {
+   "n": 350,
+   "bertscore_f1": 0.8359400033950806,
+   "rougeL_f1": 0.23040202255305087,
+   "bleu4": 8.242898450839768,
+   "bertscore_f1[SC]": 0.834017813205719,
+   "bertscore_f1[other]": 0.8385030627250671,
+   "rep3": 2.2675736961451166e-05,
+   "gen_sec": 199.2
+  },
+  "greedy_rep1.2": {
+   "n": 350,
+   "bertscore_f1": 0.843056321144104,
+   "rougeL_f1": 0.23124764175964016,
+   "bleu4": 12.662289855912782,
+   "bertscore_f1[SC]": 0.8396740555763245,
+   "bertscore_f1[other]": 0.847565770149231,
+   "rep3": 0.0543310657596372,
+   "gen_sec": 155.0
+  },
+  "greedy_rep1.2_norep4": {
+   "n": 350,
+   "bertscore_f1": 0.8392925262451172,
+   "rougeL_f1": 0.21506767067398774,
+   "bleu4": 9.8859824959347,
+   "bertscore_f1[SC]": 0.8371235132217407,
+   "bertscore_f1[other]": 0.8421846032142639,
+   "rep3": 0.009659863945578235,
+   "gen_sec": 183.9
+  },
+  "sample_t0.7_p0.9": {
+   "n": 350,
+   "bertscore_f1": 0.8373814225196838,
+   "rougeL_f1": 0.24533117317453998,
+   "bleu4": 11.320474412647906,
+   "bertscore_f1[SC]": 0.8351132869720459,
+   "bertscore_f1[other]": 0.8404055833816528,
+   "rep3": 0.2147885696119777,
+   "gen_sec": 178.9
+  },
+  "sample_t0.7_p0.9_rep1.1": {
+   "n": 350,
+   "bertscore_f1": 0.8430221080780029,
+   "rougeL_f1": 0.2371157530242111,
+   "bleu4": 12.033837242690973,
+   "bertscore_f1[SC]": 0.839030921459198,
+   "bertscore_f1[other]": 0.8483437299728394,
+   "rep3": 0.05622800152509382,
+   "gen_sec": 128.0
+  },
+  "copy_last_baseline": {
+   "n": 350,
+   "bertscore_f1": 0.8429994583129883,
+   "rougeL_f1": 0.22016895473681455,
+   "bleu4": 11.199527851520424,
+   "bertscore_f1[SC]": 0.8412078619003296,
+   "bertscore_f1[other]": 0.8453884124755859
+  }
+ },
+ "examples": {
+  "greedy": "view that the applicant is entitled to be reinstated in service with all consequential benefits. The applicant is entitled to all consequential benefits. The respondents are directed to pay all the arrears of salary and other benefits to the applicant within a period of three months from the date of receipt of a copy of this order. The OA is allowed to the aforesaid extent. No costs.\" The Tribunal, therefore, allowed the OA and directed the respondents to pay the applicant the arrears of salary and other benefits to the applicant within a period of three months from the date of receipt of a copy of the order. The respondents are directed to comply with the aforesaid directions within a period of three months from the date of",
+  "greedy_norep3": "view that the Tribunal was not justified in interfering with the order passed by the Disciplinary Authority.\" The Tribunal, therefore, set aside that order and directed the disciplinary authority to pass a fresh order after giving an opportunity to the delinquent to show cause as to why the order should not be passed. The order of the Tribunal is under challenge before us. The learned counsel for the appellant contended that the findings recorded by the Enquiry Officer are not based on evidence and, therefore the Tribunal has not committed any error in interfering in the order. The counsel for respondent No.1, on the other hand, contended that there was no evidence to show that the delinquent was living in a manner unbecoming of a Government servant or",
+  "greedy_rep1.2": "view that the applicant is entitled to be reinstated in service with all consequential benefits. The respondents are directed to pay him back wages from the date of his dismissal till reinstatement, within a period of three months from today.\" In support of this contention reliance was placed on [State of U.P. Vs. Ram Chandra Dubey] (1996) 1 SCC 715 and State of Haryana & Ors. Vs. Sukh Raj Singh (2000) 2 SCC 577. It has been held by this Court as follows:- \"The question whether an employee who has attained the age of superannuation or not would have been entitled to be reinstated in service after he had completed twenty years' qualifying service or not, has to be determined having regard to the facts and circumstances of",
+  "greedy_rep1.2_norep4": "view that the applicant is entitled to be reinstated in service with all consequential benefits. The respondents are directed to pay him back wages from the date of his dismissal till reinstatement, within a period of three months from today.\" In support of this contention reliance was placed on [State of U.P. Vs. Ram Chandra Dubey] (1996) 1 SCC 715 and State of Haryana & Ors. Vs. Sukh Raj Singh (2000) 2 SCC 577. It has been held by this Court as follows:- \"(i) A person who is not living at the time of commission of offence cannot claim protection under Section 197 Cr. P.C. if he is found guilty of committing an offence punishable with imprisonment for life or imprisonment which may extend to ten years or",
+  "sample_t0.7_p0.9": "view that the punishment imposed upon the applicant is too harsh and disproportionate to the proved charges. In the light of the aforesaid discussion, we are of the considered view that the findings recorded by the Enquiry Officer are wholly unsustainable and we find no reason to interfere with the same. We are of the view that the findings recorded by the Enquiry Officer are wholly unsustainable and the same are required to be set aside.\" In support of the appeal, the learned counsel for the Department relied on the judgment of this Court in State of U.P. Vs. Ashok Kumar Srivastava (1996 (4) SCC 57). In the said case, the Court was concerned with the scope of [Article 311] of the Constitution of India and the question",
+  "sample_t0.7_p0.9_rep1.1": "view that the punishment imposed upon the applicant is too harsh and disproportionate to the proved charges. In the light of above discussion, we are unable to find any case for interference by us in this appeal.\" 6. The Tribunal further proceeded on the basis that Smt. K.R. Aruna was married to one Smt. K.R. Aruna with a promise that he would marry her without any complaint being made by anybody. She had not committed any offence under Rule 3(1)(iii) of the Conduct Rules. The Tribunal held that there were no ingredients to constitute an offence under rule 3(1)(ii) of the Conduct Rules, 1961. According to the Tribunal, when Smt. K.R. Aruna was married to Smt. K.R. Aruna and had taken no steps to go back from her"
+ }
+}

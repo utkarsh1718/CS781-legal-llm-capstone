@@ -1,0 +1,42 @@
+[
+ {
+  "system": "ens_greedy_noseeds (= old method)",
+  "honest": 0.8064827771563345,
+  "insample": 0.818854078921791,
+  "t": 0.41999999999999993,
+  "members": [
+   "m1_full1024_hier",
+   "m1_partial4_last512",
+   "m1_full512_hier"
+  ]
+ },
+ {
+  "system": "ens_greedy_seeds",
+  "honest": 0.8146166316891158,
+  "insample": 0.8228163992869875,
+  "t": 0.36999999999999994,
+  "members": [
+   "m1_full1024_hier",
+   "m1_full512_hier_s1",
+   "m4_adapter_last512",
+   "m1_partial4_last512"
+  ]
+ },
+ {
+  "system": "ens_hier_all",
+  "honest": 0.8093766589197687,
+  "insample": 0.8148623533746604,
+  "t": 0.38999999999999996,
+  "members": [
+   "m1_partial512_hier_s2",
+   "m1_full512_hier",
+   "m1_full1024_hier",
+   "m1_full1024_hier_s1",
+   "m1_full512_hier_s2",
+   "m1_partial512_hier",
+   "m1_partial512_hier_s1",
+   "m1_full1024_hier_s2",
+   "m1_full512_hier_s1"
+  ]
+ }
+]

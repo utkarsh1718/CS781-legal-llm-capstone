@@ -1,0 +1,66 @@
+[
+ {
+  "name": "m1_partial4_first512",
+  "ckpt": "m1",
+  "method": "partial",
+  "lr": 0.0001,
+  "partial_k": 4,
+  "mode": "first",
+  "k": 512,
+  "epochs": 1
+ },
+ {
+  "name": "m1_lorma_plus_first512",
+  "ckpt": "m1",
+  "method": "lorma_plus",
+  "lr": 0.0005,
+  "mode": "first",
+  "k": 512,
+  "epochs": 1
+ },
+ {
+  "name": "m1_adapter_first512",
+  "ckpt": "m1",
+  "method": "adapter",
+  "lr": 0.0005,
+  "mode": "first",
+  "k": 512,
+  "epochs": 1
+ },
+ {
+  "name": "m1_prompt_first512",
+  "ckpt": "m1",
+  "method": "prompt",
+  "lr": 0.01,
+  "mode": "first",
+  "k": 512,
+  "epochs": 1
+ },
+ {
+  "name": "m2_lorma_plus_first512",
+  "ckpt": "m2",
+  "method": "lorma_plus",
+  "lr": 0.0005,
+  "mode": "first",
+  "k": 512,
+  "epochs": 1
+ },
+ {
+  "name": "m4_adapter_first512",
+  "ckpt": "m4",
+  "method": "adapter",
+  "lr": 0.0005,
+  "mode": "first",
+  "k": 512,
+  "epochs": 1
+ },
+ {
+  "name": "m1_normgain_first512",
+  "ckpt": "m1",
+  "method": "normgain",
+  "lr": 0.001,
+  "mode": "first",
+  "k": 512,
+  "epochs": 1
+ }
+]

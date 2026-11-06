@@ -1,0 +1,17 @@
+{
+ "cfg": {
+  "ckpt": "m1",
+  "method": "full",
+  "ctx": "doc",
+  "W": 512,
+  "use_pos": true,
+  "bidir": true,
+  "epochs": 6,
+  "lr": 5e-05,
+  "seed": 0
+ },
+ "base": "m1_full",
+ "td": true,
+ "epochs_trained": 2,
+ "min": 4.5
+}

@@ -1,0 +1,18 @@
+{
+ "cfg": {
+  "ckpt": "m1",
+  "method": "rslora",
+  "ctx": "doc",
+  "W": 512,
+  "use_pos": true,
+  "bidir": true,
+  "epochs": 6,
+  "lr": 0.0002,
+  "seed": 0,
+  "rs_r": 16
+ },
+ "base": "m1_rslora",
+ "td": true,
+ "epochs_trained": 3,
+ "min": 5.1
+}

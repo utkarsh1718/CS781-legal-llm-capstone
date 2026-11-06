@@ -1,0 +1,12 @@
+{
+ "cfg": {
+  "type": "hier_td",
+  "ref": "h_rslora",
+  "bases": [
+   "m1_rslora_td"
+  ]
+ },
+ "td": true,
+ "epochs_trained": 19,
+ "min": 0.4
+}

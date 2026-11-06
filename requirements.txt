@@ -1,0 +1,14 @@
+# Kaggle image (Python 3.12, CUDA, 2x T4) plus:
+torch>=2.3
+numpy
+scipy
+scikit-learn
+tokenizers
+huggingface_hub>=0.32
+hf_xet
+orjson
+pyahocorasick
+psutil
+rouge-score
+sacrebleu
+bert-score   # local Phase 1 / 6 evaluation only (scores model outputs; never used for training)

@@ -1,0 +1,14 @@
+{
+ "cfg": {
+  "type": "hier_td",
+  "ref": "h_cat3",
+  "bases": [
+   "m1_rslora_td",
+   "m1_full_td",
+   "m1_lorma_plus_td"
+  ]
+ },
+ "td": true,
+ "epochs_trained": 16,
+ "min": 2.6
+}

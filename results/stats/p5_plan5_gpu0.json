@@ -1,0 +1,20 @@
+[
+ {
+  "name": "m1_full_first1024",
+  "ckpt": "m1",
+  "method": "full",
+  "lr": 3e-05,
+  "mode": "first",
+  "k": 1024,
+  "epochs": 2,
+  "bs": 8
+ },
+ {
+  "type": "hier",
+  "name": "m1_full1024_hier",
+  "base": "m1_full_first1024",
+  "chunk": 1024,
+  "max_chunks": 24,
+  "epochs": 10
+ }
+]

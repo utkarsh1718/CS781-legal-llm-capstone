@@ -1,0 +1,48 @@
+\begin{table}[t]
+\centering\small
+\begin{tabular}{lrrr}
+\toprule
+System & Rule & In-sample & Honest \\
+\midrule
+ens\_hier\_shrunk & shrunk & 0.434 & \textbf{0.430} \\
+ens\_hier\_global & global & 0.427 & 0.427 \\
+ens\_hier\_perlabel & perlabel & 0.443 & 0.426 \\
+ens\_top5\_shrunk & shrunk & 0.430 & 0.425 \\
+ens\_greedy\_perlabel & perlabel & 0.443 & 0.424 \\
+ens\_greedy\_shrunk & shrunk & 0.434 & 0.424 \\
+ens\_top5\_global & global & 0.424 & 0.423 \\
+ens\_greedy\_global & global & 0.429 & 0.423 \\
+ens\_top5\_perlabel & perlabel & 0.440 & 0.419 \\
+m1\_full1024\_hier\_s2 & global & 0.410 & 0.410 \\
+m1\_full1024\_hier & global & 0.410 & 0.408 \\
+m1\_full1024\_hier\_s1 & global & 0.409 & 0.408 \\
+m1\_partial1024\_hier\_s2 & global & 0.404 & 0.403 \\
+m1\_partial1024\_hier\_s1 & global & 0.402 & 0.402 \\
+m1\_partial1024\_hier & global & 0.402 & 0.401 \\
+m1\_full512\_hier & global & 0.399 & 0.398 \\
+m1\_full\_first1024 & global & 0.397 & 0.396 \\
+m1\_partial4\_first1024 & global & 0.380 & 0.379 \\
+kd\_student\_m1x6\_first1024 & global & 0.378 & 0.378 \\
+nokd\_student\_m1x6\_first1024 & global & 0.365 & 0.365 \\
+m1\_full\_first512 & global & 0.357 & 0.355 \\
+m1\_partial4\_first512 & global & 0.342 & 0.340 \\
+m1\_unfreeze\_first512 & global & 0.337 & 0.337 \\
+m1\_lora\_first1024 & global & 0.325 & 0.325 \\
+m4\_adapter\_first512 & global & 0.323 & 0.323 \\
+m1\_adapter\_first512 & global & 0.322 & 0.322 \\
+m3\_full\_first512 & global & 0.316 & 0.316 \\
+m1\_rslora\_first512 & global & 0.316 & 0.314 \\
+m2\_lorma\_plus\_first512 & global & 0.314 & 0.313 \\
+m1\_lora\_headtail512 & global & 0.311 & 0.310 \\
+m1\_lora\_first512 & global & 0.310 & 0.309 \\
+m1\_lorma\_plus\_first512 & global & 0.310 & 0.309 \\
+m1\_lora\_last512 & global & 0.311 & 0.307 \\
+m1\_lora\_middle512 & global & 0.306 & 0.306 \\
+m1\_ia3\_first512 & global & 0.304 & 0.303 \\
+m1\_normgain\_first512 & global & 0.295 & 0.294 \\
+m1\_prompt\_first512 & global & 0.280 & 0.279 \\
+\bottomrule
+\end{tabular}
+\caption{Phase 5 (statute identification): dev macro-F1, in-sample vs honest (cross-fitted).}
+\label{tab:p5}
+\end{table}

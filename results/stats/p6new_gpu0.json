@@ -1,0 +1,14 @@
+[
+  {
+    "name": "m2_full",
+    "ckpt": "m2",
+    "method": "full",
+    "lr": 0.0001
+  },
+  {
+    "name": "m1_ia3",
+    "ckpt": "m1",
+    "method": "ia3",
+    "lr": 0.003
+  }
+]

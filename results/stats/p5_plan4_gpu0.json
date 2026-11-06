@@ -1,0 +1,57 @@
+[
+ {
+  "name": "m1_full_first512",
+  "ckpt": "m1",
+  "method": "full",
+  "lr": 3e-05,
+  "mode": "first",
+  "k": 512,
+  "epochs": 1
+ },
+ {
+  "type": "hier",
+  "name": "m1_full512_hier",
+  "base": "m1_full_first512",
+  "chunk": 512,
+  "max_chunks": 48,
+  "epochs": 10
+ },
+ {
+  "name": "m1_unfreeze_first512",
+  "ckpt": "m1",
+  "method": "full",
+  "lr": 5e-05,
+  "layerwise_unfreeze": true,
+  "mode": "first",
+  "k": 512,
+  "epochs": 1
+ },
+ {
+  "name": "m1_rslora_first512",
+  "ckpt": "m1",
+  "method": "rslora",
+  "lr": 0.0002,
+  "rs_r": 16,
+  "mode": "first",
+  "k": 512,
+  "epochs": 1
+ },
+ {
+  "name": "m1_ia3_first512",
+  "ckpt": "m1",
+  "method": "ia3",
+  "lr": 0.003,
+  "mode": "first",
+  "k": 512,
+  "epochs": 1
+ },
+ {
+  "name": "m3_full_first512",
+  "ckpt": "m3",
+  "method": "full",
+  "lr": 5e-05,
+  "mode": "first",
+  "k": 512,
+  "epochs": 1
+ }
+]

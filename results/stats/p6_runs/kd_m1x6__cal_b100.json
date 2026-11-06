@@ -1,0 +1,51 @@
+{
+ "cfg": {
+  "ckpt": "m1",
+  "method": "full",
+  "lr": 0.0002,
+  "epochs": 1,
+  "bs": 8,
+  "r": 16,
+  "alpha": 32,
+  "mode": "chunk",
+  "teacher": "m1_full",
+  "student_layers": [
+   0,
+   2,
+   4,
+   6,
+   8,
+   10
+  ],
+  "kd_T": 2.0,
+  "kd_lam": 0.5,
+  "seed": 0,
+  "base": "kd_m1x6"
+ },
+ "gen": {
+  "eos_bias": -1.0,
+  "no_repeat": 4,
+  "dedupe": true
+ },
+ "trainable_M": 62.335,
+ "total_M": 62.3,
+ "model_MB": 249.3,
+ "val_rouge": {
+  "rouge1": 0.542123980329642,
+  "rouge2": 0.292260628153117,
+  "rougeL": 0.28434324885471063,
+  "len_ratio": 1.0976015729829607
+ },
+ "gen_tok_per_s": 417.8,
+ "test_gen_min": 4.4,
+ "test_words_median": 628,
+ "min": 11.5,
+ "cal": {
+  "-1.0": {
+   "rouge1": 0.53885873350343,
+   "rouge2": 0.2769851847354631,
+   "rougeL": 0.2737788572324483,
+   "len_ratio": 0.9467650499295417
+  }
+ }
+}

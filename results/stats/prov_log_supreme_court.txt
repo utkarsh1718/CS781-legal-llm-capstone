@@ -1,0 +1,8 @@
+supreme_court: 3,021 docs | 121 hit docs | 0.5 min
+supreme_court: 11,894 docs | 287 hit docs | 1.0 min
+supreme_court: 21,603 docs | 491 hit docs | 1.5 min
+supreme_court: 27,565 docs | 643 hit docs | 2.0 min
+supreme_court: 37,829 docs | 841 hit docs | 2.5 min
+supreme_court: 40,972 docs | 961 hit docs | 3.0 min
+supreme_court: 52,928 docs | 1,257 hit docs | 3.5 min
+DONE supreme_court: 55,549 docs, 1,344 hit docs in 3.8 min

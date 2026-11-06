@@ -1,0 +1,26 @@
+{
+  "cfg": {
+    "ckpt": "m2",
+    "method": "full",
+    "lr": 0.0001,
+    "epochs": 1,
+    "bs": 8,
+    "r": 16,
+    "alpha": 32,
+    "mode": "chunk",
+    "teacher": null,
+    "student_layers": null,
+    "kd_T": 2.0,
+    "kd_lam": 0.5,
+    "seed": 0
+  },
+  "gen": {
+    "eos_bias": 0.0,
+    "no_repeat": 4,
+    "dedupe": true
+  },
+  "trainable_M": 100.094,
+  "total_M": 100.1,
+  "model_MB": 400.4,
+  "note": "reconstructed: training finished 12:41 UTC (val NLL 1.2416, 68.1 min); kernel died during the uncalibrated decode"
+}

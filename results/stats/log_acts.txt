@@ -1,0 +1,4 @@
+acts: 5,000 docs | 0.18 GB | 11.4 MB/s | 0.3 min
+acts: 10,000 docs | 0.40 GB | 11.5 MB/s | 0.6 min
+acts: 15,000 docs | 0.59 GB | 11.5 MB/s | 0.8 min
+DONE acts: 18,826 docs in 1.1 min

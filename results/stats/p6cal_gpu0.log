@@ -1,0 +1,24 @@
+10:36:47 === m1_full__cal: eos_bias sweep [-1.5, -3.0, -4.5, -6.0] on 20 val documents
+10:43:29    eos_bias -1.5: R1 0.5576 RL 0.3024 | length x1.54
+10:48:28    eos_bias -3.0: R1 0.4340 RL 0.2394 | length x3.23
+10:51:47 === m1_full__cal: eos_bias sweep [-0.5, -0.75, -1.0, -1.25] on 20 val documents
+10:58:01    eos_bias -0.5: R1 0.5249 RL 0.2821 | length x0.69
+11:04:46    eos_bias -0.8: R1 0.5572 RL 0.2975 | length x0.82
+11:11:35    eos_bias -1.0: R1 0.5700 RL 0.3082 | length x0.99
+11:18:25    eos_bias -1.2: R1 0.5631 RL 0.3062 | length x1.38
+11:18:25    -> eos_bias -1.0
+12:02:26 DONE m1_full__cal: val R1 0.5769 R2 0.3226 RL 0.3049 | length x1.19 | 101.3 tok/s | 70.7 min
+12:02:30 === kd_m1x6__cal: eos_bias sweep [-0.5, -0.75, -1.0, -1.25] on 20 val documents
+12:03:21    eos_bias -0.5: R1 0.4524 RL 0.2522 | length x0.51
+12:04:25    eos_bias -0.8: R1 0.5040 RL 0.2635 | length x0.76
+12:05:39    eos_bias -1.0: R1 0.5389 RL 0.2738 | length x0.95
+12:06:56    eos_bias -1.2: R1 0.5677 RL 0.2912 | length x1.13
+12:06:56    -> eos_bias -1.2
+12:20:49 DONE kd_m1x6__cal: val R1 0.5548 R2 0.3057 RL 0.2884 | length x1.36 | 415.1 tok/s | 18.4 min
+12:20:55 === m1_qlora__cal: eos_bias sweep [-0.5, -0.75, -1.0, -1.25] on 20 val documents
+12:23:24    eos_bias -0.5: R1 0.4003 RL 0.2304 | length x0.49
+12:25:59    eos_bias -0.8: R1 0.4413 RL 0.2449 | length x0.66
+12:29:08    eos_bias -1.0: R1 0.4951 RL 0.2598 | length x0.82
+12:32:52    eos_bias -1.2: R1 0.5219 RL 0.2650 | length x1.03
+12:32:52    -> eos_bias -1.2
+13:18:06 DONE m1_qlora__cal: val R1 0.5239 R2 0.2695 RL 0.2693 | length x1.10 | 84.7 tok/s | 57.3 min

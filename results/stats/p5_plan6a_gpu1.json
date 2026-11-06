@@ -1,0 +1,38 @@
+[
+ {
+  "name": "m1_partial1024_hier_s1",
+  "base": "m1_partial4_first1024",
+  "seed": 1,
+  "type": "hier",
+  "chunk": 1024,
+  "max_chunks": 24,
+  "epochs": 10
+ },
+ {
+  "name": "m1_partial1024_hier_s2",
+  "base": "m1_partial4_first1024",
+  "seed": 2,
+  "type": "hier",
+  "chunk": 1024,
+  "max_chunks": 24,
+  "epochs": 10
+ },
+ {
+  "name": "nokd_student_m1x6_first1024",
+  "ckpt": "m1",
+  "method": "full",
+  "mode": "first",
+  "k": 1024,
+  "epochs": 1,
+  "lr": 5e-05,
+  "bs": 8,
+  "student_layers": [
+   0,
+   2,
+   4,
+   6,
+   8,
+   10
+  ]
+ }
+]

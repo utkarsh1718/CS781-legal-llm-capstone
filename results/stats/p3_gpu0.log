@@ -1,0 +1,27 @@
+19:30:08 data ready: [80, 10, 10] docs | plan: ['m1_rslora', 'm1_lorma_plus', 'm1_full', 'm1_lora_doc_pos', 'kd_student_m1x6']
+19:30:44    m1_rslora: train log-probs in 32.3s
+19:30:48    m1_rslora: dev log-probs in 4.2s
+19:30:53    m1_rslora: test log-probs in 4.5s
+19:30:54 LP m1_rslora: dev macro re-check 0.5550 (should equal its λ0 score)
+19:31:30    m1_lorma_plus: train log-probs in 33.2s
+19:31:34    m1_lorma_plus: dev log-probs in 4.1s
+19:31:39    m1_lorma_plus: test log-probs in 4.3s
+19:31:39 LP m1_lorma_plus: dev macro re-check 0.5503 (should equal its λ0 score)
+19:32:12    m1_full: train log-probs in 31.0s
+19:32:16    m1_full: dev log-probs in 4.0s
+19:32:21    m1_full: test log-probs in 4.2s
+19:32:21 LP m1_full: dev macro re-check 0.5468 (should equal its λ0 score)
+19:32:56    m1_lora_doc_pos: train log-probs in 33.1s
+19:33:00    m1_lora_doc_pos: dev log-probs in 4.2s
+19:33:05    m1_lora_doc_pos: test log-probs in 4.5s
+19:33:05 LP m1_lora_doc_pos: dev macro re-check 0.5444 (should equal its λ0 score)
+19:33:07 === kd_student_m1x6: m1 | full | ctx=doc W=512 pos=True bidir=True lr=5e-05 ===
+19:33:08 trainable 62.353M | 3129 windows | 2352 steps | KD T=2.0 lam=0.5
+19:34:12 epoch 1: loss 1.7381 | dev macro-F1 all 0.4609 (CL 0.3676 IT 0.5320) acc 0.549 | 64s
+19:35:15 epoch 2: loss 0.4030 | dev macro-F1 all 0.5456 (CL 0.4552 IT 0.5885) acc 0.562 | 63s
+19:36:19 epoch 3: loss 0.2108 | dev macro-F1 all 0.5076 (CL 0.4222 IT 0.5540) acc 0.561 | 63s
+19:37:22 epoch 4: loss 0.1430 | dev macro-F1 all 0.5347 (CL 0.4475 IT 0.5744) acc 0.580 | 64s
+19:38:26 epoch 5: loss 0.1076 | dev macro-F1 all 0.5337 (CL 0.4508 IT 0.5674) acc 0.579 | 63s
+19:39:29 epoch 6: loss 0.0870 | dev macro-F1 all 0.5314 (CL 0.4425 IT 0.5759) acc 0.578 | 64s
+19:39:34 DONE kd_student_m1x6: dev macro λ0 0.5456 (CL 0.4552 IT 0.5885) | λ0.5 0.5300 | 6.5 min
+19:39:34 PLAN DONE

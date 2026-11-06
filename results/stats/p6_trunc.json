@@ -1,0 +1,21 @@
+[
+ {
+  "name": "m3_trunc",
+  "ckpt": "m3",
+  "method": "full",
+  "lr": 0.0001,
+  "mode": "trunc",
+  "epochs": 2
+ },
+ {
+  "type": "cal",
+  "name": "m3_trunc",
+  "biases": [
+   -0.5,
+   -0.75,
+   -1.0,
+   -1.25
+  ],
+  "n_docs": 20
+ }
+]

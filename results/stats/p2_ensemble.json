@@ -1,0 +1,290 @@
+{
+ "single s0 | none": {
+  "macro": 0.6007454545454546,
+  "micro": 0.6786975284425265,
+  "per_label": {
+   "APP": 0.3243,
+   "RESP": 0.1887,
+   "A.COUNSEL": 0.5455,
+   "R.COUNSEL": 0.7143,
+   "JUDGE": 0.7429,
+   "WIT": 0.0,
+   "AUTH": 0.3235,
+   "COURT": 0.7604,
+   "STAT": 0.8173,
+   "PREC": 0.4241,
+   "DATE": 0.9497,
+   "CASENO": 0.8175
+  }
+ },
+ "single s0 | R1 party": {
+  "macro": 0.6047727272727272,
+  "micro": 0.6810513927030208,
+  "per_label": {
+   "APP": 0.3793,
+   "RESP": 0.1731,
+   "A.COUNSEL": 0.5455,
+   "R.COUNSEL": 0.7143,
+   "JUDGE": 0.7429,
+   "WIT": 0.0,
+   "AUTH": 0.3284,
+   "COURT": 0.7604,
+   "STAT": 0.8173,
+   "PREC": 0.4241,
+   "DATE": 0.9497,
+   "CASENO": 0.8175
+  }
+ },
+ "single s0 | R1+R2 party": {
+  "macro": 0.6014090909090909,
+  "micro": 0.6604268064395358,
+  "per_label": {
+   "APP": 0.29,
+   "RESP": 0.2254,
+   "A.COUNSEL": 0.5455,
+   "R.COUNSEL": 0.7143,
+   "JUDGE": 0.7429,
+   "WIT": 0.0,
+   "AUTH": 0.3284,
+   "COURT": 0.7604,
+   "STAT": 0.8173,
+   "PREC": 0.4241,
+   "DATE": 0.9497,
+   "CASENO": 0.8175
+  }
+ },
+ "single s0 | R1+R2 person": {
+  "macro": 0.5971090909090909,
+  "micro": 0.6594392523364486,
+  "per_label": {
+   "APP": 0.29,
+   "RESP": 0.2254,
+   "A.COUNSEL": 0.5333,
+   "R.COUNSEL": 0.6897,
+   "JUDGE": 0.7324,
+   "WIT": 0.0,
+   "AUTH": 0.3284,
+   "COURT": 0.7604,
+   "STAT": 0.8173,
+   "PREC": 0.4241,
+   "DATE": 0.9497,
+   "CASENO": 0.8175
+  }
+ },
+ "3-seed | none": {
+  "macro": 0.6202000000000001,
+  "micro": 0.6942846183352512,
+  "per_label": {
+   "APP": 0.3188,
+   "RESP": 0.2095,
+   "A.COUNSEL": 0.64,
+   "R.COUNSEL": 0.7143,
+   "JUDGE": 0.7467,
+   "WIT": 0.0,
+   "AUTH": 0.3483,
+   "COURT": 0.8052,
+   "STAT": 0.8404,
+   "PREC": 0.429,
+   "DATE": 0.9497,
+   "CASENO": 0.8203
+  }
+ },
+ "3-seed | R1 party": {
+  "macro": 0.6064454545454545,
+  "micro": 0.6866129650939777,
+  "per_label": {
+   "APP": 0.197,
+   "RESP": 0.1835,
+   "A.COUNSEL": 0.64,
+   "R.COUNSEL": 0.7143,
+   "JUDGE": 0.7467,
+   "WIT": 0.0,
+   "AUTH": 0.3448,
+   "COURT": 0.8052,
+   "STAT": 0.8404,
+   "PREC": 0.429,
+   "DATE": 0.9497,
+   "CASENO": 0.8203
+  }
+ },
+ "3-seed | R1+R2 party": {
+  "macro": 0.6131818181818182,
+  "micro": 0.6701107011070111,
+  "per_label": {
+   "APP": 0.1689,
+   "RESP": 0.2857,
+   "A.COUNSEL": 0.64,
+   "R.COUNSEL": 0.7143,
+   "JUDGE": 0.7467,
+   "WIT": 0.0,
+   "AUTH": 0.3448,
+   "COURT": 0.8052,
+   "STAT": 0.8404,
+   "PREC": 0.429,
+   "DATE": 0.9497,
+   "CASENO": 0.8203
+  }
+ },
+ "3-seed | R1+R2 person": {
+  "macro": 0.6072545454545455,
+  "micro": 0.6686303387334315,
+  "per_label": {
+   "APP": 0.1681,
+   "RESP": 0.2881,
+   "A.COUNSEL": 0.5926,
+   "R.COUNSEL": 0.7143,
+   "JUDGE": 0.7273,
+   "WIT": 0.0,
+   "AUTH": 0.3448,
+   "COURT": 0.8052,
+   "STAT": 0.8404,
+   "PREC": 0.429,
+   "DATE": 0.9497,
+   "CASENO": 0.8203
+  }
+ },
+ "3-seed + lora | none": {
+  "macro": 0.6350272727272728,
+  "micro": 0.7065134099616858,
+  "per_label": {
+   "APP": 0.3206,
+   "RESP": 0.1961,
+   "A.COUNSEL": 0.6538,
+   "R.COUNSEL": 0.7407,
+   "JUDGE": 0.8378,
+   "WIT": 0.0,
+   "AUTH": 0.3431,
+   "COURT": 0.8086,
+   "STAT": 0.8613,
+   "PREC": 0.4431,
+   "DATE": 0.9521,
+   "CASENO": 0.8281
+  }
+ },
+ "3-seed + lora | R1 party": {
+  "macro": 0.6206363636363637,
+  "micro": 0.6988505747126437,
+  "per_label": {
+   "APP": 0.1935,
+   "RESP": 0.1682,
+   "A.COUNSEL": 0.6538,
+   "R.COUNSEL": 0.7407,
+   "JUDGE": 0.8378,
+   "WIT": 0.0,
+   "AUTH": 0.3398,
+   "COURT": 0.8086,
+   "STAT": 0.8613,
+   "PREC": 0.4431,
+   "DATE": 0.9521,
+   "CASENO": 0.8281
+  }
+ },
+ "3-seed + lora | R1+R2 party": {
+  "macro": 0.6296545454545455,
+  "micro": 0.6828729281767956,
+  "per_label": {
+   "APP": 0.1802,
+   "RESP": 0.2807,
+   "A.COUNSEL": 0.6538,
+   "R.COUNSEL": 0.7407,
+   "JUDGE": 0.8378,
+   "WIT": 0.0,
+   "AUTH": 0.3398,
+   "COURT": 0.8086,
+   "STAT": 0.8613,
+   "PREC": 0.4431,
+   "DATE": 0.9521,
+   "CASENO": 0.8281
+  }
+ },
+ "3-seed + lora | R1+R2 person": {
+  "macro": 0.6340727272727272,
+  "micro": 0.6828371922087467,
+  "per_label": {
+   "APP": 0.1786,
+   "RESP": 0.2807,
+   "A.COUNSEL": 0.6667,
+   "R.COUNSEL": 0.8,
+   "JUDGE": 0.8158,
+   "WIT": 0.0,
+   "AUTH": 0.3398,
+   "COURT": 0.8086,
+   "STAT": 0.8613,
+   "PREC": 0.4431,
+   "DATE": 0.9521,
+   "CASENO": 0.8281
+  }
+ },
+ "3-seed + others | none": {
+  "macro": 0.6061727272727272,
+  "micro": 0.6951658010387535,
+  "per_label": {
+   "APP": 0.3077,
+   "RESP": 0.1667,
+   "A.COUNSEL": 0.6383,
+   "R.COUNSEL": 0.6,
+   "JUDGE": 0.7826,
+   "WIT": 0.0,
+   "AUTH": 0.3243,
+   "COURT": 0.7716,
+   "STAT": 0.8355,
+   "PREC": 0.4411,
+   "DATE": 0.9521,
+   "CASENO": 0.848
+  }
+ },
+ "3-seed + others | R1 party": {
+  "macro": 0.6119545454545453,
+  "micro": 0.6983619656412307,
+  "per_label": {
+   "APP": 0.3636,
+   "RESP": 0.1778,
+   "A.COUNSEL": 0.6383,
+   "R.COUNSEL": 0.6,
+   "JUDGE": 0.7826,
+   "WIT": 0.0,
+   "AUTH": 0.3209,
+   "COURT": 0.7716,
+   "STAT": 0.8355,
+   "PREC": 0.4411,
+   "DATE": 0.9521,
+   "CASENO": 0.848
+  }
+ },
+ "3-seed + others | R1+R2 party": {
+  "macro": 0.6193090909090908,
+  "micro": 0.6882716049382716,
+  "per_label": {
+   "APP": 0.3366,
+   "RESP": 0.2857,
+   "A.COUNSEL": 0.6383,
+   "R.COUNSEL": 0.6,
+   "JUDGE": 0.7826,
+   "WIT": 0.0,
+   "AUTH": 0.3209,
+   "COURT": 0.7716,
+   "STAT": 0.8355,
+   "PREC": 0.4411,
+   "DATE": 0.9521,
+   "CASENO": 0.848
+  }
+ },
+ "3-seed + others | R1+R2 person": {
+  "macro": 0.6174636363636363,
+  "micro": 0.6840291076216009,
+  "per_label": {
+   "APP": 0.3366,
+   "RESP": 0.2857,
+   "A.COUNSEL": 0.64,
+   "R.COUNSEL": 0.6,
+   "JUDGE": 0.7606,
+   "WIT": 0.0,
+   "AUTH": 0.3209,
+   "COURT": 0.7716,
+   "STAT": 0.8355,
+   "PREC": 0.4411,
+   "DATE": 0.9521,
+   "CASENO": 0.848
+  }
+ }
+}

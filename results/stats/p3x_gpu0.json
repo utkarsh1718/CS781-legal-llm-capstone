@@ -1,0 +1,40 @@
+[
+ {
+  "type": "hier",
+  "name": "h_rslora",
+  "bases": [
+   "m1_rslora"
+  ]
+ },
+ {
+  "type": "hier",
+  "name": "h_cat3",
+  "bases": [
+   "m1_rslora",
+   "m1_full",
+   "m1_lorma_plus"
+  ]
+ },
+ {
+  "type": "td",
+  "name": "m1_rslora"
+ },
+ {
+  "type": "td",
+  "name": "m1_full"
+ },
+ {
+  "type": "td",
+  "name": "m1_lorma_plus"
+ },
+ {
+  "type": "hier_td",
+  "name": "h_cat3_td",
+  "ref": "h_cat3"
+ },
+ {
+  "type": "hier_td",
+  "name": "h_rslora_td",
+  "ref": "h_rslora"
+ }
+]

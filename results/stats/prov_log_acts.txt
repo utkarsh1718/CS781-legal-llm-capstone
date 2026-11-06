@@ -1,0 +1,6 @@
+acts: 4,299 docs | 23 hit docs | 0.6 min
+acts: 7,038 docs | 54 hit docs | 1.1 min
+acts: 10,602 docs | 83 hit docs | 1.6 min
+acts: 14,931 docs | 99 hit docs | 2.2 min
+acts: 18,784 docs | 124 hit docs | 2.7 min
+DONE acts: 18,826 docs, 124 hit docs in 2.7 min

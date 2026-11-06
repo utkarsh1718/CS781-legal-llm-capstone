@@ -1,0 +1,270 @@
+{
+ "stageA_zero_shot": {
+  "macro": 0.2978,
+  "micro": 0.4507,
+  "per_label": {
+   "APP": 0.2182,
+   "RESP": 0.1386,
+   "A.COUNSEL": 0.0,
+   "R.COUNSEL": 0.0,
+   "JUDGE": 0.4144,
+   "WIT": 0.0,
+   "AUTH": 0.0,
+   "COURT": 0.5368,
+   "STAT": 0.4861,
+   "PREC": 0.2308,
+   "DATE": 0.8314,
+   "CASENO": 0.419
+  },
+  "min": 3.9
+ },
+ "m1_lora_cw_ext": {
+  "macro": 0.508,
+  "micro": 0.5861,
+  "per_label": {
+   "APP": 0.2373,
+   "RESP": 0.1636,
+   "A.COUNSEL": 0.6,
+   "R.COUNSEL": 0.5517,
+   "JUDGE": 0.5366,
+   "WIT": 0.0,
+   "AUTH": 0.2095,
+   "COURT": 0.7875,
+   "STAT": 0.7603,
+   "PREC": 0.2857,
+   "DATE": 0.9144,
+   "CASENO": 0.5414
+  },
+  "min": 6.5
+ },
+ "m1_lora_cw_ctrl": {
+  "macro": 0.4945,
+  "micro": 0.5872,
+  "per_label": {
+   "APP": 0.2205,
+   "RESP": 0.1803,
+   "A.COUNSEL": 0.4186,
+   "R.COUNSEL": 0.5455,
+   "JUDGE": 0.5352,
+   "WIT": 0.0,
+   "AUTH": 0.2194,
+   "COURT": 0.7921,
+   "STAT": 0.7793,
+   "PREC": 0.2834,
+   "DATE": 0.9235,
+   "CASENO": 0.5418
+  },
+  "min": 6.5
+ },
+ "m1_lora_cw_ext_s1": {
+  "macro": 0.5256,
+  "micro": 0.5998,
+  "per_label": {
+   "APP": 0.2817,
+   "RESP": 0.1719,
+   "A.COUNSEL": 0.5333,
+   "R.COUNSEL": 0.5143,
+   "JUDGE": 0.6494,
+   "WIT": 0.0,
+   "AUTH": 0.2136,
+   "COURT": 0.7952,
+   "STAT": 0.7966,
+   "PREC": 0.288,
+   "DATE": 0.9208,
+   "CASENO": 0.6164
+  },
+  "min": 6.5
+ },
+ "m1_lora_cw_ctrl_s1": {
+  "macro": 0.4479,
+  "micro": 0.5479,
+  "per_label": {
+   "APP": 0.2537,
+   "RESP": 0.1121,
+   "A.COUNSEL": 0.3,
+   "R.COUNSEL": 0.4865,
+   "JUDGE": 0.507,
+   "WIT": 0.0,
+   "AUTH": 0.2159,
+   "COURT": 0.7695,
+   "STAT": 0.755,
+   "PREC": 0.3109,
+   "DATE": 0.8683,
+   "CASENO": 0.3475
+  },
+  "min": 6.5
+ },
+ "m1_lora_cw_ext_s2": {
+  "macro": 0.5138,
+  "micro": 0.6016,
+  "per_label": {
+   "APP": 0.2769,
+   "RESP": 0.1308,
+   "A.COUNSEL": 0.4783,
+   "R.COUNSEL": 0.4848,
+   "JUDGE": 0.6316,
+   "WIT": 0.0,
+   "AUTH": 0.2032,
+   "COURT": 0.7719,
+   "STAT": 0.7987,
+   "PREC": 0.3069,
+   "DATE": 0.9235,
+   "CASENO": 0.6454
+  },
+  "min": 6.5
+ },
+ "m1_lora_cw_ctrl_s2": {
+  "macro": 0.4905,
+  "micro": 0.5927,
+  "per_label": {
+   "APP": 0.2903,
+   "RESP": 0.0952,
+   "A.COUNSEL": 0.4091,
+   "R.COUNSEL": 0.5625,
+   "JUDGE": 0.4058,
+   "WIT": 0.0,
+   "AUTH": 0.2303,
+   "COURT": 0.8016,
+   "STAT": 0.7703,
+   "PREC": 0.2707,
+   "DATE": 0.9042,
+   "CASENO": 0.6552
+  },
+  "min": 6.5
+ },
+ "full_bidir_stageA": {
+  "macro": 0.3787,
+  "micro": 0.5661,
+  "per_label": {
+   "APP": 0.2571,
+   "RESP": 0.1702,
+   "A.COUNSEL": 0.0,
+   "R.COUNSEL": 0.0,
+   "JUDGE": 0.6076,
+   "WIT": 0.0,
+   "AUTH": 0.0,
+   "COURT": 0.466,
+   "STAT": 0.7939,
+   "PREC": 0.2517,
+   "DATE": 0.9254,
+   "CASENO": 0.6933
+  },
+  "min": 5.3
+ },
+ "m1_full_bidir_ext": {
+  "macro": 0.6007,
+  "micro": 0.6787,
+  "per_label": {
+   "APP": 0.3243,
+   "RESP": 0.1887,
+   "A.COUNSEL": 0.5455,
+   "R.COUNSEL": 0.7143,
+   "JUDGE": 0.7429,
+   "WIT": 0.0,
+   "AUTH": 0.3235,
+   "COURT": 0.7604,
+   "STAT": 0.8173,
+   "PREC": 0.4241,
+   "DATE": 0.9497,
+   "CASENO": 0.8175
+  },
+  "min": 8.5
+ },
+ "m1_full_bidir_ctrl": {
+  "macro": 0.5051,
+  "micro": 0.6078,
+  "per_label": {
+   "APP": 0.1584,
+   "RESP": 0.1509,
+   "A.COUNSEL": 0.4898,
+   "R.COUNSEL": 0.5455,
+   "JUDGE": 0.7273,
+   "WIT": 0.0,
+   "AUTH": 0.2315,
+   "COURT": 0.7526,
+   "STAT": 0.8177,
+   "PREC": 0.3718,
+   "DATE": 0.9474,
+   "CASENO": 0.3636
+  },
+  "min": 8.4
+ },
+ "m1_full_bidir_ext_s1": {
+  "macro": 0.6253,
+  "micro": 0.6921,
+  "per_label": {
+   "APP": 0.2275,
+   "RESP": 0.2574,
+   "A.COUNSEL": 0.6545,
+   "R.COUNSEL": 0.7692,
+   "JUDGE": 0.7606,
+   "WIT": 0.0,
+   "AUTH": 0.3,
+   "COURT": 0.8474,
+   "STAT": 0.8597,
+   "PREC": 0.4419,
+   "DATE": 0.9497,
+   "CASENO": 0.8106
+  },
+  "min": 8.4
+ },
+ "m1_full_bidir_ext_s2": {
+  "macro": 0.5836,
+  "micro": 0.6634,
+  "per_label": {
+   "APP": 0.2754,
+   "RESP": 0.1887,
+   "A.COUNSEL": 0.5556,
+   "R.COUNSEL": 0.6452,
+   "JUDGE": 0.7209,
+   "WIT": 0.0,
+   "AUTH": 0.3462,
+   "COURT": 0.7675,
+   "STAT": 0.822,
+   "PREC": 0.4261,
+   "DATE": 0.9497,
+   "CASENO": 0.7222
+  },
+  "min": 8.4
+ },
+ "m1_normgain_cw": {
+  "macro": 0.4054,
+  "micro": 0.5275,
+  "per_label": {
+   "APP": 0.2481,
+   "RESP": 0.0945,
+   "A.COUNSEL": 0.15,
+   "R.COUNSEL": 0.381,
+   "JUDGE": 0.4557,
+   "WIT": 0.0,
+   "AUTH": 0.1976,
+   "COURT": 0.8024,
+   "STAT": 0.7395,
+   "PREC": 0.2322,
+   "DATE": 0.9024,
+   "CASENO": 0.2564
+  },
+  "min": 6.2,
+  "trainable_M": 0.04
+ },
+ "m1_prompt_cw": {
+  "macro": 0.439,
+  "micro": 0.5357,
+  "per_label": {
+   "APP": 0.2119,
+   "RESP": 0.1091,
+   "A.COUNSEL": 0.4706,
+   "R.COUNSEL": 0.4242,
+   "JUDGE": 0.4096,
+   "WIT": 0.0,
+   "AUTH": 0.2571,
+   "COURT": 0.7662,
+   "STAT": 0.6924,
+   "PREC": 0.2466,
+   "DATE": 0.8942,
+   "CASENO": 0.3475
+  },
+  "min": 6.4,
+  "trainable_M": 0.035
+ }
+}

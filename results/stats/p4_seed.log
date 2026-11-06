@@ -1,0 +1,68 @@
+09:23:06 data: train 31677 | clean dev 1988 | test 1517
+09:23:07    loaded chunk embeddings of m1_full_last512
+09:23:09 === m1_full512_hier_s1: hierarchical BiGRU+attention over chunks of m1_full_last512 | 1.58M params
+09:23:31    epoch 1: loss 0.4451 | dev macro-F1 0.7667 @0.5 | 0.7842 @t=0.43
+09:23:57    epoch 2: loss 0.4150 | dev macro-F1 0.7832 @0.5 | 0.7911 @t=0.45
+09:24:22    epoch 3: loss 0.3975 | dev macro-F1 0.7595 @0.5 | 0.7902 @t=0.35
+09:24:46    epoch 4: loss 0.3725 | dev macro-F1 0.7709 @0.5 | 0.7882 @t=0.38
+09:25:11    epoch 5: loss 0.3373 | dev macro-F1 0.7906 @0.5 | 0.7945 @t=0.32
+09:25:36    epoch 6: loss 0.2861 | dev macro-F1 0.7757 @0.5 | 0.7943 @t=0.18
+09:26:00    epoch 7: loss 0.2405 | dev macro-F1 0.7796 @0.5 | 0.7943 @t=0.17
+09:26:26    epoch 8: loss 0.2159 | dev macro-F1 0.7818 @0.5 | 0.7937 @t=0.14
+09:26:28 DONE m1_full512_hier_s1: dev macro-F1 0.7906 @0.5 | 0.7945 @t=0.32 | attention by decile [0.0581, 0.0238, 0.0462, 0.049, 0.0424, 0.0861, 0.1368, 0.1367, 0.2767, 0.1442] | 3.4 min
+09:26:29    loaded chunk embeddings of m1_full_last512
+09:26:29 === m1_full512_hier_s2: hierarchical BiGRU+attention over chunks of m1_full_last512 | 1.58M params
+09:26:53    epoch 1: loss 0.4431 | dev macro-F1 0.7433 @0.5 | 0.7864 @t=0.27
+09:27:18    epoch 2: loss 0.4132 | dev macro-F1 0.7467 @0.5 | 0.7963 @t=0.18
+09:27:42    epoch 3: loss 0.3973 | dev macro-F1 0.7885 @0.5 | 0.7901 @t=0.49
+09:28:05    epoch 4: loss 0.3745 | dev macro-F1 0.7639 @0.5 | 0.7904 @t=0.35
+09:28:29    epoch 5: loss 0.3387 | dev macro-F1 0.7899 @0.5 | 0.7996 @t=0.41
+09:28:53    epoch 6: loss 0.2896 | dev macro-F1 0.7866 @0.5 | 0.7937 @t=0.24
+09:29:17    epoch 7: loss 0.2431 | dev macro-F1 0.7900 @0.5 | 0.7923 @t=0.22
+09:29:41    epoch 8: loss 0.2203 | dev macro-F1 0.7927 @0.5 | 0.7927 @t=0.50
+09:29:43 DONE m1_full512_hier_s2: dev macro-F1 0.7927 @0.5 | 0.7927 @t=0.50 | attention by decile [0.0659, 0.0255, 0.0498, 0.048, 0.039, 0.0812, 0.1231, 0.1357, 0.2822, 0.1495] | 3.3 min
+09:29:45    loaded chunk embeddings of m1_full_last1024
+09:29:45 === m1_full1024_hier_s1: hierarchical BiGRU+attention over chunks of m1_full_last1024 | 1.58M params
+09:30:04    epoch 1: loss 0.3420 | dev macro-F1 0.8025 @0.5 | 0.8037 @t=0.47
+09:30:23    epoch 2: loss 0.3162 | dev macro-F1 0.7947 @0.5 | 0.7978 @t=0.47
+09:30:41    epoch 3: loss 0.2966 | dev macro-F1 0.7998 @0.5 | 0.8078 @t=0.29
+09:30:59    epoch 4: loss 0.2750 | dev macro-F1 0.7853 @0.5 | 0.8046 @t=0.28
+09:31:18    epoch 5: loss 0.2377 | dev macro-F1 0.7958 @0.5 | 0.7992 @t=0.53
+09:31:36    epoch 6: loss 0.1878 | dev macro-F1 0.7870 @0.5 | 0.8017 @t=0.25
+09:31:55    epoch 7: loss 0.1522 | dev macro-F1 0.7894 @0.5 | 0.8015 @t=0.33
+09:32:14    epoch 8: loss 0.1310 | dev macro-F1 0.7910 @0.5 | 0.8021 @t=0.30
+09:32:16 DONE m1_full1024_hier_s1: dev macro-F1 0.8025 @0.5 | 0.8037 @t=0.47 | attention by decile [0.0351, 0.0069, 0.0258, 0.0901, 0.0163, 0.0704, 0.2537, 0.1912, 0.2585, 0.0519] | 2.5 min
+09:32:16    loaded chunk embeddings of m1_full_last1024
+09:32:16 === m1_full1024_hier_s2: hierarchical BiGRU+attention over chunks of m1_full_last1024 | 1.58M params
+09:32:35    epoch 1: loss 0.3411 | dev macro-F1 0.7831 @0.5 | 0.7997 @t=0.30
+09:32:54    epoch 2: loss 0.3142 | dev macro-F1 0.7796 @0.5 | 0.7988 @t=0.18
+09:33:14    epoch 3: loss 0.2977 | dev macro-F1 0.7866 @0.5 | 0.7928 @t=0.32
+09:33:33    epoch 4: loss 0.2729 | dev macro-F1 0.7848 @0.5 | 0.7911 @t=0.34
+09:33:51    epoch 5: loss 0.2365 | dev macro-F1 0.7778 @0.5 | 0.7927 @t=0.20
+09:34:11    epoch 6: loss 0.1915 | dev macro-F1 0.7889 @0.5 | 0.7970 @t=0.26
+09:34:31    epoch 7: loss 0.1510 | dev macro-F1 0.7919 @0.5 | 0.7958 @t=0.46
+09:34:51    epoch 8: loss 0.1344 | dev macro-F1 0.7850 @0.5 | 0.7954 @t=0.30
+09:34:53 DONE m1_full1024_hier_s2: dev macro-F1 0.7919 @0.5 | 0.7958 @t=0.46 | attention by decile [0.0416, 0.0079, 0.0317, 0.1049, 0.0176, 0.084, 0.2461, 0.1801, 0.2352, 0.0509] | 2.6 min
+09:34:54    loaded chunk embeddings of m1_partial4_last512
+09:34:54 === m1_partial512_hier_s1: hierarchical BiGRU+attention over chunks of m1_partial4_last512 | 1.58M params
+09:35:19    epoch 1: loss 0.5005 | dev macro-F1 0.7569 @0.5 | 0.7588 @t=0.33
+09:35:44    epoch 2: loss 0.4780 | dev macro-F1 0.7660 @0.5 | 0.7675 @t=0.55
+09:36:09    epoch 3: loss 0.4623 | dev macro-F1 0.7565 @0.5 | 0.7685 @t=0.37
+09:36:34    epoch 4: loss 0.4396 | dev macro-F1 0.7563 @0.5 | 0.7777 @t=0.37
+09:36:59    epoch 5: loss 0.4037 | dev macro-F1 0.7738 @0.5 | 0.7801 @t=0.46
+09:37:25    epoch 6: loss 0.3509 | dev macro-F1 0.7675 @0.5 | 0.7815 @t=0.41
+09:37:49    epoch 7: loss 0.2978 | dev macro-F1 0.7465 @0.5 | 0.7731 @t=0.19
+09:38:12    epoch 8: loss 0.2710 | dev macro-F1 0.7544 @0.5 | 0.7750 @t=0.20
+09:38:14 DONE m1_partial512_hier_s1: dev macro-F1 0.7738 @0.5 | 0.7801 @t=0.46 | attention by decile [0.0822, 0.0233, 0.048, 0.0501, 0.0485, 0.0895, 0.1328, 0.1362, 0.2532, 0.1361] | 3.4 min
+09:38:15    loaded chunk embeddings of m1_partial4_last512
+09:38:15 === m1_partial512_hier_s2: hierarchical BiGRU+attention over chunks of m1_partial4_last512 | 1.58M params
+09:38:39    epoch 1: loss 0.5014 | dev macro-F1 0.7311 @0.5 | 0.7670 @t=0.39
+09:39:05    epoch 2: loss 0.4777 | dev macro-F1 0.7411 @0.5 | 0.7841 @t=0.29
+09:39:29    epoch 3: loss 0.4613 | dev macro-F1 0.7657 @0.5 | 0.7785 @t=0.39
+09:39:53    epoch 4: loss 0.4402 | dev macro-F1 0.7621 @0.5 | 0.7755 @t=0.33
+09:40:18    epoch 5: loss 0.4048 | dev macro-F1 0.7725 @0.5 | 0.7731 @t=0.43
+09:40:42    epoch 6: loss 0.3485 | dev macro-F1 0.7476 @0.5 | 0.7711 @t=0.33
+09:41:06    epoch 7: loss 0.2961 | dev macro-F1 0.7448 @0.5 | 0.7736 @t=0.35
+09:41:29    epoch 8: loss 0.2695 | dev macro-F1 0.7443 @0.5 | 0.7696 @t=0.33
+09:41:31 DONE m1_partial512_hier_s2: dev macro-F1 0.7725 @0.5 | 0.7731 @t=0.43 | attention by decile [0.1044, 0.0343, 0.0605, 0.0568, 0.0553, 0.0871, 0.1267, 0.127, 0.23, 0.1179] | 3.3 min
+09:41:32 PLAN DONE

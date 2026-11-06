@@ -1,0 +1,10 @@
+[
+  {
+    "type": "cal",
+    "name": "kd_m1x6",
+    "biases": [
+      -1.0
+    ],
+    "n_docs": 20
+  }
+]

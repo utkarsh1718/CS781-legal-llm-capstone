@@ -1,0 +1,14 @@
+{
+ "lexical": "alnum+bigrams",
+ "prior_w": 0,
+ "cite_w": 0,
+ "dense_models": [
+  "p7_lorma_plus"
+ ],
+ "alpha": 0.15,
+ "dev": {
+  "F1": 0.4424680377982805,
+  "P": 0.48184019370460046,
+  "R": 0.4090441932168551
+ }
+}

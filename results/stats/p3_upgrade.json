@@ -1,0 +1,207 @@
+{
+ "systems": {
+  "ens_top7": {
+   "members": [
+    "m1_rslora",
+    "m1_lorma_plus",
+    "m1_full",
+    "m1_lora_doc_pos",
+    "kd_student_m1x6",
+    "m2_lorma_plus",
+    "m4_lora"
+   ],
+   "lambda": 0.0,
+   "dev": 0.5833
+  },
+  "ens_top7_seeds": {
+   "members": [
+    "m1_rslora",
+    "m1_lorma_plus",
+    "m1_full",
+    "m1_lora_doc_pos",
+    "kd_student_m1x6",
+    "m2_lorma_plus",
+    "m4_lora",
+    "m1_full_s1",
+    "m1_lorma_plus_s1",
+    "m1_rslora_s1"
+   ],
+   "lambda": 0.0,
+   "dev": 0.5748
+  },
+  "ens_top7_hier": {
+   "members": [
+    "m1_rslora",
+    "m1_lorma_plus",
+    "m1_full",
+    "m1_lora_doc_pos",
+    "kd_student_m1x6",
+    "m2_lorma_plus",
+    "m4_lora",
+    "h_cat3",
+    "h_rslora"
+   ],
+   "lambda": 0.0,
+   "dev": 0.5836
+  },
+  "ens_all": {
+   "members": [
+    "m1_rslora",
+    "m1_lorma_plus",
+    "m1_full",
+    "m1_lora_doc_pos",
+    "kd_student_m1x6",
+    "m2_lorma_plus",
+    "m4_lora",
+    "m1_full_s1",
+    "m1_lorma_plus_s1",
+    "m1_rslora_s1",
+    "h_cat3",
+    "h_rslora"
+   ],
+   "lambda": 0.0,
+   "dev": 0.5758
+  },
+  "ens_hier": {
+   "members": [
+    "h_cat3",
+    "h_rslora"
+   ],
+   "lambda": 0.0,
+   "dev": 0.5812
+  },
+  "h_cat3": {
+   "members": [
+    "h_cat3"
+   ],
+   "lambda": 0.0,
+   "dev": 0.5544
+  },
+  "h_rslora": {
+   "members": [
+    "h_rslora"
+   ],
+   "lambda": 0.5,
+   "dev": 0.6019
+  },
+  "m1_full_s1": {
+   "members": [
+    "m1_full_s1"
+   ],
+   "lambda": 0.0,
+   "dev": 0.5416
+  },
+  "m1_lorma_plus_s1": {
+   "members": [
+    "m1_lorma_plus_s1"
+   ],
+   "lambda": 0.5,
+   "dev": 0.5373
+  },
+  "m1_rslora_s1": {
+   "members": [
+    "m1_rslora_s1"
+   ],
+   "lambda": 0.0,
+   "dev": 0.5379
+  }
+ },
+ "zips": [
+  [
+   "h_rslora",
+   0.6019,
+   "train only",
+   2197
+  ],
+  [
+   "ens_top7_hier",
+   0.5836,
+   "train only",
+   2197
+  ],
+  [
+   "ens_hier",
+   0.5812,
+   "train only",
+   2197
+  ],
+  [
+   "ens_all",
+   0.5758,
+   "train only",
+   2197
+  ],
+  [
+   "ens_top7_seeds",
+   0.5748,
+   "train only",
+   2197
+  ],
+  [
+   "h_cat3",
+   0.5544,
+   "train only",
+   2197
+  ],
+  [
+   "m1_full_s1",
+   0.5416,
+   "train only",
+   2197
+  ],
+  [
+   "m1_rslora_s1",
+   0.5379,
+   "train only",
+   2197
+  ],
+  [
+   "m1_lorma_plus_s1",
+   0.5373,
+   "train only",
+   2197
+  ],
+  [
+   "h_rslora_td",
+   0.6019,
+   "train+dev (1/1 members)",
+   2197
+  ],
+  [
+   "ens_top7_hier_td",
+   0.5836,
+   "train+dev (8/9 members)",
+   2197
+  ],
+  [
+   "ens_top7_td",
+   0.5833,
+   "train+dev (6/7 members)",
+   2197
+  ],
+  [
+   "ens_hier_td",
+   0.5812,
+   "train+dev (2/2 members)",
+   2197
+  ],
+  [
+   "ens_all_td",
+   0.5758,
+   "train+dev (8/12 members)",
+   2197
+  ],
+  [
+   "ens_top7_seeds_td",
+   0.5748,
+   "train+dev (6/10 members)",
+   2197
+  ],
+  [
+   "h_cat3_td",
+   0.5544,
+   "train+dev (1/1 members)",
+   2197
+  ]
+ ]
+}

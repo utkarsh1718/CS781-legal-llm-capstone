@@ -1,0 +1,381 @@
+05:57:30 data: train 42102 | clean dev 10085 | test 13019
+05:57:33 === m1_lora_first512: m1 | lora | first-512 | epochs 1 lr 0.0005
+05:57:33 !!! m1_lora_first512 FAILED
+Traceback (most recent call last):
+  File "/kaggle/working/src/p5_run.py", line 212, in <module>
+    run(name, **job)
+  File "/kaggle/working/src/p5_run.py", line 84, in run
+    hist, best = ls.train(model, TR, DV, mode, k, epochs, lr, head_lr=head_lr, bs=bs, device=DEV, seed=seed,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/src/p5_lsi.py", line 125, in train
+    model.to(device)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1381, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 964, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1367, in convert
+    return t.to(
+           ^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py", line 417, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+05:57:36 === m1_lora_headtail512: m1 | lora | headtail-512 | epochs 1 lr 0.0005
+05:57:36 !!! m1_lora_headtail512 FAILED
+Traceback (most recent call last):
+  File "/kaggle/working/src/p5_run.py", line 212, in <module>
+    run(name, **job)
+  File "/kaggle/working/src/p5_run.py", line 84, in run
+    hist, best = ls.train(model, TR, DV, mode, k, epochs, lr, head_lr=head_lr, bs=bs, device=DEV, seed=seed,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/src/p5_lsi.py", line 125, in train
+    model.to(device)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1381, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 964, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1367, in convert
+    return t.to(
+           ^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py", line 417, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+05:57:39 === m1_lora_middle512: m1 | lora | middle-512 | epochs 1 lr 0.0005
+05:57:39 !!! m1_lora_middle512 FAILED
+Traceback (most recent call last):
+  File "/kaggle/working/src/p5_run.py", line 212, in <module>
+    run(name, **job)
+  File "/kaggle/working/src/p5_run.py", line 84, in run
+    hist, best = ls.train(model, TR, DV, mode, k, epochs, lr, head_lr=head_lr, bs=bs, device=DEV, seed=seed,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/src/p5_lsi.py", line 125, in train
+    model.to(device)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1381, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 964, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1367, in convert
+    return t.to(
+           ^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py", line 417, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+05:57:39 PLAN DONE
+06:04:32 data: train 42102 | clean dev 10085 | test 13019
+06:04:34 === m1_lora_first512: m1 | lora | first-512 | epochs 1 lr 0.0005
+06:04:38 trainable 0.323M | 42102 cases | 5263 steps | view first-512
+06:06:31    step 500/5263 | loss 0.4034 | 113s
+06:08:25    step 1000/5263 | loss 0.3425 | 227s
+06:10:19    step 1500/5263 | loss 0.3270 | 341s
+06:12:12    step 2000/5263 | loss 0.3133 | 454s
+06:14:06    step 2500/5263 | loss 0.3101 | 568s
+06:16:04    EVAL step 2631: dev macro-F1 0.2906 | micro 0.3899 @t=0.53 | 5.1 labels/case | 686s
+06:17:28    step 3000/5263 | loss 0.3010 | 770s
+06:19:22    step 3500/5263 | loss 0.3015 | 884s
+06:21:15    step 4000/5263 | loss 0.2946 | 997s
+06:23:09    step 4500/5263 | loss 0.2908 | 1110s
+06:25:02    step 5000/5263 | loss 0.2982 | 1224s
+06:27:30    EVAL step 5263: dev macro-F1 0.3100 | micro 0.4185 @t=0.50 | 5.6 labels/case | 1372s
+06:30:46 DONE m1_lora_first512: dev macro-F1 0.3100 @t=0.50 (micro 0.4185) | per-label thr (cross-fit) 0.3207 | 26.2 min
+06:30:49 === m1_lora_headtail512: m1 | lora | headtail-512 | epochs 1 lr 0.0005
+06:30:49 trainable 0.323M | 42102 cases | 5263 steps | view headtail-512
+06:32:42    step 500/5263 | loss 0.4017 | 113s
+06:34:35    step 1000/5263 | loss 0.3399 | 226s
+06:36:28    step 1500/5263 | loss 0.3261 | 339s
+06:38:21    step 2000/5263 | loss 0.3116 | 452s
+06:40:14    step 2500/5263 | loss 0.3116 | 566s
+06:42:11    EVAL step 2631: dev macro-F1 0.2893 | micro 0.3847 @t=0.53 | 5.2 labels/case | 682s
+06:43:35    step 3000/5263 | loss 0.3002 | 766s
+06:45:28    step 3500/5263 | loss 0.3011 | 879s
+06:47:21    step 4000/5263 | loss 0.2938 | 992s
+06:49:14    step 4500/5263 | loss 0.2913 | 1105s
+06:51:07    step 5000/5263 | loss 0.2960 | 1218s
+06:53:34    EVAL step 5263: dev macro-F1 0.3114 | micro 0.4170 @t=0.53 | 5.0 labels/case | 1366s
+06:56:49 DONE m1_lora_headtail512: dev macro-F1 0.3114 @t=0.53 (micro 0.4170) | per-label thr (cross-fit) 0.3225 | 26.0 min
+06:56:52 === m1_lora_middle512: m1 | lora | middle-512 | epochs 1 lr 0.0005
+06:56:52 trainable 0.323M | 42102 cases | 5263 steps | view middle-512
+06:58:45    step 500/5263 | loss 0.4021 | 113s
+07:00:38    step 1000/5263 | loss 0.3428 | 226s
+07:02:31    step 1500/5263 | loss 0.3295 | 339s
+07:04:24    step 2000/5263 | loss 0.3147 | 452s
+07:06:17    step 2500/5263 | loss 0.3109 | 565s
+07:08:14    EVAL step 2631: dev macro-F1 0.2866 | micro 0.3753 @t=0.47 | 6.3 labels/case | 682s
+07:09:38    step 3000/5263 | loss 0.3045 | 766s
+07:11:31    step 3500/5263 | loss 0.3044 | 879s
+07:13:24    step 4000/5263 | loss 0.2965 | 992s
+07:15:17    step 4500/5263 | loss 0.2938 | 1105s
+07:17:11    step 5000/5263 | loss 0.2982 | 1219s
+07:19:38    EVAL step 5263: dev macro-F1 0.3061 | micro 0.4139 @t=0.53 | 4.9 labels/case | 1366s
+07:22:53 DONE m1_lora_middle512: dev macro-F1 0.3061 @t=0.53 (micro 0.4139) | per-label thr (cross-fit) 0.3188 | 26.1 min
+07:22:53 PLAN DONE
+07:59:26 data: train 42102 | clean dev 10085 | test 13019
+07:59:29 === m1_full_first512: m1 | full | first-512 | epochs 1 lr 3e-05
+07:59:33 trainable 100.171M | 42102 cases | 5263 steps | view first-512
+08:01:53    step 500/5263 | loss 0.3967 | 141s
+08:04:21    step 1000/5263 | loss 0.3354 | 288s
+08:06:51    step 1500/5263 | loss 0.3175 | 439s
+08:09:22    step 2000/5263 | loss 0.2993 | 590s
+08:11:53    step 2500/5263 | loss 0.2960 | 741s
+08:14:02    EVAL step 2631: dev macro-F1 0.3183 | micro 0.4144 @t=0.53 | 5.2 labels/case | 870s
+08:15:54    step 3000/5263 | loss 0.2859 | 982s
+08:18:25    step 3500/5263 | loss 0.2831 | 1133s
+08:20:56    step 4000/5263 | loss 0.2758 | 1283s
+08:23:27    step 4500/5263 | loss 0.2711 | 1434s
+08:25:58    step 5000/5263 | loss 0.2766 | 1586s
+08:28:46    EVAL step 5263: dev macro-F1 0.3570 | micro 0.4617 @t=0.53 | 4.9 labels/case | 1753s
+08:32:03 DONE m1_full_first512: dev macro-F1 0.3570 @t=0.53 (micro 0.4617) | per-label thr (cross-fit) 0.3650 | 32.6 min
+08:39:09    encoded dev: 42136 chunks in 423s
+09:01:31 data: train 42102 | clean dev 10085 | test 13019
+09:01:31 skip m1_full_first512 (already done)
+09:08:15    encoded dev: 42136 chunks in 399s
+09:16:33    encoded test: 52122 chunks in 498s
+09:41:51    encoded train: 158975 chunks in 1518s
+09:41:52 === m1_full512_hier: hierarchical BiGRU+attention over chunks of m1_full_first512 | 1.63M params
+09:42:08    epoch 1: loss 0.3187 | dev macro-F1 0.3573 (micro 0.4540) @t=0.53
+09:42:22    epoch 2: loss 0.2470 | dev macro-F1 0.3734 (micro 0.4774) @t=0.60
+09:42:36    epoch 3: loss 0.2360 | dev macro-F1 0.3744 (micro 0.4792) @t=0.62
+09:42:50    epoch 4: loss 0.2262 | dev macro-F1 0.3857 (micro 0.4846) @t=0.60
+09:43:04    epoch 5: loss 0.2159 | dev macro-F1 0.3848 (micro 0.4854) @t=0.60
+09:43:17    epoch 6: loss 0.2058 | dev macro-F1 0.3908 (micro 0.4858) @t=0.62
+09:43:31    epoch 7: loss 0.1965 | dev macro-F1 0.3930 (micro 0.4866) @t=0.65
+09:43:45    epoch 8: loss 0.1893 | dev macro-F1 0.3973 (micro 0.4902) @t=0.62
+09:43:59    epoch 9: loss 0.1841 | dev macro-F1 0.3970 (micro 0.4918) @t=0.62
+18:13:44 data: train 42102 | clean dev 10085 | test 13019
+18:13:44 skip m1_full_first512 (already done)
+18:13:45    loaded chunk embeddings of m1_full_first512
+18:13:49 === m1_full512_hier: hierarchical BiGRU+attention over chunks of m1_full_first512 | 1.63M params
+18:14:06    epoch 1: loss 0.3190 | dev macro-F1 0.3580 (micro 0.4574) @t=0.55
+18:14:20    epoch 2: loss 0.2472 | dev macro-F1 0.3730 (micro 0.4772) @t=0.60
+18:14:34    epoch 3: loss 0.2360 | dev macro-F1 0.3759 (micro 0.4790) @t=0.57
+18:14:49    epoch 4: loss 0.2262 | dev macro-F1 0.3875 (micro 0.4895) @t=0.60
+18:15:03    epoch 5: loss 0.2158 | dev macro-F1 0.3892 (micro 0.4896) @t=0.60
+18:15:17    epoch 6: loss 0.2061 | dev macro-F1 0.3915 (micro 0.4881) @t=0.62
+18:15:31    epoch 7: loss 0.1972 | dev macro-F1 0.3945 (micro 0.4919) @t=0.62
+18:15:45    epoch 8: loss 0.1897 | dev macro-F1 0.3976 (micro 0.4930) @t=0.62
+18:16:00    epoch 9: loss 0.1846 | dev macro-F1 0.3980 (micro 0.4948) @t=0.60
+18:16:14    epoch 10: loss 0.1819 | dev macro-F1 0.3989 (micro 0.4958) @t=0.57
+18:16:21 DONE m1_full512_hier: dev macro-F1 0.3989 @t=0.57 | per-label (cross-fit) 0.3990 | attention by decile [0.5617, 0.0588, 0.079, 0.0724, 0.0325, 0.0523, 0.0565, 0.0367, 0.0412, 0.0089] | 2.6 min
+18:16:23 === m1_unfreeze_first512: m1 | full | first-512 | epochs 1 lr 5e-05
+18:16:24 trainable 0.077M | 42102 cases | 5263 steps | view first-512 | gradual unfreezing
+18:17:17    step 500/5263 | loss 0.4063 | 53s
+18:18:18    step 1000/5263 | loss 0.3486 | 114s
+18:19:29    step 1500/5263 | loss 0.3316 | 186s
+18:20:50    step 2000/5263 | loss 0.3151 | 267s
+18:22:21    step 2500/5263 | loss 0.3105 | 357s
+18:24:14    EVAL step 2631: dev macro-F1 0.2937 | micro 0.3909 @t=0.53 | 5.5 labels/case | 471s
+18:25:31    step 3000/5263 | loss 0.2992 | 547s
+18:27:21    step 3500/5263 | loss 0.2981 | 657s
+18:29:22    step 4000/5263 | loss 0.2876 | 778s
+18:31:32    step 4500/5263 | loss 0.2823 | 909s
+18:33:53    step 5000/5263 | loss 0.2858 | 1049s
+18:36:38    EVAL step 5263: dev macro-F1 0.3367 | micro 0.4435 @t=0.53 | 4.9 labels/case | 1214s
+18:39:57 DONE m1_unfreeze_first512: dev macro-F1 0.3367 @t=0.53 (micro 0.4435) | per-label thr (cross-fit) 0.3431 | 23.6 min
+18:39:59 === m1_rslora_first512: m1 | rslora | first-512 | epochs 1 lr 0.0002
+18:39:59 trainable 0.568M | 42102 cases | 5263 steps | view first-512
+18:41:57    step 500/5263 | loss 0.3994 | 118s
+18:43:55    step 1000/5263 | loss 0.3406 | 236s
+18:45:53    step 1500/5263 | loss 0.3253 | 353s
+18:47:50    step 2000/5263 | loss 0.3109 | 471s
+18:49:48    step 2500/5263 | loss 0.3077 | 589s
+18:51:52    EVAL step 2631: dev macro-F1 0.2939 | micro 0.3913 @t=0.53 | 5.1 labels/case | 713s
+18:53:19    step 3000/5263 | loss 0.2990 | 800s
+18:55:17    step 3500/5263 | loss 0.2994 | 917s
+18:57:15    step 4000/5263 | loss 0.2922 | 1035s
+18:59:12    step 4500/5263 | loss 0.2883 | 1153s
+19:01:10    step 5000/5263 | loss 0.2952 | 1271s
+19:03:45    EVAL step 5263: dev macro-F1 0.3157 | micro 0.4260 @t=0.53 | 5.0 labels/case | 1426s
+19:07:13 DONE m1_rslora_first512: dev macro-F1 0.3157 @t=0.53 (micro 0.4260) | per-label thr (cross-fit) 0.3296 | 27.3 min
+19:07:16 === m1_ia3_first512: m1 | ia3 | first-512 | epochs 1 lr 0.003
+19:07:16 trainable 0.108M | 42102 cases | 5263 steps | view first-512
+19:09:20    step 500/5263 | loss 0.4107 | 123s
+19:11:23    step 1000/5263 | loss 0.3476 | 247s
+19:13:26    step 1500/5263 | loss 0.3318 | 370s
+19:15:29    step 2000/5263 | loss 0.3183 | 493s
+19:17:33    step 2500/5263 | loss 0.3142 | 617s
+19:19:41    EVAL step 2631: dev macro-F1 0.2803 | micro 0.3786 @t=0.47 | 5.9 labels/case | 745s
+19:21:12    step 3000/5263 | loss 0.3064 | 836s
+19:23:16    step 3500/5263 | loss 0.3069 | 959s
+19:25:19    step 4000/5263 | loss 0.2999 | 1083s
+22:17:24 data: train 42102 | clean dev 10085 | test 13019
+22:17:24 skip m1_full_first512 (already done)
+22:17:24 skip m1_full512_hier (already done)
+22:17:24 skip m1_unfreeze_first512 (already done)
+22:17:24 skip m1_rslora_first512 (already done)
+22:17:27 === m1_ia3_first512: m1 | ia3 | first-512 | epochs 1 lr 0.003
+22:17:31 trainable 0.108M | 42102 cases | 5263 steps | view first-512
+22:19:28    step 500/5263 | loss 0.4112 | 118s
+22:21:28    step 1000/5263 | loss 0.3473 | 238s
+22:23:29    step 1500/5263 | loss 0.3317 | 358s
+22:25:29    step 2000/5263 | loss 0.3186 | 478s
+22:27:29    step 2500/5263 | loss 0.3143 | 599s
+22:29:34    EVAL step 2631: dev macro-F1 0.2810 | micro 0.3756 @t=0.45 | 6.5 labels/case | 723s
+22:31:02    step 3000/5263 | loss 0.3060 | 812s
+22:33:02    step 3500/5263 | loss 0.3066 | 932s
+22:35:03    step 4000/5263 | loss 0.2994 | 1052s
+22:37:03    step 4500/5263 | loss 0.2957 | 1172s
+22:39:03    step 5000/5263 | loss 0.3048 | 1292s
+22:41:38    EVAL step 5263: dev macro-F1 0.3038 | micro 0.4136 @t=0.50 | 5.4 labels/case | 1447s
+22:45:02 DONE m1_ia3_first512: dev macro-F1 0.3038 @t=0.50 (micro 0.4136) | per-label thr (cross-fit) 0.3138 | 27.6 min
+22:45:05 === m3_full_first512: m3 | full | first-512 | epochs 1 lr 5e-05
+22:45:05 trainable 62.413M | 42102 cases | 5263 steps | view first-512
+22:46:22    step 500/5263 | loss 0.4176 | 77s
+22:47:39    step 1000/5263 | loss 0.3442 | 154s
+22:48:55    step 1500/5263 | loss 0.3290 | 230s
+22:50:12    step 2000/5263 | loss 0.3111 | 307s
+22:51:29    step 2500/5263 | loss 0.3083 | 384s
+22:52:34    EVAL step 2631: dev macro-F1 0.2866 | micro 0.3910 @t=0.55 | 4.4 labels/case | 448s
+22:53:31    step 3000/5263 | loss 0.2989 | 506s
+22:54:47    step 3500/5263 | loss 0.2962 | 582s
+22:56:04    step 4000/5263 | loss 0.2922 | 659s
+22:57:21    step 4500/5263 | loss 0.2885 | 736s
+22:58:38    step 5000/5263 | loss 0.2959 | 813s
+23:00:02    EVAL step 5263: dev macro-F1 0.3160 | micro 0.4288 @t=0.50 | 5.2 labels/case | 897s
+23:01:40 DONE m3_full_first512: dev macro-F1 0.3160 @t=0.50 (micro 0.4288) | per-label thr (cross-fit) 0.3278 | 16.6 min
+23:01:40 PLAN DONE
+23:43:25 data: train 42102 | clean dev 10085 | test 13019
+23:43:25 skip m1_full_first512 (already done)
+23:43:25 skip m1_full512_hier (already done)
+23:43:25 skip m1_unfreeze_first512 (already done)
+23:43:25 skip m1_rslora_first512 (already done)
+23:43:25 skip m1_ia3_first512 (already done)
+23:43:25 skip m3_full_first512 (already done)
+23:43:25 PLAN DONE
+23:46:59 data: train 42102 | clean dev 10085 | test 13019
+23:47:02 === m1_full_first1024: m1 | full | first-1024 | epochs 2 lr 3e-05
+23:47:03 trainable 100.171M | 42102 cases | 10526 steps | view first-1024
+23:51:40    step 500/10526 | loss 0.4130 | 277s
+23:56:24    step 1000/10526 | loss 0.3336 | 561s
+00:01:10    step 1500/10526 | loss 0.3144 | 847s
+00:05:55    step 2000/10526 | loss 0.2965 | 1132s
+00:10:42    step 2500/10526 | loss 0.2938 | 1419s
+00:14:15    EVAL step 2631: dev macro-F1 0.3274 | micro 0.4171 @t=0.55 | 5.0 labels/case | 1632s
+00:17:46    step 3000/10526 | loss 0.2832 | 1843s
+00:22:32    step 3500/10526 | loss 0.2826 | 2129s
+00:27:18    step 4000/10526 | loss 0.2748 | 2415s
+00:32:04    step 4500/10526 | loss 0.2720 | 2701s
+16:34:49 data: train 42102 | clean dev 10085 | test 13019
+16:34:53 === m1_full_first1024: m1 | full | first-1024 | epochs 2 lr 3e-05
+16:34:57 trainable 100.171M | 42102 cases | 10526 steps | view first-1024
+16:39:49    step 500/10526 | loss 0.4135 | 292s
+16:44:42    step 1000/10526 | loss 0.3338 | 585s
+16:49:36    step 1500/10526 | loss 0.3142 | 879s
+16:54:30    step 2000/10526 | loss 0.2959 | 1173s
+16:59:24    step 2500/10526 | loss 0.2935 | 1468s
+17:03:08    EVAL step 2631: dev macro-F1 0.3267 | micro 0.4134 @t=0.57 | 4.5 labels/case | 1691s
+17:06:46    step 3000/10526 | loss 0.2830 | 1909s
+17:11:40    step 3500/10526 | loss 0.2830 | 2203s
+17:16:35    step 4000/10526 | loss 0.2751 | 2498s
+17:21:28    step 4500/10526 | loss 0.2724 | 2791s
+17:26:23    step 5000/10526 | loss 0.2757 | 3086s
+17:31:22    EVAL step 5263: dev macro-F1 0.3645 | micro 0.4653 @t=0.55 | 4.8 labels/case | 3385s
+17:33:42    step 5500/10526 | loss 0.2576 | 3526s
+17:38:36    step 6000/10526 | loss 0.2265 | 3819s
+17:43:29    step 6500/10526 | loss 0.2196 | 4112s
+17:48:23    step 7000/10526 | loss 0.2244 | 4406s
+18:03:39 data: train 42102 | clean dev 10085 | test 13019
+18:03:42 === m1_full_first1024: m1 | full | first-1024 | epochs 2 lr 3e-05
+18:03:46 trainable 100.171M | 42102 cases | 10526 steps | view first-1024
+18:08:32    step 500/10526 | loss 0.4128 | 286s
+18:13:22    step 1000/10526 | loss 0.3336 | 576s
+18:18:13    step 1500/10526 | loss 0.3145 | 867s
+18:23:03    step 2000/10526 | loss 0.2959 | 1157s
+18:27:54    step 2500/10526 | loss 0.2932 | 1449s
+18:31:33    EVAL step 2631: dev macro-F1 0.3273 | micro 0.4129 @t=0.53 | 5.6 labels/case | 1667s
+18:35:08    step 3000/10526 | loss 0.2830 | 1883s
+18:40:00    step 3500/10526 | loss 0.2823 | 2174s
+20:21:40 data: train 42102 | clean dev 10085 | test 13019
+20:21:43 === m1_full_first1024: m1 | full | first-1024 | epochs 2 lr 3e-05
+20:21:46 trainable 100.171M | 42102 cases | 10526 steps | view first-1024
+20:26:47    step 500/10526 | loss 0.4127 | 301s
+20:31:55    step 1000/10526 | loss 0.3332 | 609s
+20:37:05    step 1500/10526 | loss 0.3136 | 918s
+20:42:13    step 2000/10526 | loss 0.2961 | 1227s
+20:47:23    step 2500/10526 | loss 0.2934 | 1537s
+20:51:22    EVAL step 2631: dev macro-F1 0.3285 | micro 0.4149 @t=0.55 | 4.9 labels/case | 1776s
+20:55:11    step 3000/10526 | loss 0.2831 | 2005s
+21:00:21    step 3500/10526 | loss 0.2825 | 2315s
+21:05:31    step 4000/10526 | loss 0.2746 | 2625s
+21:10:41    step 4500/10526 | loss 0.2721 | 2934s
+21:15:51    step 5000/10526 | loss 0.2760 | 3245s
+21:21:10    EVAL step 5263: dev macro-F1 0.3648 | micro 0.4630 @t=0.57 | 4.3 labels/case | 3564s
+21:23:38    step 5500/10526 | loss 0.2575 | 3711s
+21:28:47    step 6000/10526 | loss 0.2262 | 4021s
+21:33:56    step 6500/10526 | loss 0.2196 | 4330s
+21:39:06    step 7000/10526 | loss 0.2251 | 4640s
+21:44:16    step 7500/10526 | loss 0.2190 | 4949s
+21:50:56    EVAL step 7894: dev macro-F1 0.3868 | micro 0.4813 @t=0.60 | 4.2 labels/case | 5349s
+21:52:02    step 8000/10526 | loss 0.2145 | 5416s
+21:57:11    step 8500/10526 | loss 0.2139 | 5725s
+22:02:20    step 9000/10526 | loss 0.2110 | 6033s
+22:07:29    step 9500/10526 | loss 0.2066 | 6343s
+22:12:40    step 10000/10526 | loss 0.2080 | 6653s
+22:17:50    step 10500/10526 | loss 0.2067 | 6964s
+22:20:42    EVAL step 10526: dev macro-F1 0.3966 | micro 0.4936 @t=0.60 | 4.4 labels/case | 7136s
+22:26:34 DONE m1_full_first1024: dev macro-F1 0.3966 @t=0.60 (micro 0.4936) | per-label thr (cross-fit) 0.4019 | 124.9 min
+22:35:42    encoded dev: 24206 chunks in 545s
+22:47:01    encoded test: 30121 chunks in 679s
+23:21:59    encoded train: 93078 chunks in 2097s
+23:21:59 === m1_full1024_hier: hierarchical BiGRU+attention over chunks of m1_full_first1024 | 1.63M params
+23:22:10    epoch 1: loss 0.2770 | dev macro-F1 0.3827 (micro 0.4715) @t=0.65
+23:22:21    epoch 2: loss 0.1884 | dev macro-F1 0.3910 (micro 0.4854) @t=0.62
+23:22:33    epoch 3: loss 0.1784 | dev macro-F1 0.3934 (micro 0.4891) @t=0.68
+23:22:44    epoch 4: loss 0.1699 | dev macro-F1 0.3986 (micro 0.4937) @t=0.62
+23:22:54    epoch 5: loss 0.1608 | dev macro-F1 0.4032 (micro 0.4968) @t=0.65
+23:23:05    epoch 6: loss 0.1523 | dev macro-F1 0.4044 (micro 0.4948) @t=0.68
+23:23:16    epoch 7: loss 0.1447 | dev macro-F1 0.4055 (micro 0.4998) @t=0.65
+23:23:27    epoch 8: loss 0.1385 | dev macro-F1 0.4080 (micro 0.5010) @t=0.62
+23:23:38    epoch 9: loss 0.1345 | dev macro-F1 0.4096 (micro 0.5028) @t=0.60
+23:23:49    epoch 10: loss 0.1322 | dev macro-F1 0.4094 (micro 0.5032) @t=0.60
+23:23:55 DONE m1_full1024_hier: dev macro-F1 0.4096 @t=0.60 | per-label (cross-fit) 0.4090 | attention by decile [0.8495, 0.014, 0.0311, 0.0301, 0.0084, 0.018, 0.022, 0.0134, 0.0108, 0.0026] | 57.3 min
+23:23:55 PLAN DONE
+23:24:33 data: train 42102 | clean dev 10085 | test 13019
+23:24:33    loaded chunk embeddings of m1_full_first1024
+23:24:35 === m1_full1024_hier_s1: hierarchical BiGRU+attention over chunks of m1_full_first1024 | 1.63M params
+23:24:47    epoch 1: loss 0.2808 | dev macro-F1 0.3809 (micro 0.4670) @t=0.60
+23:24:59    epoch 2: loss 0.1898 | dev macro-F1 0.3889 (micro 0.4763) @t=0.62
+23:25:10    epoch 3: loss 0.1789 | dev macro-F1 0.3947 (micro 0.4929) @t=0.65
+23:25:21    epoch 4: loss 0.1695 | dev macro-F1 0.3973 (micro 0.4878) @t=0.60
+23:25:33    epoch 5: loss 0.1607 | dev macro-F1 0.4008 (micro 0.4921) @t=0.65
+23:25:44    epoch 6: loss 0.1522 | dev macro-F1 0.4035 (micro 0.4944) @t=0.65
+23:25:56    epoch 7: loss 0.1444 | dev macro-F1 0.4070 (micro 0.5050) @t=0.60
+23:26:07    epoch 8: loss 0.1382 | dev macro-F1 0.4084 (micro 0.5003) @t=0.60
+23:26:18    epoch 9: loss 0.1343 | dev macro-F1 0.4084 (micro 0.5031) @t=0.62
+23:26:29    epoch 10: loss 0.1321 | dev macro-F1 0.4086 (micro 0.5026) @t=0.62
+23:26:35 DONE m1_full1024_hier_s1: dev macro-F1 0.4086 @t=0.62 | per-label (cross-fit) 0.4117 | attention by decile [0.846, 0.0155, 0.0337, 0.0322, 0.008, 0.0168, 0.0227, 0.0128, 0.0099, 0.0025] | 2.0 min
+23:26:35    loaded chunk embeddings of m1_full_first1024
+23:26:35 === m1_full1024_hier_s2: hierarchical BiGRU+attention over chunks of m1_full_first1024 | 1.63M params
+23:26:47    epoch 1: loss 0.2807 | dev macro-F1 0.3795 (micro 0.4797) @t=0.62
+23:26:58    epoch 2: loss 0.1902 | dev macro-F1 0.3942 (micro 0.4864) @t=0.62
+23:27:09    epoch 3: loss 0.1789 | dev macro-F1 0.3936 (micro 0.4828) @t=0.62
+23:27:21    epoch 4: loss 0.1695 | dev macro-F1 0.4007 (micro 0.4858) @t=0.70
+23:27:32    epoch 5: loss 0.1606 | dev macro-F1 0.4025 (micro 0.4952) @t=0.65
+23:27:43    epoch 6: loss 0.1516 | dev macro-F1 0.4067 (micro 0.4980) @t=0.65
+23:27:55    epoch 7: loss 0.1444 | dev macro-F1 0.4043 (micro 0.4943) @t=0.65
+23:28:06    epoch 8: loss 0.1385 | dev macro-F1 0.4088 (micro 0.5025) @t=0.60
+23:28:17    epoch 9: loss 0.1342 | dev macro-F1 0.4095 (micro 0.5016) @t=0.65
+23:28:28    epoch 10: loss 0.1322 | dev macro-F1 0.4103 (micro 0.5029) @t=0.62
+23:28:34 DONE m1_full1024_hier_s2: dev macro-F1 0.4103 @t=0.62 | per-label (cross-fit) 0.4094 | attention by decile [0.8375, 0.0156, 0.0353, 0.0317, 0.0101, 0.0198, 0.0224, 0.0143, 0.011, 0.0023] | 2.0 min
+23:28:34 PLAN DONE

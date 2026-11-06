@@ -1,0 +1,32 @@
+[
+ {
+  "name": "m1_lorma",
+  "ckpt": "m1",
+  "method": "lorma_plus",
+  "lr": 0.0005
+ },
+ {
+  "name": "m4_lora",
+  "ckpt": "m4",
+  "method": "lora",
+  "lr": 0.0005
+ },
+ {
+  "name": "m3_full",
+  "ckpt": "m3",
+  "method": "full",
+  "lr": 0.0001
+ },
+ {
+  "name": "m2_houlsby",
+  "ckpt": "m2",
+  "method": "houlsby",
+  "lr": 0.0005
+ },
+ {
+  "name": "m3_pfeiffer",
+  "ckpt": "m3",
+  "method": "pfeiffer",
+  "lr": 0.0005
+ }
+]

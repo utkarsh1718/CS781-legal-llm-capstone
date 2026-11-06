@@ -1,0 +1,41 @@
+09:23:06 data: train 42102 + clean dev 10085 = 52187 cases | test 13019
+09:23:08 === m1_full_first1024_td: m1_full_first1024's config on train + clean dev | {'mode': 'first', 'k': 1024, 'epochs': 2, 'lr': 3e-05, 'head_lr': 0.001, 'bs': 8, 'seed': 0, 'layerwise_unfreeze': False}
+09:23:10 trainable 100.171M | 52187 cases | 13048 steps | view first-1024 | no dev (train+dev)
+09:28:12    step 500/13048 | loss 0.4201 | 302s
+09:33:20    step 1000/13048 | loss 0.3361 | 610s
+09:38:29    step 1500/13048 | loss 0.3123 | 919s
+09:43:38    step 2000/13048 | loss 0.3055 | 1228s
+09:48:45    step 2500/13048 | loss 0.2993 | 1535s
+09:53:53    step 3000/13048 | loss 0.2945 | 1843s
+09:59:01    step 3500/13048 | loss 0.2886 | 2151s
+10:04:09    step 4000/13048 | loss 0.2826 | 2459s
+10:09:17    step 4500/13048 | loss 0.2771 | 2767s
+10:14:26    step 5000/13048 | loss 0.2740 | 3076s
+10:19:34    step 5500/13048 | loss 0.2687 | 3384s
+10:24:42    step 6000/13048 | loss 0.2768 | 3692s
+10:29:48    step 6500/13048 | loss 0.2724 | 3998s
+10:34:53    step 7000/13048 | loss 0.2286 | 4303s
+10:39:58    step 7500/13048 | loss 0.2263 | 4608s
+10:45:04    step 8000/13048 | loss 0.2249 | 4914s
+10:50:09    step 8500/13048 | loss 0.2174 | 5219s
+10:55:14    step 9000/13048 | loss 0.2220 | 5524s
+11:00:20    step 9500/13048 | loss 0.2187 | 5830s
+11:05:25    step 10000/13048 | loss 0.2165 | 6135s
+11:10:31    step 10500/13048 | loss 0.2124 | 6441s
+11:15:37    step 11000/13048 | loss 0.2116 | 6747s
+11:20:42    step 11500/13048 | loss 0.2117 | 7052s
+11:25:48    step 12000/13048 | loss 0.2081 | 7358s
+11:30:54    step 12500/13048 | loss 0.2027 | 7664s
+11:35:59    step 13000/13048 | loss 0.2051 | 7969s
+11:39:42 DONE m1_full_first1024_td | 136.6 min
+11:50:53    encoded test: 30121 chunks in 668s
+12:34:10    encoded td: 117284 chunks in 2597s
+12:34:10 === m1_full1024_hier_td: pooler on train+dev chunk embeddings | 9 epochs | seed 0
+12:35:20 DONE m1_full1024_hier_td | 55.6 min
+12:35:20    loaded chunk embeddings of m1_full_first1024_td
+12:35:20 === m1_full1024_hier_s1_td: pooler on train+dev chunk embeddings | 10 epochs | seed 1
+12:36:37 DONE m1_full1024_hier_s1_td | 1.3 min
+12:36:37    loaded chunk embeddings of m1_full_first1024_td
+12:36:37 === m1_full1024_hier_s2_td: pooler on train+dev chunk embeddings | 10 epochs | seed 2
+12:37:54 DONE m1_full1024_hier_s2_td | 1.3 min
+12:37:55 PLAN DONE

@@ -1,0 +1,44 @@
+{
+ "cfg": {
+  "ckpt": "m2",
+  "method": "houlsby",
+  "lr": 0.0005,
+  "epochs": 1,
+  "bs": 8,
+  "r": 16,
+  "alpha": 32,
+  "mode": "chunk",
+  "teacher": null,
+  "student_layers": null,
+  "kd_T": 2.0,
+  "kd_lam": 0.5,
+  "seed": 0,
+  "base": "m2_houlsby"
+ },
+ "gen": {
+  "eos_bias": -1.0,
+  "no_repeat": 4,
+  "dedupe": true
+ },
+ "trainable_M": 2.379,
+ "total_M": 272.8,
+ "model_MB": 1091.1,
+ "val_rouge": {
+  "rouge1": 0.5067032454762246,
+  "rouge2": 0.2676132009958939,
+  "rougeL": 0.2615115649044339,
+  "len_ratio": 0.991555937373424
+ },
+ "gen_tok_per_s": 98.3,
+ "test_gen_min": 17.9,
+ "test_words_median": 648,
+ "min": 40.6,
+ "cal": {
+  "-1.0": {
+   "rouge1": 0.5229871495608661,
+   "rouge2": 0.2766467602504001,
+   "rougeL": 0.28004842292218407,
+   "len_ratio": 0.8915916539990312
+  }
+ }
+}

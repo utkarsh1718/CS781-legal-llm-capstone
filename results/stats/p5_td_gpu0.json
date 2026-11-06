@@ -1,0 +1,18 @@
+[
+ {
+  "type": "td",
+  "name": "m1_full_first1024"
+ },
+ {
+  "type": "hier_td",
+  "name": "m1_full1024_hier"
+ },
+ {
+  "type": "hier_td",
+  "name": "m1_full1024_hier_s1"
+ },
+ {
+  "type": "hier_td",
+  "name": "m1_full1024_hier_s2"
+ }
+]

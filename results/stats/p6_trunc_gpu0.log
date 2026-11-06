@@ -1,0 +1,18 @@
+10:25:35 === m3_trunc: m3 | full | trunc | lr 0.0001
+10:25:39 trainable 109.538M of 109.5M | 1576 steps
+10:27:22    step 250/1576 | loss 2.5317 | 102s
+10:29:04    step 500/1576 | loss 2.4912 | 205s
+10:30:46    step 750/1576 | loss 2.4643 | 307s
+10:32:28    step 1000/1576 | loss 2.1967 | 409s
+10:34:09    step 1250/1576 | loss 2.1405 | 510s
+10:35:51    step 1500/1576 | loss 2.1263 | 612s
+10:36:24    val target NLL 2.4496 | training 10.9 min
+10:37:52 DONE m3_trunc: val R1 0.3437 R2 0.1293 RL 0.1968 | length x0.46 | 747.5 tok/s | 12.3 min
+10:37:55 === m3_trunc__cal: eos_bias sweep [-0.5, -0.75, -1.0, -1.25] on 20 val documents
+10:38:07    eos_bias -0.5: R1 0.3860 RL 0.2137 | length x0.51
+10:38:19    eos_bias -0.8: R1 0.3878 RL 0.2143 | length x0.52
+10:38:31    eos_bias -1.0: R1 0.3873 RL 0.2142 | length x0.53
+10:38:44    eos_bias -1.2: R1 0.3864 RL 0.2137 | length x0.55
+10:38:44    -> eos_bias -1.2
+10:40:12 DONE m3_trunc__cal: val R1 0.3606 R2 0.1336 RL 0.2022 | length x0.53 | 849.5 tok/s | 2.3 min
+10:40:12 PLAN DONE

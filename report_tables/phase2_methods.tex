@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering\small
+\begin{tabular}{lrrrr}
+\toprule
+Run & Backbone & Method & Trainable (M) & Dev F1 \\
+\midrule
+m1\_full\_causal & m1 & full & -- & 0.451 \\
+m1\_full\_bidir & m1 & full & -- & 0.480 \\
+m1\_full\_bidir\_header & m1 & full & -- & 0.589 \\
+m1\_lora & m1 & lora & 0.26 & \textbf{0.619} \\
+m1\_lorma\_plus & m1 & lorma\_plus & 0.22 & 0.582 \\
+m1\_lorma\_pi & m1 & lorma\_pi & 0.22 & 0.560 \\
+m3\_full & m3 & full & 62.36 & 0.358 \\
+m2\_lorma\_plus & m2 & lorma\_plus & 0.31 & 0.578 \\
+m4\_adapter & m4 & adapter & 1.21 & 0.617 \\
+kd\_student\_m1x6 & m1x6 & kd & 62.35 & 0.615 \\
+nokd\_student\_m1x6 & m1x6 & student\_no\_kd & 62.35 & 0.612 \\
+m1\_lora\_cw & m1 & lora+classweight & -- & 0.577 \\
+\bottomrule
+\end{tabular}
+\caption{Phase 2 (L-NER): adaptation methods and backbones, dev strict micro-F1.}
+\label{tab:p2}
+\end{table}

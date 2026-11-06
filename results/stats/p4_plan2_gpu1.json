@@ -1,0 +1,1 @@
+[{"name": "m1_lora_middle512", "mode": "middle", "ckpt": "m1", "method": "lora", "k": 512, "epochs": 1, "lr": 0.0005, "bs": 8}, {"name": "m1_lora_headtail512", "mode": "headtail", "ckpt": "m1", "method": "lora", "k": 512, "epochs": 1, "lr": 0.0005, "bs": 8}]

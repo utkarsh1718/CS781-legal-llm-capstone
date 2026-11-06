@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Run & Trainable (M) & R-1 & R-2 & R-L & Length & eos bias \\
+\midrule
+m1\_full\_\_cal & 100.09 & \textbf{0.577} & 0.323 & 0.305 & 1.186 & -1.000 \\
+m4\_full\_\_cal & 100.29 & 0.575 & 0.332 & 0.318 & 1.223 & -0.750 \\
+m2\_full\_\_cal & 270.40 & 0.563 & 0.322 & 0.298 & 1.490 & -1.250 \\
+kd\_m1x6\_\_cal & 62.34 & 0.555 & 0.306 & 0.288 & 1.365 & -1.250 \\
+m4\_lora\_\_cal & 0.98 & 0.552 & 0.299 & 0.285 & 1.177 & -1.000 \\
+m2\_houlsby\_\_cal & 2.38 & 0.534 & 0.283 & 0.270 & 1.302 & -1.250 \\
+m1\_lorma\_\_cal & 0.69 & 0.533 & 0.274 & 0.273 & 1.097 & -1.250 \\
+m1\_houlsby\_\_cal & 2.38 & 0.527 & 0.273 & 0.273 & 1.136 & -1.250 \\
+m1\_qlora\_\_cal & 0.79 & 0.524 & 0.270 & 0.269 & 1.097 & -1.250 \\
+m1\_lora\_\_cal & 0.79 & 0.521 & 0.271 & 0.271 & 1.070 & -1.250 \\
+m3\_full\_\_cal & 109.54 & 0.467 & 0.200 & 0.231 & 1.545 & -1.250 \\
+m3\_pfeiffer\_\_cal & 1.19 & 0.417 & 0.158 & 0.219 & 1.038 & -1.250 \\
+m1\_ia3\_\_cal & 0.03 & 0.415 & 0.182 & 0.212 & 0.922 & -1.500 \\
+m3\_trunc\_\_cal & 109.54 & 0.361 & 0.134 & 0.202 & 0.528 & -1.250 \\
+\bottomrule
+\end{tabular}
+\caption{Phase 6 (summarisation): length-calibrated runs on 100 validation documents.}
+\label{tab:p6}
+\end{table}

@@ -1,0 +1,16 @@
+# large artefacts are not versioned (checkpoints, data caches, embeddings, submissions)
+*.pt
+*.npz
+*.npy
+*.bin
+*.safetensors
+data*/
+checkpoints/
+p*_ckpt/
+p*_emb/
+submissions*/
+upload*/
+__pycache__/
+.ipynb_checkpoints/
+*.aux
+*.log.tmp

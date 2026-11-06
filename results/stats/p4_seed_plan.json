@@ -1,0 +1,48 @@
+[
+ {
+  "name": "m1_full512_hier_s1",
+  "base": "m1_full_last512",
+  "seed": 1,
+  "type": "hier",
+  "epochs": 8
+ },
+ {
+  "name": "m1_full512_hier_s2",
+  "base": "m1_full_last512",
+  "seed": 2,
+  "type": "hier",
+  "epochs": 8
+ },
+ {
+  "name": "m1_full1024_hier_s1",
+  "base": "m1_full_last1024",
+  "chunk": 1024,
+  "max_chunks": 32,
+  "seed": 1,
+  "type": "hier",
+  "epochs": 8
+ },
+ {
+  "name": "m1_full1024_hier_s2",
+  "base": "m1_full_last1024",
+  "chunk": 1024,
+  "max_chunks": 32,
+  "seed": 2,
+  "type": "hier",
+  "epochs": 8
+ },
+ {
+  "name": "m1_partial512_hier_s1",
+  "base": "m1_partial4_last512",
+  "seed": 1,
+  "type": "hier",
+  "epochs": 8
+ },
+ {
+  "name": "m1_partial512_hier_s2",
+  "base": "m1_partial4_last512",
+  "seed": 2,
+  "type": "hier",
+  "epochs": 8
+ }
+]

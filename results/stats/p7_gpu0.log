@@ -1,0 +1,7419 @@
+20:17:06 === p7_full: full | trainable 100.096M of 100.1M | epochs 3
+20:17:59    step 50/615 | loss 1.7678 | 50s
+20:18:51    step 100/615 | loss 1.9500 | 102s
+20:19:43    step 150/615 | loss 1.6680 | 154s
+20:20:35    step 200/615 | loss 1.6077 | 206s
+20:21:26    step 250/615 | loss 1.4382 | 257s
+20:22:18    step 300/615 | loss 1.5643 | 310s
+20:23:10    step 350/615 | loss 1.5712 | 361s
+20:24:03    step 400/615 | loss 1.5919 | 414s
+20:24:54    step 450/615 | loss 1.3780 | 465s
+20:25:46    step 500/615 | loss 1.3643 | 517s
+20:26:38    step 550/615 | loss 1.5482 | 569s
+20:27:31    step 600/615 | loss 1.4390 | 622s
+20:27:45    step 615/615 | loss 0.4171 | 636s
+20:29:26    encoded Dev: 1023 cases in 100s
+20:32:15    encoded Test: 1727 cases in 168s
+20:32:16    Dev mean  : dense-only F1 0.3513 | best fused 0.3936
+20:32:16    Dev maxsim: dense-only F1 0.3513 | best fused 0.3936
+20:32:16 DONE p7_full: Dev F1 0.3936 (P 0.429 R 0.364) | mean alpha 0.0 | 15.2 min
+20:32:16 PLAN DONE
+No files have been modified since last commit. Skipping to prevent empty commit.
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  30%|██▉       | 55.9MB /  188MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  42%|████▏     | 47.9MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  30%|██▉       | 55.9MB /  188MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  42%|████▏     | 47.9MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[AProcessing Files (6 / 8)      :  47%|████▋     |  173MB /  372MB,   ???B/s  
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  90%|████████▉ |  168MB /  188MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[AProcessing Files (7 / 8)      :  95%|█████████▍|  353MB /  372MB,  897MB/s  
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  495MB/s  
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  249MB/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 88.1MB / 88.1MB,   ???B/s  
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 88.1MB / 88.1MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[AProcessing Files (3 / 3)      : 100%|██████████| 23.5kB / 23.5kB,   ???B/s  
+New Data Upload               : 100%|██████████| 7.84kB / 7.84kB,   ???B/s  [A
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[AProcessing Files (3 / 3)      : 100%|██████████| 23.5kB / 23.5kB,  0.00B/s  
+New Data Upload               : 100%|██████████| 7.84kB / 7.84kB,  0.00B/s  
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.84kB / 7.84kB            
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.84kB / 7.84kB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[AProcessing Files (2 / 2)      :  50%|█████     | 67.6MB /  135MB,   ???B/s  
+
+
+
+  ...g/p7_emb/p7_full_test.npz:  12%|█▏        | 4.92MB / 42.5MB            [A[A[A[A
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz:  12%|█▏        | 4.92MB / 42.5MB            [A[A[A[AProcessing Files (2 / 3)      :  54%|█████▎    | 72.6MB /  135MB, 24.7MB/s  
+New Data Upload               :   7%|▋         | 4.92MB / 67.6MB, 24.7MB/s  [A
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz:  79%|███████▉  | 33.6MB / 42.5MB            [A[A[A[AProcessing Files (2 / 3)      :  75%|███████▍  |  101MB /  135MB, 84.2MB/s  
+New Data Upload               :  50%|████▉     | 33.6MB / 67.6MB, 84.2MB/s  [A
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz:  99%|█████████▊| 41.9MB / 42.5MB            [A[A[A[AProcessing Files (2 / 3)      :  81%|████████  |  109MB /  135MB, 69.8MB/s  
+New Data Upload               :  62%|██████▏   | 41.9MB / 67.6MB, 69.8MB/s  [A
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz:  99%|█████████▊| 41.9MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz:  23%|██▎       | 5.71MB / 25.2MB            [A[A[A[A[A
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz:  23%|██▎       | 5.71MB / 25.2MB            [A[A[A[A[AProcessing Files (3 / 4)      :  86%|████████▌ |  116MB /  135MB, 48.2MB/s  
+New Data Upload               :  71%|███████   | 48.2MB / 67.6MB, 48.2MB/s  [A
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz:  97%|█████████▋| 24.5MB / 25.2MB            [A[A[A[A[AProcessing Files (3 / 4)      : 100%|█████████▉|  135MB /  135MB, 55.8MB/s  
+New Data Upload               :  99%|█████████▉| 67.0MB / 67.6MB, 55.8MB/s  [A
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[AProcessing Files (4 / 4)      : 100%|██████████|  135MB /  135MB, 48.3MB/s  
+New Data Upload               : 100%|██████████| 67.6MB / 67.6MB, 48.3MB/s  [A
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[AProcessing Files (4 / 4)      : 100%|██████████|  135MB /  135MB, 37.6MB/s  
+New Data Upload               : 100%|██████████| 67.6MB / 67.6MB, 37.6MB/s  
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  529kB /  529kB,   ???B/s  
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  529kB /  529kB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 14.5MB / 14.5MB,   ???B/s  
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 14.5MB / 14.5MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 1.72MB / 1.72MB,   ???B/s  
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 1.72MB / 1.72MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...orking/p7_ckpt/p7_full.pt:   2%|▏         | 3.67MB /  200MB            [A[A
+
+  ...orking/p7_ckpt/p7_full.pt:   2%|▏         | 3.67MB /  200MB            [A[AProcessing Files (0 / 1)      :   2%|▏         | 3.67MB /  200MB, 9.18MB/s  
+New Data Upload               :   3%|▎         | 3.67MB /  134MB, 9.18MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  12%|█▏        | 24.6MB /  200MB            [A[AProcessing Files (0 / 1)      :  12%|█▏        | 24.6MB /  200MB, 41.1MB/s  
+New Data Upload               :  18%|█▊        | 24.6MB /  134MB, 41.1MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  23%|██▎       | 45.6MB /  200MB            [A[AProcessing Files (0 / 1)      :  23%|██▎       | 45.6MB /  200MB, 57.0MB/s  
+New Data Upload               :  34%|███▍      | 45.6MB /  134MB, 57.0MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  33%|███▎      | 65.5MB /  200MB            [A[AProcessing Files (0 / 1)      :  33%|███▎      | 65.5MB /  200MB, 65.5MB/s  
+New Data Upload               :  49%|████▉     | 65.5MB /  134MB, 65.5MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  33%|███▎      | 66.6MB /  200MB            [A[AProcessing Files (0 / 1)      :  33%|███▎      | 66.6MB /  200MB, 55.5MB/s  
+New Data Upload               :  50%|████▉     | 66.6MB /  134MB, 55.5MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  33%|███▎      | 66.6MB /  200MB            [A[A
+
+  ...orking/p7_ckpt/p7_full.pt:  33%|███▎      | 66.6MB /  200MB            [A[A
+
+  ...orking/p7_ckpt/p7_full.pt:  34%|███▎      | 67.1MB /  200MB            [A[AProcessing Files (0 / 1)      :  34%|███▎      | 67.1MB /  200MB, 37.3MB/s  
+New Data Upload               :  50%|█████     | 67.1MB /  134MB, 37.3MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  43%|████▎     | 85.4MB /  200MB            [A[AProcessing Files (0 / 1)      :  43%|████▎     | 85.4MB /  200MB, 42.7MB/s  
+New Data Upload               :  43%|████▎     | 85.4MB /  200MB, 42.7MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  55%|█████▍    |  110MB /  200MB            [A[AProcessing Files (0 / 1)      :  55%|█████▍    |  110MB /  200MB, 50.0MB/s  
+New Data Upload               :  55%|█████▍    |  110MB /  200MB, 50.0MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  67%|██████▋   |  134MB /  200MB            [A[AProcessing Files (0 / 1)      :  67%|██████▋   |  134MB /  200MB, 55.9MB/s  
+New Data Upload               :  67%|██████▋   |  134MB /  200MB, 55.9MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  69%|██████▉   |  138MB /  200MB            [A[AProcessing Files (0 / 1)      :  69%|██████▉   |  138MB /  200MB, 53.2MB/s  
+New Data Upload               :  69%|██████▉   |  138MB /  200MB, 53.2MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  70%|██████▉   |  140MB /  200MB            [A[AProcessing Files (0 / 1)      :  70%|██████▉   |  140MB /  200MB, 50.0MB/s  
+New Data Upload               :  70%|██████▉   |  140MB /  200MB, 50.0MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  71%|███████   |  142MB /  200MB            [A[AProcessing Files (0 / 1)      :  71%|███████   |  142MB /  200MB, 47.2MB/s  
+New Data Upload               :  71%|███████   |  142MB /  200MB, 47.2MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  72%|███████▏  |  145MB /  200MB            [A[AProcessing Files (0 / 1)      :  72%|███████▏  |  145MB /  200MB, 45.2MB/s  
+New Data Upload               :  72%|███████▏  |  145MB /  200MB, 45.2MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  73%|███████▎  |  146MB /  200MB            [A[AProcessing Files (0 / 1)      :  73%|███████▎  |  146MB /  200MB, 43.0MB/s  
+New Data Upload               :  73%|███████▎  |  146MB /  200MB, 43.0MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  74%|███████▍  |  148MB /  200MB            [A[AProcessing Files (0 / 1)      :  74%|███████▍  |  148MB /  200MB, 41.2MB/s  
+New Data Upload               :  74%|███████▍  |  148MB /  200MB, 41.2MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  75%|███████▌  |  150MB /  200MB            [A[AProcessing Files (0 / 1)      :  75%|███████▌  |  150MB /  200MB, 39.6MB/s  
+New Data Upload               :  75%|███████▌  |  150MB /  200MB, 39.6MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  76%|███████▌  |  153MB /  200MB            [A[AProcessing Files (0 / 1)      :  76%|███████▌  |  153MB /  200MB, 38.1MB/s  
+New Data Upload               :  76%|███████▌  |  153MB /  200MB, 38.1MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  77%|███████▋  |  155MB /  200MB            [A[AProcessing Files (0 / 1)      :  77%|███████▋  |  155MB /  200MB, 36.8MB/s  
+New Data Upload               :  77%|███████▋  |  155MB /  200MB, 36.8MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  78%|███████▊  |  157MB /  200MB            [A[AProcessing Files (0 / 1)      :  78%|███████▊  |  157MB /  200MB, 35.6MB/s  
+New Data Upload               :  78%|███████▊  |  157MB /  200MB, 35.6MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  79%|███████▉  |  159MB /  200MB            [A[AProcessing Files (0 / 1)      :  79%|███████▉  |  159MB /  200MB, 34.5MB/s  
+New Data Upload               :  79%|███████▉  |  159MB /  200MB, 34.5MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  81%|████████  |  161MB /  200MB            [A[AProcessing Files (0 / 1)      :  81%|████████  |  161MB /  200MB, 33.6MB/s  
+New Data Upload               :  81%|████████  |  161MB /  200MB, 33.6MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  82%|████████▏ |  164MB /  200MB            [A[AProcessing Files (0 / 1)      :  82%|████████▏ |  164MB /  200MB, 32.7MB/s  
+New Data Upload               :  82%|████████▏ |  164MB /  200MB, 32.7MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  83%|████████▎ |  166MB /  200MB            [A[AProcessing Files (0 / 1)      :  83%|████████▎ |  166MB /  200MB, 31.9MB/s  
+New Data Upload               :  83%|████████▎ |  166MB /  200MB, 31.9MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  84%|████████▍ |  168MB /  200MB            [A[AProcessing Files (0 / 1)      :  84%|████████▍ |  168MB /  200MB, 31.2MB/s  
+New Data Upload               :  84%|████████▍ |  168MB /  200MB, 31.2MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  85%|████████▌ |  171MB /  200MB            [A[AProcessing Files (0 / 1)      :  85%|████████▌ |  171MB /  200MB, 30.5MB/s  
+New Data Upload               :  85%|████████▌ |  171MB /  200MB, 30.5MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  86%|████████▋ |  173MB /  200MB            [A[AProcessing Files (0 / 1)      :  86%|████████▋ |  173MB /  200MB, 29.8MB/s  
+New Data Upload               :  86%|████████▋ |  173MB /  200MB, 29.8MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  87%|████████▋ |  175MB /  200MB            [A[AProcessing Files (0 / 1)      :  87%|████████▋ |  175MB /  200MB, 29.2MB/s  
+New Data Upload               :  87%|████████▋ |  175MB /  200MB, 29.2MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  89%|████████▉ |  178MB /  200MB            [A[AProcessing Files (0 / 1)      :  89%|████████▉ |  178MB /  200MB, 28.7MB/s  
+New Data Upload               :  89%|████████▉ |  178MB /  200MB, 28.7MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  90%|█████████ |  181MB /  200MB            [A[AProcessing Files (0 / 1)      :  90%|█████████ |  181MB /  200MB, 28.3MB/s  
+New Data Upload               :  90%|█████████ |  181MB /  200MB, 28.3MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  92%|█████████▏|  183MB /  200MB            [A[AProcessing Files (0 / 1)      :  92%|█████████▏|  183MB /  200MB, 27.8MB/s  
+New Data Upload               :  92%|█████████▏|  183MB /  200MB, 27.8MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  93%|█████████▎|  186MB /  200MB            [A[AProcessing Files (0 / 1)      :  93%|█████████▎|  186MB /  200MB, 27.4MB/s  
+New Data Upload               :  93%|█████████▎|  186MB /  200MB, 27.4MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  94%|█████████▍|  188MB /  200MB            [A[AProcessing Files (0 / 1)      :  94%|█████████▍|  188MB /  200MB, 26.9MB/s  
+New Data Upload               :  94%|█████████▍|  188MB /  200MB, 26.9MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  96%|█████████▌|  192MB /  200MB            [A[AProcessing Files (0 / 1)      :  96%|█████████▌|  192MB /  200MB, 26.6MB/s  
+New Data Upload               :  96%|█████████▌|  192MB /  200MB, 26.6MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  97%|█████████▋|  194MB /  200MB            [A[AProcessing Files (0 / 1)      :  97%|█████████▋|  194MB /  200MB, 26.2MB/s  
+New Data Upload               :  97%|█████████▋|  194MB /  200MB, 26.2MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt:  99%|█████████▊|  198MB /  200MB            [A[AProcessing Files (0 / 1)      :  99%|█████████▊|  198MB /  200MB, 26.0MB/s  
+New Data Upload               :  99%|█████████▊|  198MB /  200MB, 26.0MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt: 100%|█████████▉|  200MB /  200MB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉|  200MB /  200MB, 25.7MB/s  
+New Data Upload               : 100%|█████████▉|  200MB /  200MB, 25.7MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt: 100%|█████████▉|  200MB /  200MB            [A[A
+
+  ...orking/p7_ckpt/p7_full.pt: 100%|█████████▉|  200MB /  200MB            [A[A
+
+  ...orking/p7_ckpt/p7_full.pt: 100%|█████████▉|  200MB /  200MB            [A[A
+
+  ...orking/p7_ckpt/p7_full.pt: 100%|██████████|  200MB /  200MB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  200MB /  200MB, 23.3MB/s  
+New Data Upload               : 100%|██████████|  200MB /  200MB, 23.3MB/s  [A
+
+  ...orking/p7_ckpt/p7_full.pt: 100%|██████████|  200MB /  200MB            [A[A
+
+  ...orking/p7_ckpt/p7_full.pt: 100%|██████████|  200MB /  200MB            [A[A
+
+  ...orking/p7_ckpt/p7_full.pt: 100%|██████████|  200MB /  200MB            [A[A
+
+  ...orking/p7_ckpt/p7_full.pt: 100%|██████████|  200MB /  200MB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  200MB /  200MB, 21.8MB/s  
+New Data Upload               : 100%|██████████|  200MB /  200MB, 21.8MB/s  
+  ...orking/p7_ckpt/p7_full.pt: 100%|██████████|  200MB /  200MB            
+backup ok ['p7_full']
+20:32:46 === p7_lorma_plus: lorma_plus | trainable 0.395M of 100.5M | epochs 3
+20:33:33    step 50/615 | loss 1.8068 | 44s
+20:34:17    step 100/615 | loss 1.9444 | 88s
+20:35:00    step 150/615 | loss 1.6249 | 132s
+20:35:44    step 200/615 | loss 1.6339 | 175s
+20:36:27    step 250/615 | loss 1.5421 | 218s
+20:37:11    step 300/615 | loss 1.6618 | 262s
+20:37:54    step 350/615 | loss 1.6564 | 306s
+20:38:38    step 400/615 | loss 1.6722 | 349s
+20:39:21    step 450/615 | loss 1.5424 | 392s
+20:40:05    step 500/615 | loss 1.5189 | 436s
+20:40:48    step 550/615 | loss 1.6942 | 480s
+20:41:32    step 600/615 | loss 1.5534 | 524s
+20:41:45    step 615/615 | loss 0.4794 | 536s
+20:43:29    encoded Dev: 1023 cases in 104s
+20:46:24    encoded Test: 1727 cases in 174s
+20:46:24    Dev mean  : dense-only F1 0.3413 | best fused 0.3936
+20:46:24    Dev maxsim: dense-only F1 0.3591 | best fused 0.3936
+20:46:25 DONE p7_lorma_plus: Dev F1 0.3936 (P 0.429 R 0.364) | mean alpha 0.0 | 13.7 min
+20:46:25 PLAN DONE
+No files have been modified since last commit. Skipping to prevent empty commit.
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  34%|███▍      | 63.9MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  42%|████▏     | 47.9MB /  115MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A[A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  34%|███▍      | 63.9MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  42%|████▏     | 47.9MB /  115MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A[AProcessing Files (6 / 8)      :  49%|████▊     |  182MB /  372MB,   ???B/s  
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  957MB/s  
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A[A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A[A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A[A
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A
+
+
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A[A[A
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  239MB/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 88.1MB / 88.1MB,   ???B/s  
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 88.1MB / 88.1MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A[A
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A[AProcessing Files (5 / 5)      : 100%|██████████| 39.2kB / 39.2kB,   ???B/s  
+New Data Upload               : 100%|██████████| 7.84kB / 7.84kB,   ???B/s  [A
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A[A
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A[A
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A[AProcessing Files (5 / 5)      : 100%|██████████| 39.2kB / 39.2kB,  0.00B/s  
+New Data Upload               : 100%|██████████| 7.84kB / 7.84kB,  0.00B/s  
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.84kB / 7.84kB            
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.84kB / 7.84kB            
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.84kB / 7.84kB            
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.84kB / 7.84kB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[AProcessing Files (6 / 6)      :  75%|███████▌  |  203MB /  271MB,   ???B/s  
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz:   2%|▏         |  820kB / 42.5MB            [A[A[A[A[A[A[A[A
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz:   2%|▏         |  820kB / 42.5MB            [A[A[A[A[A[A[A[AProcessing Files (6 / 7)      :  75%|███████▌  |  204MB /  271MB, 4.11MB/s  
+New Data Upload               :   1%|          |  820kB / 67.6MB, 4.11MB/s  [A
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz:  41%|████      | 17.2MB / 42.5MB            [A[A[A[A[A[A[A[AProcessing Files (6 / 7)      :  81%|████████▏ |  220MB /  271MB, 43.1MB/s  
+New Data Upload               :  25%|██▌       | 17.2MB / 67.6MB, 43.1MB/s  [A
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz:  99%|█████████▊| 41.8MB / 42.5MB            [A[A[A[A[A[A[A[AProcessing Files (6 / 7)      :  90%|█████████ |  245MB /  271MB, 69.7MB/s  
+New Data Upload               :  62%|██████▏   | 41.8MB / 67.6MB, 69.7MB/s  [A
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz:  99%|█████████▊| 41.8MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz:  75%|███████▍  | 18.8MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz:  75%|███████▍  | 18.8MB / 25.2MB            [A[A[A[A[A[A[A[A[AProcessing Files (7 / 8)      :  98%|█████████▊|  264MB /  271MB, 61.3MB/s  
+New Data Upload               :  91%|█████████ | 61.2MB / 67.6MB, 61.3MB/s  [A
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz:  97%|█████████▋| 24.5MB / 25.2MB            [A[A[A[A[A[A[A[A[AProcessing Files (7 / 8)      : 100%|█████████▉|  270MB /  271MB, 55.8MB/s  
+New Data Upload               :  99%|█████████▉| 67.0MB / 67.6MB, 55.8MB/s  [A
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  271MB /  271MB, 48.3MB/s  
+New Data Upload               : 100%|██████████| 67.6MB / 67.6MB, 48.3MB/s  [A
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  271MB /  271MB, 37.6MB/s  
+New Data Upload               : 100%|██████████| 67.6MB / 67.6MB, 37.6MB/s  
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  529kB /  529kB,   ???B/s  
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  529kB /  529kB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 14.5MB / 14.5MB,   ???B/s  
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 14.5MB / 14.5MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 1.72MB / 1.72MB,   ???B/s  
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 1.72MB / 1.72MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../p7_ckpt/p7_lorma_plus.pt:  65%|██████▌   |  527kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_plus.pt:  65%|██████▌   |  527kB /  806kB            [A[AProcessing Files (0 / 1)      :  65%|██████▌   |  527kB /  806kB,   ???B/s  
+New Data Upload               :  65%|██████▌   |  527kB /  806kB,   ???B/s  [A
+
+  .../p7_ckpt/p7_lorma_plus.pt: 100%|██████████|  806kB /  806kB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  806kB /  806kB, 1.40MB/s  
+New Data Upload               : 100%|██████████|  806kB /  806kB, 1.40MB/s  [A
+
+  .../p7_ckpt/p7_lorma_plus.pt: 100%|██████████|  806kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_plus.pt: 100%|██████████|  806kB /  806kB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  806kB /  806kB,  698kB/s  
+New Data Upload               : 100%|██████████|  806kB /  806kB,  698kB/s  
+  .../p7_ckpt/p7_lorma_plus.pt: 100%|██████████|  806kB /  806kB            
+backup ok ['p7_lorma_plus']
+20:46:45 === p7_partial: partial | trainable 25.174M of 100.1M | epochs 3
+20:47:16    step 50/615 | loss 1.7616 | 28s
+20:47:44    step 100/615 | loss 1.9482 | 56s
+20:48:11    step 150/615 | loss 1.6548 | 83s
+20:48:38    step 200/615 | loss 1.6139 | 111s
+20:49:06    step 250/615 | loss 1.4994 | 138s
+20:49:33    step 300/615 | loss 1.5990 | 166s
+20:50:01    step 350/615 | loss 1.6174 | 193s
+20:50:28    step 400/615 | loss 1.6318 | 221s
+20:50:56    step 450/615 | loss 1.4039 | 248s
+20:51:23    step 500/615 | loss 1.4195 | 275s
+20:51:51    step 550/615 | loss 1.5777 | 303s
+20:52:18    step 600/615 | loss 1.4861 | 330s
+20:52:26    step 615/615 | loss 0.4242 | 338s
+20:54:07    encoded Dev: 1023 cases in 100s
+20:56:55    encoded Test: 1727 cases in 168s
+20:56:56    Dev mean  : dense-only F1 0.3491 | best fused 0.3936
+20:56:56    Dev maxsim: dense-only F1 0.3469 | best fused 0.3936
+20:56:56 DONE p7_partial: Dev F1 0.3936 (P 0.429 R 0.364) | mean alpha 0.0 | 10.2 min
+20:56:56 PLAN DONE
+No files have been modified since last commit. Skipping to prevent empty commit.
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  34%|███▍      | 63.9MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  62%|██████▏   | 71.9MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  34%|███▍      | 63.9MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  62%|██████▏   | 71.9MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (6 / 8)      :  55%|█████▌    |  206MB /  372MB,   ???B/s  
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  835MB/s  
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  208MB/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 88.1MB / 88.1MB,   ???B/s  
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 88.1MB / 88.1MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A
+
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            [A[A[A
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A
+
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A[A[A[A
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A
+
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            [A[A[A
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A
+
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A[A[A[AProcessing Files (7 / 7)      : 100%|██████████| 54.7kB / 54.7kB,   ???B/s  
+New Data Upload               : 100%|██████████| 7.84kB / 7.84kB,   ???B/s  [A
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A
+
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            [A[A[A
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A
+
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A[A[A[A
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A
+
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            [A[A[A
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A
+
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A[A[A[AProcessing Files (7 / 7)      : 100%|██████████| 54.7kB / 54.7kB,  0.00B/s  
+New Data Upload               : 100%|██████████| 7.84kB / 7.84kB,  0.00B/s  
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.84kB / 7.84kB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ..._emb/p7_zeroshot_test.npz:  94%|█████████▍| 40.0MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz:  63%|██████▎   | 16.0MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ..._emb/p7_zeroshot_test.npz:  94%|█████████▍| 40.0MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 :  35%|███▌      | 23.9MB / 67.6MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (8 / 11)     :  78%|███████▊  |  317MB /  406MB,   ???B/s  
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 :  50%|█████     | 42.5MB / 84.9MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (11 / 12)    :  90%|████████▉ |  363MB /  406MB,  234MB/s  
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz:  23%|██▎       | 9.92MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (11 / 12)    :  92%|█████████▏|  373MB /  406MB,  141MB/s  
+New Data Upload               :  23%|██▎       | 9.86MB / 42.4MB, 24.8MB/s  [A
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz:  99%|█████████▉| 42.0MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (11 / 12)    : 100%|█████████▉|  405MB /  406MB,  148MB/s  
+New Data Upload               :  99%|█████████▉| 41.9MB / 42.4MB, 70.1MB/s  [A
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz:  99%|█████████▉| 42.0MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (12 / 12)    : 100%|██████████|  406MB /  406MB, 89.0MB/s  
+New Data Upload               : 100%|██████████| 42.4MB / 42.4MB, 42.5MB/s  [A
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (12 / 12)    : 100%|██████████|  406MB /  406MB, 63.5MB/s  
+New Data Upload               : 100%|██████████| 42.4MB / 42.4MB, 30.3MB/s  
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  529kB /  529kB,   ???B/s  
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  529kB /  529kB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 14.5MB / 14.5MB,   ???B/s  
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 14.5MB / 14.5MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 1.72MB / 1.72MB,   ???B/s  
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 1.72MB / 1.72MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ing/p7_ckpt/p7_partial.pt:   7%|▋         | 3.67MB / 50.4MB            [A[A
+
+  ...ing/p7_ckpt/p7_partial.pt:   7%|▋         | 3.67MB / 50.4MB            [A[AProcessing Files (0 / 1)      :   7%|▋         | 3.67MB / 50.4MB, 18.3MB/s  
+New Data Upload               :   7%|▋         | 3.67MB / 50.4MB, 18.3MB/s  [A
+
+  ...ing/p7_ckpt/p7_partial.pt:  39%|███▊      | 19.4MB / 50.4MB            [A[AProcessing Files (0 / 1)      :  39%|███▊      | 19.4MB / 50.4MB, 48.4MB/s  
+New Data Upload               :  39%|███▊      | 19.4MB / 50.4MB, 48.4MB/s  [A
+
+  ...ing/p7_ckpt/p7_partial.pt:  74%|███████▍  | 37.2MB / 50.4MB            [A[AProcessing Files (0 / 1)      :  74%|███████▍  | 37.2MB / 50.4MB, 62.0MB/s  
+New Data Upload               :  74%|███████▍  | 37.2MB / 50.4MB, 62.0MB/s  [A
+
+  ...ing/p7_ckpt/p7_partial.pt: 100%|█████████▉| 50.3MB / 50.4MB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉| 50.3MB / 50.4MB, 62.9MB/s  
+New Data Upload               : 100%|█████████▉| 50.3MB / 50.4MB, 62.9MB/s  [A
+
+  ...ing/p7_ckpt/p7_partial.pt: 100%|█████████▉| 50.3MB / 50.4MB            [A[A
+
+  ...ing/p7_ckpt/p7_partial.pt: 100%|█████████▉| 50.3MB / 50.4MB            [A[A
+
+  ...ing/p7_ckpt/p7_partial.pt: 100%|██████████| 50.4MB / 50.4MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 50.4MB / 50.4MB, 36.0MB/s  
+New Data Upload               : 100%|██████████| 50.4MB / 50.4MB, 36.0MB/s  [A
+
+  ...ing/p7_ckpt/p7_partial.pt: 100%|██████████| 50.4MB / 50.4MB            [A[A
+
+  ...ing/p7_ckpt/p7_partial.pt: 100%|██████████| 50.4MB / 50.4MB            [A[A
+
+  ...ing/p7_ckpt/p7_partial.pt: 100%|██████████| 50.4MB / 50.4MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 50.4MB / 50.4MB, 28.0MB/s  
+New Data Upload               : 100%|██████████| 50.4MB / 50.4MB, 28.0MB/s  
+  ...ing/p7_ckpt/p7_partial.pt: 100%|██████████| 50.4MB / 50.4MB            
+backup ok ['p7_partial']
+02:53:40 === p7_kd_m1x6: KD p7_full -> 6-layer student | 62.3M params | epochs 3
+02:54:22    step 50/615 | ce 1.8861 kl 0.9404 | 39s
+02:55:01    step 100/615 | ce 2.0201 kl 0.8761 | 79s
+02:55:43    step 150/615 | ce 1.6757 kl 0.8201 | 120s
+02:56:23    step 200/615 | ce 1.5850 kl 0.7917 | 161s
+02:57:04    step 250/615 | ce 1.4528 kl 0.6422 | 201s
+02:57:44    step 300/615 | ce 1.5556 kl 0.5551 | 242s
+02:58:25    step 350/615 | ce 1.6477 kl 0.4521 | 282s
+02:59:06    step 400/615 | ce 1.5353 kl 0.3449 | 323s
+02:59:46    step 450/615 | ce 1.3718 kl 0.2091 | 363s
+03:00:27    step 500/615 | ce 1.4427 kl 0.1858 | 404s
+03:01:07    step 550/615 | ce 1.5666 kl 0.1642 | 445s
+03:01:48    step 600/615 | ce 1.4689 kl 0.1432 | 485s
+03:02:00    step 615/615 | ce 0.4318 kl 0.0491 | 497s
+03:02:49    encoded Dev: 1023 cases in 49s
+03:04:11    encoded Test: 1727 cases in 82s
+03:04:13 DONE p7_kd_m1x6: Dev F1 0.4024 | maxsim alpha 0.4 | 10.7 min
+03:04:13 PLAN DONE
+Traceback (most recent call last):
+  File "/kaggle/working/hf_backup.py", line 4, in <module>
+    api, W = HfApi(token=os.environ["HF_TOKEN"]), "/kaggle/working"
+                         ~~~~~~~~~~^^^^^^^^^^^^
+  File "<frozen os>", line 714, in __getitem__
+KeyError: 'HF_TOKEN'
+03:26:08 === p7_lorma_k3e5: lorma_plus | trainable 0.395M of 100.5M | epochs 5
+03:27:10    step 50/1025 | loss 1.8545 | 59s
+03:28:11    step 100/1025 | loss 1.9596 | 121s
+03:29:13    step 150/1025 | loss 1.6185 | 183s
+03:30:15    step 200/1025 | loss 1.6114 | 245s
+03:31:16    step 250/1025 | loss 1.4797 | 306s
+03:32:18    step 300/1025 | loss 1.6517 | 368s
+03:33:20    step 350/1025 | loss 1.5555 | 430s
+03:34:22    step 400/1025 | loss 1.6470 | 492s
+03:35:24    step 450/1025 | loss 1.7069 | 553s
+03:36:26    step 500/1025 | loss 1.5312 | 615s
+03:37:27    step 550/1025 | loss 1.4511 | 677s
+03:38:29    step 600/1025 | loss 1.5356 | 739s
+03:39:30    step 650/1025 | loss 1.5133 | 800s
+03:40:33    step 700/1025 | loss 1.6228 | 862s
+03:41:35    step 750/1025 | loss 1.3243 | 924s
+03:42:36    step 800/1025 | loss 1.5833 | 986s
+03:43:37    step 850/1025 | loss 1.3619 | 1047s
+03:44:39    step 900/1025 | loss 1.4951 | 1109s
+03:45:41    step 950/1025 | loss 1.6007 | 1171s
+03:46:43    step 1000/1025 | loss 1.3114 | 1233s
+03:47:13    step 1025/1025 | loss 0.8568 | 1263s
+03:48:53    encoded Dev: 1023 cases in 100s
+03:51:42    encoded Test: 1727 cases in 168s
+03:51:43    Dev mean  : dense-only F1 0.3413 | best fused 0.4013
+03:51:43    Dev maxsim: dense-only F1 0.3669 | best fused 0.4113
+03:51:44 DONE p7_lorma_k3e5: Dev F1 0.4113 (P 0.448 R 0.380) | maxsim alpha 0.55 | 25.7 min
+03:51:44 PLAN DONE
+No files have been modified since last commit. Skipping to prevent empty commit.
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  17%|█▋        | 32.0MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  21%|██        | 23.9MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  17%|█▋        | 32.0MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl:  21%|██        | 23.9MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (6 / 8)      :  34%|███▎      |  126MB /  372MB,   ???B/s  
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl:  68%|██████▊   |  128MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (7 / 8)      :  84%|████████▍ |  313MB /  372MB,  932MB/s  
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  616MB/s  
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[A
+
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            [A[A
+
+
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            [A[A[A
+
+
+
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            [A[A[A[A
+
+
+
+
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            [A[A[A[A[A
+
+
+
+
+
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            [A[A[A[A[A[A[A[A[AProcessing Files (8 / 8)      : 100%|██████████|  372MB /  372MB,  112MB/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...ordlens_supreme_court.npy: 100%|██████████|  222kB /  222kB            
+  ...ts/wordlens_tribunals.npy: 100%|██████████| 3.48MB / 3.48MB            
+  ...g/stats/wordlens_acts.npy: 100%|██████████| 75.4kB / 75.4kB            
+  .../sample_high_courts.jsonl: 100%|██████████| 19.1MB / 19.1MB            
+  .../wordlens_high_courts.npy: 100%|██████████| 10.1MB / 10.1MB            
+  ...ts/sample_tribunals.jsonl: 100%|██████████| 36.7MB / 36.7MB            
+  ...g/stats/sample_acts.jsonl: 100%|██████████|  188MB /  188MB            
+  ...ample_supreme_court.jsonl: 100%|██████████|  115MB /  115MB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 88.1MB / 88.1MB,   ???B/s  
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[A
+
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 88.1MB / 88.1MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...king/data_p7/tok/docs.npz: 100%|██████████| 88.1MB / 88.1MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            [A[A
+
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A
+
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            [A[A
+
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A
+
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[AProcessing Files (9 / 9)      :  82%|████████▏ | 70.3kB / 86.0kB,   ???B/s  
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            [A[A
+
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A
+
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            [A[A
+
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A
+
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            [A[A
+
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A
+
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            [A[A
+
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A
+
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            [A[A
+
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A
+
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7/p7_hybrid/p7_hybrid.zip: 100%|██████████| 7.90kB / 7.90kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...roshot/p7_p7_zeroshot.zip: 100%|██████████| 7.79kB / 7.79kB            [A[A
+
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A
+
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A
+
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A[A
+
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 : 100%|██████████| 15.7kB / 15.7kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (11 / 11)    : 100%|██████████| 86.0kB / 86.0kB, 13.1kB/s  
+New Data Upload               : 100%|██████████| 15.7kB / 15.7kB, 13.1kB/s  [A
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7/p7_hybrid/p7_hybrid.zip: 100%|██████████| 7.90kB / 7.90kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...k3e5/p7_p7_lorma_k3e5.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7/p7_hybrid/p7_hybrid.zip: 100%|██████████| 7.90kB / 7.90kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...k3e5/p7_p7_lorma_k3e5.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7/p7_hybrid/p7_hybrid.zip: 100%|██████████| 7.90kB / 7.90kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...k3e5/p7_p7_lorma_k3e5.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7/p7_hybrid/p7_hybrid.zip: 100%|██████████| 7.90kB / 7.90kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...k3e5/p7_p7_lorma_k3e5.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7/p7_hybrid/p7_hybrid.zip: 100%|██████████| 7.90kB / 7.90kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...k3e5/p7_p7_lorma_k3e5.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A
+
+
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A
+
+
+
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            [A[A[A[A
+
+
+
+
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A
+
+
+
+
+
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7/p7_hybrid/p7_hybrid.zip: 100%|██████████| 7.90kB / 7.90kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...k3e5/p7_p7_lorma_k3e5.zip: 100%|██████████| 7.80kB / 7.80kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (11 / 11)    : 100%|██████████| 86.0kB / 86.0kB, 7.14kB/s  
+New Data Upload               : 100%|██████████| 15.7kB / 15.7kB, 7.14kB/s  
+  ...kd_m1x6/p7_p7_kd_m1x6.zip: 100%|██████████| 7.84kB / 7.84kB            
+  ...plus/p7_p7_lorma_plus.zip: 100%|██████████| 7.83kB / 7.83kB            
+  ...ns_p7/p7_bm25/p7_bm25.zip: 100%|██████████| 7.84kB / 7.84kB            
+  ...partial/p7_p7_partial.zip: 100%|██████████| 7.80kB / 7.80kB            
+  ...7_prompt/p7_p7_prompt.zip: 100%|██████████| 7.80kB / 7.80kB            
+  ...7/p7_p7_ia3/p7_p7_ia3.zip: 100%|██████████| 7.80kB / 7.80kB            
+  ...p7_p7_full/p7_p7_full.zip: 100%|██████████| 7.83kB / 7.83kB            
+  ..._p7_qlora/p7_p7_qlora.zip: 100%|██████████| 7.80kB / 7.80kB            
+  ...7/p7_hybrid/p7_hybrid.zip: 100%|██████████| 7.90kB / 7.90kB            
+  ...k3e5/p7_p7_lorma_k3e5.zip: 100%|██████████| 7.80kB / 7.80kB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...ng/p7_emb/p7_ia3_test.npz:  75%|███████▌  | 32.0MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz:  75%|███████▌  | 32.0MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ..._emb/p7_zeroshot_test.npz:  75%|███████▌  | 31.9MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...7_emb/p7_kd_m1x6_test.npz:  56%|█████▋    | 24.0MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz:  19%|█▊        | 7.91MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...ng/p7_emb/p7_ia3_test.npz:  75%|███████▌  | 32.0MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz:  75%|███████▌  | 32.0MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ..._emb/p7_zeroshot_test.npz:  75%|███████▌  | 31.9MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...7_emb/p7_kd_m1x6_test.npz:  56%|█████▋    | 24.0MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz:  19%|█▊        | 7.91MB / 42.5MB            [A[A[A[A[A[A[A[A[A[AProcessing Files (4 / 9)      :  38%|███▊      |  228MB /  609MB,   ???B/s  
+
+
+
+
+
+
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...emb/p7_lorma_plus_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...ng/p7_emb/p7_ia3_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...g/p7_emb/p7_full_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...ng/p7_emb/p7_full_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ..._emb/p7_zeroshot_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ing/p7_emb/p7_ia3_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...7_emb/p7_kd_m1x6_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 6 files]                 :  82%|████████▏ |  187MB /  228MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (12 / 16)    :  82%|████████▏ |  500MB /  609MB, 1.38GB/s  
+
+  ...7_emb/p7_kd_m1x6_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 16)    :  89%|████████▉ |  541MB /  609MB,  785MB/s  
+
+  ...7_emb/p7_kd_m1x6_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...7_emb/p7_kd_m1x6_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...7_emb/p7_kd_m1x6_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...7_emb/p7_kd_m1x6_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...7_emb/p7_kd_m1x6_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A
+
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 :  38%|███▊      | 26.0MB / 67.6MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 17)    :  89%|████████▉ |  542MB /  609MB,  224MB/s  
+New Data Upload               :   1%|          |  820kB / 67.6MB,  587kB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:   2%|▏         |  820kB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:   2%|▏         |  820kB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:   4%|▍         | 1.64MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 17)    :  89%|████████▉ |  543MB /  609MB,  157MB/s  
+New Data Upload               :   2%|▏         | 1.64MB / 67.6MB,  821kB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:   8%|▊         | 3.28MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 17)    :  89%|████████▉ |  544MB /  609MB,  144MB/s  
+New Data Upload               :   5%|▍         | 3.28MB / 67.6MB, 1.49MB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  14%|█▎        | 5.74MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 17)    :  90%|████████▉ |  547MB /  609MB,  133MB/s  
+New Data Upload               :   8%|▊         | 5.74MB / 67.6MB, 2.40MB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  19%|█▉        | 8.20MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 17)    :  90%|█████████ |  549MB /  609MB,  123MB/s  
+New Data Upload               :  12%|█▏        | 8.20MB / 67.6MB, 3.16MB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  25%|██▌       | 10.7MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 17)    :  91%|█████████ |  552MB /  609MB,  116MB/s  
+New Data Upload               :  16%|█▌        | 10.7MB / 67.6MB, 3.81MB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  39%|███▊      | 16.4MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 17)    :  92%|█████████▏|  557MB /  609MB,  110MB/s  
+New Data Upload               :  24%|██▍       | 16.4MB / 67.6MB, 5.47MB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  48%|████▊     | 20.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 17)    :  92%|█████████▏|  562MB /  609MB,  104MB/s  
+New Data Upload               :  30%|███       | 20.5MB / 67.6MB, 6.41MB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  48%|████▊     | 20.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  48%|████▊     | 20.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  64%|██████▎   | 27.1MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 17)    :  93%|█████████▎|  568MB /  609MB, 89.4MB/s  
+New Data Upload               :  40%|████      | 27.1MB / 67.6MB, 7.13MB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  73%|███████▎  | 31.2MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 17)    :  94%|█████████▍|  572MB /  609MB, 86.0MB/s  
+New Data Upload               :  46%|████▌     | 31.2MB / 67.6MB, 7.80MB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  85%|████████▍ | 36.1MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 17)    :  95%|█████████▍|  577MB /  609MB, 83.1MB/s  
+New Data Upload               :  53%|█████▎    | 36.1MB / 67.6MB, 8.60MB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  85%|████████▍ | 36.1MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  99%|█████████▊| 41.8MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (16 / 17)    :  96%|█████████▌|  583MB /  609MB, 77.1MB/s  
+New Data Upload               :  62%|██████▏   | 41.8MB / 67.6MB, 9.10MB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz:  99%|█████████▊| 41.8MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (17 / 17)    :  96%|█████████▌|  584MB /  609MB, 71.0MB/s  
+New Data Upload               :  63%|██████▎   | 42.5MB / 67.6MB, 8.50MB/s  [A
+
+  ...p7_emb/p7_kd_m1x6_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A
+
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A
+
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A
+
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 :  71%|███████   | 48.2MB / 67.6MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (17 / 18)    :  97%|█████████▋|  589MB /  609MB, 69.4MB/s  
+New Data Upload               :  71%|███████   | 48.2MB / 67.6MB, 9.27MB/s  [A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz:  36%|███▌      | 8.98MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (17 / 18)    :  97%|█████████▋|  592MB /  609MB, 67.4MB/s  
+New Data Upload               :  76%|███████▌  | 51.4MB / 67.6MB, 9.53MB/s  [A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz:  55%|█████▌    | 13.9MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (17 / 18)    :  98%|█████████▊|  597MB /  609MB, 65.9MB/s  
+New Data Upload               :  83%|████████▎ | 56.3MB / 67.6MB, 10.1MB/s  [A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz:  78%|███████▊  | 19.6MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (17 / 18)    :  99%|█████████▉|  603MB /  609MB, 64.6MB/s  
+New Data Upload               :  92%|█████████▏| 62.1MB / 67.6MB, 10.7MB/s  [A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz:  97%|█████████▋| 24.5MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (17 / 18)    : 100%|█████████▉|  608MB /  609MB, 63.3MB/s  
+New Data Upload               :  99%|█████████▉| 67.0MB / 67.6MB, 11.2MB/s  [A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz:  97%|█████████▋| 24.5MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (18 / 18)    : 100%|██████████|  609MB /  609MB, 59.4MB/s  
+New Data Upload               : 100%|██████████| 67.6MB / 67.6MB, 10.6MB/s  [A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A
+
+
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A
+
+
+
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A
+
+
+
+
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A
+
+
+
+
+
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...emb/p7_lorma_k3e5_dev.npz: 100%|██████████| 25.2MB / 25.2MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (18 / 18)    : 100%|██████████|  609MB /  609MB, 48.8MB/s  
+New Data Upload               : 100%|██████████| 67.6MB / 67.6MB, 8.67MB/s  
+  ...mb/p7_lorma_plus_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ...p7_emb/p7_partial_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  .../p7_emb/p7_prompt_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  ...7_emb/p7_partial_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ...p7_emb/p7_prompt_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  .../p7_emb/p7_qlora_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ...g/p7_emb/p7_qlora_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  ...7_emb/p7_zeroshot_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+  ...mb/p7_lorma_k3e5_test.npz: 100%|██████████| 42.5MB / 42.5MB            
+  ...emb/p7_lorma_k3e5_dev.npz: 100%|██████████| 25.2MB / 25.2MB            
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 14.5MB / 14.5MB,   ???B/s  
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[A
+
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 14.5MB / 14.5MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ..._p7/bm25_scores_train.npz: 100%|██████████| 14.5MB / 14.5MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 1.72MB / 1.72MB,   ???B/s  
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[A
+
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 1.72MB / 1.72MB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...a_p7/bm25_scores_test.npz: 100%|██████████| 1.72MB / 1.72MB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  529kB /  529kB,   ???B/s  
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[A
+
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  529kB /  529kB,  0.00B/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  ...ta_p7/bm25_scores_dev.npz: 100%|██████████|  529kB /  529kB            
+No files have been modified since last commit. Skipping to prevent empty commit.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt:  65%|██████▌   |  527kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt:  65%|██████▌   |  527kB /  806kB            [A[AProcessing Files (0 / 1)      :  65%|██████▌   |  527kB /  806kB, 2.64MB/s  
+New Data Upload               :  65%|██████▌   |  527kB /  806kB, 2.64MB/s  [A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt:  65%|██████▌   |  527kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt:  65%|██████▌   |  527kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt:  65%|██████▌   |  527kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt:  65%|██████▌   |  527kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt:  65%|██████▌   |  527kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt:  65%|██████▌   |  527kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt: 100%|██████████|  806kB /  806kB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  806kB /  806kB,  504kB/s  
+New Data Upload               : 100%|██████████|  806kB /  806kB,  504kB/s  [A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt: 100%|██████████|  806kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt: 100%|██████████|  806kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt: 100%|██████████|  806kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt: 100%|██████████|  806kB /  806kB            [A[A
+
+  .../p7_ckpt/p7_lorma_k3e5.pt: 100%|██████████|  806kB /  806kB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  806kB /  806kB,  336kB/s  
+New Data Upload               : 100%|██████████|  806kB /  806kB,  336kB/s  
+  .../p7_ckpt/p7_lorma_k3e5.pt: 100%|██████████|  806kB /  806kB            
+backup ok ['p7_lorma_k3e5']

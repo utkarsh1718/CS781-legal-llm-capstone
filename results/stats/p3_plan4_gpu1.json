@@ -1,0 +1,1 @@
+[{"name": "nokd_student_m1x6", "ckpt": "m1", "method": "full", "lr": 5e-05, "student_layers": [0, 2, 4, 6, 8, 10]}, {"type": "lp", "name": "m2_lorma_plus"}, {"type": "lp", "name": "m4_lora"}, {"type": "lp", "name": "m3_lora"}, {"type": "lp", "name": "m1_ia3"}, {"type": "lp", "name": "m1_prompt"}, {"type": "lp", "name": "m1_lora_doc"}, {"type": "lp", "name": "m1_lora_sent"}]

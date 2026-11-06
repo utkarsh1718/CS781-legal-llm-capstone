@@ -1,0 +1,32 @@
+19:30:09 data ready: [80, 10, 10] docs | plan: ['nokd_student_m1x6', 'm2_lorma_plus', 'm4_lora', 'm3_lora', 'm1_ia3', 'm1_prompt', 'm1_lora_doc', 'm1_lora_sent']
+19:30:11 === nokd_student_m1x6: m1 | full | ctx=doc W=512 pos=True bidir=True lr=5e-05 ===
+19:30:13 trainable 62.353M | 3129 windows | 2352 steps
+19:31:13 epoch 1: loss 1.3350 | dev macro-F1 all 0.4207 (CL 0.3115 IT 0.5131) acc 0.485 | 60s
+19:32:17 epoch 2: loss 0.3212 | dev macro-F1 all 0.4545 (CL 0.3584 IT 0.5416) acc 0.528 | 63s
+19:33:19 epoch 3: loss 0.0930 | dev macro-F1 all 0.4586 (CL 0.4089 IT 0.4688) acc 0.518 | 62s
+19:34:22 epoch 4: loss 0.0339 | dev macro-F1 all 0.4508 (CL 0.3840 IT 0.5174) acc 0.532 | 63s
+19:35:25 epoch 5: loss 0.0114 | dev macro-F1 all 0.4576 (CL 0.3883 IT 0.5364) acc 0.538 | 62s
+19:36:27 epoch 6: loss 0.0034 | dev macro-F1 all 0.4453 (CL 0.3755 IT 0.5151) acc 0.535 | 62s
+19:36:31 DONE nokd_student_m1x6: dev macro λ0 0.4586 (CL 0.4089 IT 0.4688) | λ0.5 0.4919 | 6.4 min
+19:36:46    m2_lorma_plus: dev log-probs in 9.8s
+19:36:57    m2_lorma_plus: test log-probs in 10.4s
+19:36:57 LP m2_lorma_plus: dev macro re-check 0.5262 (should equal its λ0 score)
+19:37:04    m4_lora: dev log-probs in 4.4s
+19:37:09    m4_lora: test log-probs in 4.6s
+19:37:09 LP m4_lora: dev macro re-check 0.5231 (should equal its λ0 score)
+19:37:14    m3_lora: dev log-probs in 2.2s
+19:37:16    m3_lora: test log-probs in 2.3s
+19:37:16 LP m3_lora: dev macro re-check 0.3797 (should equal its λ0 score)
+19:37:23    m1_ia3: dev log-probs in 4.4s
+19:37:28    m1_ia3: test log-probs in 4.6s
+19:37:28 LP m1_ia3: dev macro re-check 0.4996 (should equal its λ0 score)
+19:37:35    m1_prompt: dev log-probs in 4.2s
+19:37:39    m1_prompt: test log-probs in 4.5s
+19:37:39 LP m1_prompt: dev macro re-check 0.4424 (should equal its λ0 score)
+19:37:46    m1_lora_doc: dev log-probs in 4.2s
+19:37:51    m1_lora_doc: test log-probs in 4.5s
+19:37:51 LP m1_lora_doc: dev macro re-check 0.5318 (should equal its λ0 score)
+19:37:57    m1_lora_sent: dev log-probs in 3.7s
+19:38:01    m1_lora_sent: test log-probs in 3.7s
+19:38:01 LP m1_lora_sent: dev macro re-check 0.3767 (should equal its λ0 score)
+19:38:01 PLAN DONE

@@ -1,0 +1,29 @@
+[
+ {
+  "type": "td",
+  "name": "m1_lora_doc_pos"
+ },
+ {
+  "type": "td",
+  "name": "m2_lorma_plus"
+ },
+ {
+  "type": "td",
+  "name": "m4_lora"
+ },
+ {
+  "type": "seed",
+  "name": "m1_rslora",
+  "seed": 1
+ },
+ {
+  "type": "seed",
+  "name": "m1_full",
+  "seed": 1
+ },
+ {
+  "type": "seed",
+  "name": "m1_lorma_plus",
+  "seed": 1
+ }
+]

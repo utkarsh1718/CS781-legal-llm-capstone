@@ -1,0 +1,63 @@
+{
+ "cfg": {
+  "ckpt": "m3",
+  "method": "full",
+  "lr": 0.0001,
+  "epochs": 2,
+  "bs": 8,
+  "r": 16,
+  "alpha": 32,
+  "mode": "trunc",
+  "teacher": null,
+  "student_layers": null,
+  "kd_T": 2.0,
+  "kd_lam": 0.5,
+  "seed": 0
+ },
+ "gen": {
+  "eos_bias": 0.0,
+  "no_repeat": 4,
+  "dedupe": true
+ },
+ "trainable_M": 109.538,
+ "total_M": 109.5,
+ "model_MB": 438.2,
+ "val_rouge": {
+  "rouge1": 0.3437405200618535,
+  "rouge2": 0.12934461274719947,
+  "rougeL": 0.19680683966064105,
+  "len_ratio": 0.46111875580583495
+ },
+ "gen_tok_per_s": 747.5,
+ "test_gen_min": 0.6,
+ "test_words_median": 264,
+ "min": 12.3,
+ "hist": [
+  {
+   "step": 250,
+   "loss": 2.5317369050979615
+  },
+  {
+   "step": 500,
+   "loss": 2.4911500577926637
+  },
+  {
+   "step": 750,
+   "loss": 2.4643182306289675
+  },
+  {
+   "step": 1000,
+   "loss": 2.1967390999794008
+  },
+  {
+   "step": 1250,
+   "loss": 2.1404864797592165
+  },
+  {
+   "step": 1500,
+   "loss": 2.126305139541626
+  }
+ ],
+ "val_nll": 2.449620609283447,
+ "train_min": 10.9
+}

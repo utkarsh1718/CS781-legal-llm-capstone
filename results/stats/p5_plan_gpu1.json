@@ -1,0 +1,20 @@
+[
+ {
+  "ckpt": "m1",
+  "method": "lora",
+  "epochs": 1,
+  "lr": 0.0005,
+  "k": 512,
+  "name": "m1_lora_last512",
+  "mode": "last"
+ },
+ {
+  "ckpt": "m1",
+  "method": "lora",
+  "epochs": 1,
+  "lr": 0.0005,
+  "k": 1024,
+  "name": "m1_lora_first1024",
+  "mode": "first"
+ }
+]

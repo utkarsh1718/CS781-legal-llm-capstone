@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering\small
+\begin{tabular}{lrrrr}
+\toprule
+Setting & BERTScore & SC & ROUGE-L & rep3 \\
+\midrule
+m1 copy\_last\_128 (baseline) & 0.843 & 0.841 & 0.220 & 0.000 \\
+m1 greedy\_rep1.2\_copy0.0 & 0.844 & 0.840 & 0.235 & 0.052 \\
+m1 greedy\_rep1.2\_copy1.0 & 0.845 & 0.843 & 0.243 & 0.085 \\
+mbr9\_copy1.0 & 0.850 & 0.846 & 0.260 & 0.086 \\
+m2\_mbr9\_copy1.0 & \textbf{0.850} & 0.846 & 0.260 & 0.081 \\
+m3\_mbr9\_copy1.0 & 0.838 & 0.838 & 0.225 & 0.094 \\
+m4\_greedy\_rep1.2\_copy0.0 & 0.824 & 0.820 & 0.248 & 0.536 \\
+m4\_greedy\_promptcopy\_gate+1 & 0.846 & 0.842 & 0.236 & 0.038 \\
+m4\_mbr9\_promptcopy\_gate+1 & 0.849 & 0.846 & 0.251 & 0.054 \\
+\bottomrule
+\end{tabular}
+\caption{Phase 1 decoding study on 350 validation prompts (local BERTScore, relative comparison only).}
+\label{tab:p1-decoding}
+\end{table}

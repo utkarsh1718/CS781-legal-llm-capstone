@@ -1,0 +1,20 @@
+[
+  {
+    "name": "m4_full",
+    "ckpt": "m4",
+    "method": "full",
+    "lr": 0.0001
+  },
+  {
+    "name": "m1_lora",
+    "ckpt": "m1",
+    "method": "lora",
+    "lr": 0.0005
+  },
+  {
+    "name": "m1_houlsby",
+    "ckpt": "m1",
+    "method": "houlsby",
+    "lr": 0.0005
+  }
+]
