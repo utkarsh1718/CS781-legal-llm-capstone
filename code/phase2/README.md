@@ -5,7 +5,7 @@
 **Task.** For each judgment, return every legal entity as `[start_char, end_char, label]` on the **original** text.
 12 labels: APP, RESP, A.COUNSEL, R.COUNSEL, JUDGE, WIT, AUTH, COURT, STAT, PREC, DATE, CASENO.
 **Metric: strict macro-F1.** An entity counts only if both boundaries and the label match exactly.
-**Data:** 70 labelled documents (fold1 + fold2) and 35 test documents (fold3). We held out 10 documents (5 per fold, chosen by hash) as dev.
+**Data:** 70 labelled documents (fold1 + fold2) and 35 test documents (fold3). I held out 10 documents (5 per fold, chosen by hash) as dev.
 
 **Depends on:** Phase 1 models and tokenizer (`code/phase1`).
 
@@ -13,7 +13,7 @@
 
 ## 1. Pipeline: exact offsets ↔ model tokens (`p2_ner.py`)
 
-Our models were trained on normalised text (ASCII, single spaces, no newlines), but scoring uses original character offsets.
+My models were trained on normalised text (ASCII, single spaces, no newlines), but scoring uses original character offsets.
 1. `normalise_with_map(text)` returns the Phase 1 normalised text **and** the original index of every normalised character.
 2. Tokenise with A1-BPE, then map each token's core (leading space removed) back to an original span.
 3. **BIO tags** (25 classes). No spans overlap, so BIO is enough.
@@ -61,16 +61,16 @@ Runs 1–3 use identical settings, which gives a clean **additive (LoRA) vs mult
 
 ## 5. Optimising for the official metric (macro-F1)
 
-Once we switched to selecting models by macro-F1:
+Once I switched to selecting models by macro-F1:
 - **Class-weighted loss** (inverse √frequency) improved LoRA's macro-F1 by +0.05.
-- **Technique ranking by macro-F1** (M1, our data only): full 0.505 > LoRA 0.495 > prompt tuning 0.439 > norm-gain (BitFit analogue) 0.405. The more trainable parameters, the better; the two smallest methods over-predict.
+- **Technique ranking by macro-F1** (M1, my data only): full 0.505 > LoRA 0.495 > prompt tuning 0.439 > norm-gain (BitFit analogue) 0.405. The more trainable parameters, the better; the two smallest methods over-predict.
 
 ## 6. External data: InLegalNER (allowed by the TAs; MIT licence)
 
 About 9.4k judgment sentences and about 1.5k preambles from the same domain.
-- **Label mapping:** PETITIONER → APP, RESPONDENT → RESP, and so on. LAWYER / ORG / PROVISION spans are ignored (loss −100), because they don't map cleanly onto our labels.
-- **Leakage control:** any record whose word 8-grams overlap the **test fold** is dropped, and records overlapping 30% or more with our dev documents are dropped too.
-- **Two-stage training:** InLegalNER (Stage A), then our 55 documents (Stage B), each compared against a same-code control.
+- **Label mapping:** PETITIONER → APP, RESPONDENT → RESP, and so on. LAWYER / ORG / PROVISION spans are ignored (loss −100), because they don't map cleanly onto my labels.
+- **Leakage control:** any record whose word 8-grams overlap the **test fold** is dropped, and records overlapping 30% or more with my dev documents are dropped too.
+- **Two-stage training:** InLegalNER (Stage A), then my 55 documents (Stage B), each compared against a same-code control.
 
 | Recipe | Without external data | With InLegalNER |
 |---|---|---|

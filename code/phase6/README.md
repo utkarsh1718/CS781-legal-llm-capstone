@@ -11,7 +11,7 @@
 
 ## 1. Strategy: window-level summarisation (`p6_sum.py`)
 
-Judgments are far longer than our 1,024-token context. Instead of truncating:
+Judgments are far longer than my 1,024-token context. Instead of truncating:
 1. Each document is cut into consecutive **520-word windows** (input ≤ 640 tokens).
 2. Each reference-summary sentence is **assigned to the window with the largest word-bigram overlap** (unigram overlap breaks ties). A window's target is its sentences, in summary order (≤ 384 tokens).
 3. At test time every window is summarised; outputs are joined in document order and **duplicate sentences are removed**.
@@ -20,13 +20,13 @@ Input + target ≤ 1,024 tokens, exactly the pretraining context. M3 was pretrai
 
 **Model-specific training:** decoder-only models (M1, M2, M4) use `[window] <sep> [target] <eos>` with the loss on the target only. M3 uses encoder ← window, decoder ← target. M4 uses the exact copy-head mixture loss, pointing into the window.
 
-**Methods (plain PyTorch):** full, LoRA, LoRMA+ / LoRMAπ, Houlsby adapters (after attention and FFN), Pfeiffer adapters (after FFN only), prompt tuning, IA³, and **QLoRA with our own NF4 4-bit quantisation** (two codes per byte) + LoRA. **KD:** a 6-layer M1 student learns from the full M1 teacher's token distributions (T = 2).
+**Methods (plain PyTorch):** full, LoRA, LoRMA+ / LoRMAπ, Houlsby adapters (after attention and FFN), Pfeiffer adapters (after FFN only), prompt tuning, IA³, and **QLoRA with my own NF4 4-bit quantisation** (two codes per byte) + LoRA. **KD:** a 6-layer M1 student learns from the full M1 teacher's token distributions (T = 2).
 
 **Generation:** greedy KV-cached decoding, n-gram repeat blocking, early stop at `<eos>`, and an **`eos_bias`** added to the end-of-sequence logit for length control.
 
 ## 2. Length calibration (the single biggest gain)
 
-Uncalibrated models stop far too early: their summaries are 0.06–0.66× the reference length. For each run we sweep `eos_bias` on 20 validation documents, keep the setting with the best ROUGE-1 inside a length band of 0.8–1.25×, and regenerate validation and test (`<run>__cal`).
+Uncalibrated models stop far too early: their summaries are 0.06–0.66× the reference length. For each run I sweep `eos_bias` on 20 validation documents, keep the setting with the best ROUGE-1 inside a length band of 0.8–1.25×, and regenerate validation and test (`<run>__cal`).
 
 | Run | ROUGE-1 before → after | Length before → after |
 |---|---|---|

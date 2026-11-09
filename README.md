@@ -2,11 +2,11 @@
 
 **Utkarsh Singh · IIT Kanpur · CS781 (Large Language Models), Prof. Ashutosh Modi · 2026**
 
-This repository holds the code, experiment records and documentation for the CS781 capstone. The capstone is a seven-phase competition on **Indian legal text**. In Phase 1 we pretrain our own language models from scratch. In Phases 2–7 every task is solved by **adapting those same models**, with no external pretrained model, LLM API or tokenizer.
+This repository holds the code, experiment records and documentation for the CS781 capstone. The capstone is a seven-phase competition on **Indian legal text**. In Phase 1 I pretrain my own language models from scratch. In Phases 2–7 every task is solved by **adapting those same models**, with no external pretrained model, LLM API or tokenizer.
 
-| Phase | Task | Metric | Our approach (best system) | Best dev | **Test (leaderboard)** | Rank |
+| Phase | Task | Metric | My approach (best system) | Best dev | **Test (leaderboard)** | Rank |
 |---|---|---|---|---|---|---|
-| 1 | Legal text continuation (512-word prompt → next 128 words) | BERTScore F1 | 4 LMs (~100M each) pretrained from scratch on 700M tokens with our own 32k BPE; MBR-9 + copy-aware decoding | 0.8499 (M2, local) | **0.8445** | 9 |
+| 1 | Legal text continuation (512-word prompt → next 128 words) | BERTScore F1 | 4 LMs (~100M each) pretrained from scratch on 700M tokens with my own 32k BPE; MBR-9 + copy-aware decoding | 0.8499 (M2, local) | **0.8445** | 9 |
 | 2 | Legal NER (12 labels, character spans) | strict macro-F1 | Bidirectional M1 + full fine-tuning + InLegalNER intermediate training + word-consistent Viterbi; 4-model ensemble | 0.635 | **0.6407** | 10 |
 | 3 | Rhetorical role prediction (13 roles, CL + IT) | macro-F1 | Sentence windows with document context + relative position; document-level BiGRU over frozen rsLoRA sentence vectors; ensembles | 0.602 | **0.5296** | 38 |
 | 4 | Court judgment prediction (binary) | macro-F1 | M1 full fine-tuning on the closing reasoning + hierarchical BiGRU-attention over all chunks; seed ensemble | 0.815 (honest) | **0.8094** | 14 |
@@ -32,11 +32,11 @@ This repository holds the code, experiment records and documentation for the CS7
 
 Test scores track the dev scores closely in Phases 1, 2, 4, 5 and 7. Phase 3 dropped about 0.05–0.07 from dev to test (about 80 training documents), which motivated the train+dev retraining.
 
-## Ground rules we worked under
+## Ground rules I worked under
 
 - **Compute:** Kaggle, 2× NVIDIA T4 (16 GB, **no bf16**, so all training is fp16 + GradScaler), 30 GPU-hours per week per account, 12-hour sessions.
 - **Models:** all four backbones are trained from scratch in Phase 1 (50–300M parameters). Every later phase must start from them.
-- **Tokenizer:** our own byte-level BPE, grown out of Assignment 1 (`code/phase1/bpe_tokenizer.py`, saved in `tokenizer/`).
+- **Tokenizer:** my own byte-level BPE, grown out of Assignment 1 (`code/phase1/bpe_tokenizer.py`, saved in `tokenizer/`).
 - **No external pretrained models, corpora or APIs.** The one exception is InLegalNER in Phase 2, which the TAs allowed. It is documented, and its leakage against the test fold was checked.
 - **Phases 2–7:** at least 6 substantially different experiments each, including at least 5 adaptation techniques (LoRMA compulsory) and 1 knowledge-distillation experiment. Every phase meets this; see the per-phase tables.
 
@@ -64,7 +64,7 @@ code/
   phase7/   retrieval: chunk bi-encoder, contrastive training, QLoRA, KD, lexical hybrid
   phaseN/phaseN_notebook.ipynb   that phase's section of the Kaggle notebook (with outputs)
 results/stats/   every run's result JSON, plans and logs (the source of every number in the READMEs)
-tokenizer/       A1-BPE-v2 32k (our Python format + Hugging Face `tokenizers` export)
+tokenizer/       A1-BPE-v2 32k (my Python format + Hugging Face `tokenizers` export)
 report_tables/   LaTeX result tables generated from results/stats
 ```
 

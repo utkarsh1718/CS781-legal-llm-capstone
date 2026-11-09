@@ -25,7 +25,7 @@
 
 ## 2. Lexical baseline and evaluator (`p7_lexical_hybrid.py`, P7-1)
 
-Our own sparse BM25 (`scikit-learn` count / hashing matrices, vectorised scoring), with the self-match excluded and k1 and b tuned on **Train**. There's no training, so all 827 labelled queries can be used for tuning.
+My own sparse BM25 (`scikit-learn` count / hashing matrices, vectorised scoring), with the self-match excluded and k1 and b tuned on **Train**. There's no training, so all 827 labelled queries can be used for tuning.
 
 | Lexical variant | Train F1@7 | **Dev F1@7** |
 |---|---|---|
@@ -44,7 +44,7 @@ Strong saturation and full length normalisation matter; **legal phrases** (bigra
 - **Scoring:** mean-pool cosine vs **MaxSim** (each query chunk matched to its best candidate chunk, averaged), over each split's **full pool**. BM25's top 100 holds only 59–67% of the gold, so re-ranking a shortlist would cap recall.
 - **Training:** InfoNCE (τ = 0.05). Per query: 1 gold positive, 2 **BM25 hard negatives** (from the top 50, excluding gold) and **in-batch negatives**. Other gold cases of the same query in the batch are **masked** (no false negatives). 2 random chunks per case during training (memory); 3 epochs.
 - **Fusion:** per-query z-scores of dense and lexical scores, $s = \alpha\,z_{dense} + (1-\alpha)\,z_{lex}$, with α chosen on Dev.
-- **QLoRA:** M1's block linears quantised to NF4 (our Phase 6 implementation) + LoRA r = 16.
+- **QLoRA:** M1's block linears quantised to NF4 (my Phase 6 implementation) + LoRA r = 16.
 - **KD (mandatory):** teacher `p7_full` (12 layers); student = M1 layers 0, 2, 4, 6, 8, 10. Loss = 0.5·InfoNCE + 0.5·T²·KL(teacher ‖ student) over in-batch candidate similarities (T = 2). Teacher and student see identical sampled chunks.
 
 ## 4. Results (Dev, 118 queries)

@@ -3,7 +3,7 @@
 > **Official test result (Codabench leaderboard):** BERTScore F1 **0.8445** (ROUGE-L 0.2084 · BLEU-4 0.0703), **rank 9** (submitted 2026-10-01).
 
 **Task.** Given a 512-word prompt from an Indian legal document, generate the next 128 words.
-**Metric:** BERTScore F1 (ROUGE-L and BLEU-4 secondary). **Rules:** 50–300M parameters, our own tokenizer, no pretrained weights.
+**Metric:** BERTScore F1 (ROUGE-L and BLEU-4 secondary). **Rules:** 50–300M parameters, my own tokenizer, no pretrained weights.
 
 This phase builds everything the later phases reuse: the tokenizer, the corpus pipeline, four model architectures, the training engine and KV-cached generation.
 
@@ -83,11 +83,11 @@ Generation is KV-cached, keeps the last 824 prompt tokens, bans `<|endoftext|>`,
 | M3 MBR-9 + copy β = 1 | 0.8377 | 0.8380 | 0.094 |
 | M4 prompt-only pointer, gate δ = +1, MBR-9 | 0.8493 | 0.8459 | 0.054 |
 
-- **Copy-aware decoding.** Officially, the trivial copy baseline (0.8412) beat plain M1 (0.8364). Legal continuations reuse the prompt heavily, so we added a prompt-copy logit bonus.
+- **Copy-aware decoding.** Officially, the trivial copy baseline (0.8412) beat plain M1 (0.8364). Legal continuations reuse the prompt heavily, so I added a prompt-copy logit bonus.
 - **MBR (Minimum Bayes Risk).** Sample 9 candidates and pick the most "central" one by n-gram F1. A shared-prefix KV cache means the prompt is prefilled only once.
 - **M4's copy head matches hand-tuned decoding without a hand-tuned bonus**, with about 35% less repetition.
 
-**Failure we diagnosed (M4).** Greedy M4 first looped (rep3 = 0.54). The CTRL repetition penalty divides positive logits, but M4 returned **log-probabilities (≤ 0)**, so the penalty did almost nothing. The fix was to return the mixture on the logit scale ($\log p_{mix} + \mathrm{logsumexp}(z)$), plus a **prompt-only pointer** and a calibrated **gate shift δ**. The lesson: decoding heuristics that depend on the scale of the outputs break silently when the output layer changes.
+**Failure I diagnosed (M4).** Greedy M4 first looped (rep3 = 0.54). The CTRL repetition penalty divides positive logits, but M4 returned **log-probabilities (≤ 0)**, so the penalty did almost nothing. The fix was to return the mixture on the logit scale ($\log p_{mix} + \mathrm{logsumexp}(z)$), plus a **prompt-only pointer** and a calibrated **gate shift δ**. The lesson: decoding heuristics that depend on the scale of the outputs break silently when the output layer changes.
 
 ## 7. Ablations of M1's own design choices (100M-token budget each)
 

@@ -15,7 +15,7 @@
 - 37,387 training cases (about 141M tokens; median about 2.7k tokens, so **only 8% fit in 512 tokens**).
 - **Prior shift:** train is 59/41, dev and test are 50/50. So the loss uses balanced class weights and the threshold is tuned on dev.
 - 5,710 duplicate texts in train; duplicate groups with conflicting labels were dropped, leaving **31,677 unique cases**.
-- **Leak found and reported to the TAs:** all 1,517 test cases also appear in dev (identical texts), and `test.json` carries labels. We **never used test labels** and **removed those cases from dev**. Selection and calibration use the remaining **1,988 clean dev cases** only.
+- **Leak found and reported to the TAs:** all 1,517 test cases also appear in dev (identical texts), and `test.json` carries labels. I **never used test labels** and **removed those cases from dev**. Selection and calibration use the remaining **1,988 clean dev cases** only.
 - Every case is tokenised **once** into a uint16 cache, so every input view (first / middle / last k tokens, all chunks) is cheap to build later.
 
 ## 2. Model (`p4_cjpe.py`)
@@ -46,7 +46,7 @@ The end of the judgment (the court's reasoning just before the removed decision)
 | m1_lorma_plus_last512 | **LoRMA+** | 0.698 |
 | m1_lora_last512 | LoRA | 0.696 |
 | m2_lorma_plus_last512 | LoRMA+ (M2) | 0.685 |
-| m1_normgain_last512 | norm-gain (BitFit analogue; our layers have no biases) | 0.634 |
+| m1_normgain_last512 | norm-gain (BitFit analogue; my layers have no biases) | 0.634 |
 | m3_full_last512 | full fine-tuning (M3 encoder) | 0.623 |
 
 With 31.7k training cases, **trainable capacity matters** (the opposite of Phase 3's 80 documents). Doubling the closing context from 512 to 1,024 tokens adds +0.035.
