@@ -1,5 +1,7 @@
 # Phase 2: Legal Named Entity Recognition (L-NER)
 
+> **Official test result (Codabench leaderboard):** strict macro-F1 **0.6407** (other columns 0.6534 / 0.6424), **rank 10** (submitted 2026-10-07).
+
 **Task.** For each judgment, return every legal entity as `[start_char, end_char, label]` on the **original** text.
 12 labels: APP, RESP, A.COUNSEL, R.COUNSEL, JUDGE, WIT, AUTH, COURT, STAT, PREC, DATE, CASENO.
 **Metric: strict macro-F1.** An entity counts only if both boundaries and the label match exactly.

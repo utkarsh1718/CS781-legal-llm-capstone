@@ -1,5 +1,7 @@
 # Phase 3: Rhetorical Role Prediction (RR)
 
+> **Official test result (Codabench leaderboard):** macro-F1 **0.5296** (other columns 0.5388 / 0.5273), **rank 38** (submitted 2026-10-14).
+
 **Task.** Assign one of 13 rhetorical roles (Fact, Issue, ArgumentPetitioner, …, RulingByPresentCourt, None) to **every sentence** of a judgment, in two domains: **Corporate Law (CL)** and **IT**.
 **Metric:** macro-F1. **Output:** `{doc_id: [role per sentence]}`.
 

@@ -1,5 +1,7 @@
 # Phase 5: Legal Statute Identification (LSI)
 
+> **Official test result (Codabench leaderboard):** macro-F1 **0.4399** (micro-F1 0.5309 · subset accuracy 0.0628), **rank 13** (submitted 2026-10-27).
+
 **Task.** Multi-label classification: predict the set of relevant statutes (out of 100 statute IDs) for each case.
 **Metric:** macro-F1 over statute IDs (micro-F1 and subset accuracy secondary), so rare statutes count as much as common ones. **Output:** `[{"id", "pred": [statute ids]}]`.
 

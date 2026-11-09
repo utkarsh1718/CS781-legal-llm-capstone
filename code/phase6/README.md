@@ -1,5 +1,7 @@
 # Phase 6: Abstractive Legal Summarisation
 
+> **Official test result (Codabench leaderboard):** BERTScore F1 **0.8494** (ROUGE-1 0.5522 · ROUGE-L 0.2848), **rank 25** (submitted 2026-10-30).
+
 **Task.** Legal judgment → abstractive summary. **Metric:** BERTScore F1 (ROUGE-1 / ROUGE-L secondary). **Output:** `[{"id", "summary"}]`.
 **Rules:** start from the Phase 1 models and use all four; at least 5 adaptation techniques (LoRMA compulsory) plus KD; handle long documents explicitly.
 

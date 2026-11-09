@@ -1,5 +1,7 @@
 # Phase 7: Prior Case Retrieval (PCR)
 
+> **Official test result (Codabench leaderboard):** Micro-F1@7 **0.4383** (Micro-P@7 0.4473 · Micro-R@7 0.4296), **rank 43** (submitted 2026-11-05).
+
 **Task.** For each query case, rank its split's candidate pool and return **exactly 7** unique candidate IDs, best first.
 **Metric: Micro-F1@7** (Micro-P@7 and Micro-R@7 secondary). Gold sets are neither truncated nor padded.
 **Rules:** start from the Phase 1 model; at least 5 adaptation techniques (**LoRMA compulsory**) plus a **mandatory KD** experiment; no external models or data.

@@ -1,5 +1,7 @@
 # Phase 1: Legal language models from scratch
 
+> **Official test result (Codabench leaderboard):** BERTScore F1 **0.8445** (ROUGE-L 0.2084 · BLEU-4 0.0703), **rank 9** (submitted 2026-10-01).
+
 **Task.** Given a 512-word prompt from an Indian legal document, generate the next 128 words.
 **Metric:** BERTScore F1 (ROUGE-L and BLEU-4 secondary). **Rules:** 50–300M parameters, our own tokenizer, no pretrained weights.
 

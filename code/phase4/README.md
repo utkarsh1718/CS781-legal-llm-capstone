@@ -1,5 +1,7 @@
 # Phase 4: Court Judgment Prediction (CJPE)
 
+> **Official test result (Codabench leaderboard):** macro-F1 **0.8094** (other columns 0.799 / 0.8294), **rank 14** (submitted 2026-10-17).
+
 **Task.** Predict the binary outcome (0/1) of a case from its judgment text, with the decision itself removed.
 **Metric:** macro-F1 over both classes. **Output:** `[{"id", "pred"}]`.
 
